@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://jh5egmbv5uvk"]
+
+[ext_resource type="Texture2D" uid="uid://dbwu5u4lydio6" path="res://main/levels/mainlevel/world/textures/chess.png" id="1_vfci3"]
+
+[resource]
+albedo_color = Color(0.341176, 0.882353, 0.298039, 1)
+albedo_texture = ExtResource("1_vfci3")
+uv1_scale = Vector3(4, 4, 4)

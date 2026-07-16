@@ -1,0 +1,18 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bpbvg4n218w6n"]
+
+[ext_resource type="Texture2D" uid="uid://ce1vm3d1byoyx" path="res://main/characters/remi/textures/remi_Remy_Body_Diffuse.png" id="1_oci8v"]
+[ext_resource type="Texture2D" uid="uid://bpua7muew7bem" path="res://main/characters/remi/textures/remi_Remy_Body_Gloss.png" id="2_6bjkf"]
+[ext_resource type="Texture2D" uid="uid://dac7isa6b0whv" path="res://main/characters/remi/textures/remi_Remy_Body_Normal.png" id="3_0ge8n"]
+
+[resource]
+resource_name = "Bodymat"
+cull_mode = 2
+albedo_texture = ExtResource("1_oci8v")
+metallic = 0.04
+metallic_texture = ExtResource("2_6bjkf")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_6bjkf")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_scale = 0.0
+normal_texture = ExtResource("3_0ge8n")

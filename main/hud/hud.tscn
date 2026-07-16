@@ -1,0 +1,87 @@
+[gd_scene format=3 uid="uid://i28tfwafw5nx"]
+
+[ext_resource type="Script" uid="uid://ckxxjcnvvon2g" path="res://main/hud/hud.gd" id="1_amk8j"]
+[ext_resource type="Script" uid="uid://koo8mfv08pbg" path="res://main/hud/movement_mode_label3d.gd" id="2_clyf1"]
+[ext_resource type="Script" uid="uid://iyjlj04fgmr3" path="res://main/hud/camera_mode_label3d.gd" id="3_28xyx"]
+[ext_resource type="Script" uid="uid://cbkxfred0yhxm" path="res://main/hud/direction_mode_label3d.gd" id="3_ku3fj"]
+[ext_resource type="Script" uid="uid://2x12cdy2onvs" path="res://main/hud/hour.gd" id="4_qtr15"]
+[ext_resource type="Script" uid="uid://chmdqwynx6qhp" path="res://main/hud/graphic_profile.gd" id="5_2ijp3"]
+[ext_resource type="Script" uid="uid://b54tc268ufk4a" path="res://main/hud/count.gd" id="6_fp50r"]
+
+[node name="HUD" type="Control" unique_id=772283965]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_amk8j")
+
+[node name="MovementMode" type="Label" parent="." unique_id=1767945777]
+layout_mode = 0
+offset_left = 1.0
+offset_right = 187.0
+offset_bottom = 23.0
+script = ExtResource("2_clyf1")
+
+[node name="DirectionMode" type="Label" parent="." unique_id=1385592087]
+layout_mode = 0
+offset_left = 1.0
+offset_top = 56.0
+offset_right = 187.0
+offset_bottom = 79.0
+script = ExtResource("3_ku3fj")
+
+[node name="CameraMode" type="Label" parent="." unique_id=1353613863]
+layout_mode = 0
+offset_top = 28.0
+offset_right = 291.0
+offset_bottom = 51.0
+script = ExtResource("3_28xyx")
+
+[node name="GraphicProfile" type="Label" parent="." unique_id=1255971522]
+layout_mode = 0
+offset_left = 5.0
+offset_top = 85.0
+offset_right = 296.0
+offset_bottom = 108.0
+script = ExtResource("5_2ijp3")
+
+[node name="FinalText" type="Label" parent="." unique_id=487346513]
+visible = false
+layout_mode = 0
+offset_left = 1.0
+offset_top = 53.0
+offset_right = 256.0
+offset_bottom = 76.0
+text = "Releasing Resources... Please Wait"
+
+[node name="Hour" type="Label" parent="." unique_id=24928715]
+layout_mode = 0
+offset_left = 348.0
+offset_top = 1.0
+offset_right = 388.0
+offset_bottom = 24.0
+script = ExtResource("4_qtr15")
+
+[node name="HourPrevText" type="Label" parent="." unique_id=2006826782]
+layout_mode = 0
+offset_left = 267.0
+offset_top = 1.0
+offset_right = 340.0
+offset_bottom = 24.0
+text = "Pc Time : "
+
+[node name="Count" type="Label" parent="." unique_id=1863914809]
+layout_mode = 0
+offset_left = 588.0
+offset_top = 1.0
+offset_right = 652.0
+offset_bottom = 24.0
+script = ExtResource("6_fp50r")
+
+[node name="CountPrevText" type="Label" parent="." unique_id=639294329]
+layout_mode = 0
+offset_left = 488.0
+offset_top = 1.0
+offset_right = 579.0
+offset_bottom = 24.0
+text = "Inc. Count : "

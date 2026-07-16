@@ -1,0 +1,17 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://ca5fgww7ea1rq"]
+
+[ext_resource type="Texture2D" uid="uid://cwvcty4xe8vg6" path="res://main/characters/man/textures/man_Ch31_1001_Diffuse.png" id="1_0g0tn"]
+[ext_resource type="Texture2D" uid="uid://d3y28eims1pqw" path="res://main/characters/man/textures/man_Ch31_1001_Glossiness.png" id="2_lut40"]
+[ext_resource type="Texture2D" uid="uid://dltm4fxvpc40u" path="res://main/characters/man/textures/man_Ch31_1001_Normal.png" id="3_b4t5d"]
+
+[resource]
+resource_name = "Ch31_body"
+cull_mode = 2
+albedo_texture = ExtResource("1_0g0tn")
+metallic = 0.5
+metallic_texture = ExtResource("2_lut40")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_lut40")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_b4t5d")

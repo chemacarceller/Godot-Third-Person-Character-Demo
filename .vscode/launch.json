@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug GDExtension",
+            "type": "cppvsdbg", // Usa "cppdbg" en Linux/macOS
+            "request": "launch",
+            "program": "C:\\Program Files\\Godot46\\Godot_v4.6-stable_win64.exe\\Godot_v4.6-stable_win64.exe", // RUTA AL EJECUTABLE DE GODOT
+            "args": [
+                //"--editor", // Abre el editor directamente
+                "--path", "${workspaceFolder}" // Ruta a la carpeta donde está 'project.godot'
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "console": "internalConsole",
+            "preLaunchTask": "Compilar GDExtension" // Ejecuta la tarea del paso anterior
+        }
+    ]
+}

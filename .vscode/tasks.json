@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compilar GDExtension",
+            "type": "shell",
+            "command": "python", // Ahora el comando principal es python
+            "args": [
+                "-m",
+                "SCons", // Ejecutamos scons como módulo
+                "platform=windows",
+                "target=template_debug",
+                "dev_build=yes"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://cuuv22bpsn5hy"]
+
+[ext_resource type="Texture2D" uid="uid://c3nfdqgpn20gt" path="res://main/characters/man/textures/man_Ch31_1002_Diffuse.png" id="1_juqsh"]
+[ext_resource type="Texture2D" uid="uid://dltm4fxvpc40u" path="res://main/characters/man/textures/man_Ch31_1001_Normal.png" id="2_6hfxm"]
+
+[resource]
+resource_name = "Ch31_hair"
+transparency = 4
+cull_mode = 2
+albedo_texture = ExtResource("1_juqsh")
+metallic = 0.5
+roughness = 0.552786
+normal_enabled = true
+normal_texture = ExtResource("2_6hfxm")

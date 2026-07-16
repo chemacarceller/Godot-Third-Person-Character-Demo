@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://6iudjhaf1gp2"]
+
+[ext_resource type="AnimationLibrary" uid="uid://cse5f16m2ji5k" path="res://main/characters/brian/animationplayer/BrianFalling.glb" id="1_leugd"]
+[ext_resource type="AnimationLibrary" uid="uid://cucrvq3lnmr3" path="res://main/characters/brian/animationplayer/BrianIdle.glb" id="2_oq5sb"]
+[ext_resource type="AnimationLibrary" uid="uid://t3kgnh2lum4o" path="res://main/characters/brian/animationplayer/BrianJump.glb" id="3_cbkxq"]
+[ext_resource type="AnimationLibrary" uid="uid://by1yef40p8g0n" path="res://main/characters/brian/animationplayer/BrianRifleRun.glb" id="4_hqudu"]
+[ext_resource type="AnimationLibrary" uid="uid://qumfaemp7fhr" path="res://main/characters/brian/animationplayer/BrianRifleWalk.glb" id="5_3baxx"]
+[ext_resource type="AnimationLibrary" uid="uid://c52rrpmc78rxi" path="res://main/characters/brian/animationplayer/BrianRuning.glb" id="6_8of66"]
+[ext_resource type="AnimationLibrary" uid="uid://dpgfjlr7sgqf7" path="res://main/characters/brian/animationplayer/BrianWalking.glb" id="7_v1l2l"]
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_u6jky"]
+
+[node name="AnimationPlayer" type="AnimationPlayer"]
+libraries = {
+&"": SubResource("AnimationLibrary_u6jky"),
+&"BrianFalling": ExtResource("1_leugd"),
+&"BrianIdle": ExtResource("2_oq5sb"),
+&"BrianJump": ExtResource("3_cbkxq"),
+&"BrianRifleRun": ExtResource("4_hqudu"),
+&"BrianRifleWalk": ExtResource("5_3baxx"),
+&"BrianRuning": ExtResource("6_8of66"),
+&"BrianWalking": ExtResource("7_v1l2l")
+}

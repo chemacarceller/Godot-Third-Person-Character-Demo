@@ -1,0 +1,18 @@
+*.py linguist-vendored
+*.tscn linguist-vendored
+*.tres linguist-vendored
+*.godot linguist-vendored
+*.import linguist-vendored
+
+main/** linguist-documentation=false
+main/** linguist-detectable=true
+
+src/** linguist-documentation=false
+src/** linguist-detectable=true
+
+*.gd linguist-language=GDScript
+main/**/*.gd linguist-language=GDScript
+
+*.cpp linguist-language=C++
+*.h linguist-language=C++
+*.hpp linguist-language=C++

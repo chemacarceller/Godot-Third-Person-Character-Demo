@@ -1,0 +1,18 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://dc7sin0xrcwow"]
+
+[ext_resource type="Texture2D" uid="uid://c2nx7c27xhius" path="res://main/characters/remi/textures/remi_Remy_Bottom_Diffuse.png" id="1_761va"]
+[ext_resource type="Texture2D" uid="uid://bulpn83hagfid" path="res://main/characters/remi/textures/remi_Remy_Bottom_Gloss.png" id="2_x7h5p"]
+[ext_resource type="Texture2D" uid="uid://damupl4ihet65" path="res://main/characters/remi/textures/remi_Remy_Bottom_Normal.png" id="3_qyenh"]
+
+[resource]
+resource_name = "Bottommat"
+cull_mode = 2
+albedo_texture = ExtResource("1_761va")
+metallic = 0.04
+metallic_texture = ExtResource("2_x7h5p")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_x7h5p")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_scale = 0.0
+normal_texture = ExtResource("3_qyenh")

@@ -1,0 +1,69 @@
+[gd_scene format=3 uid="uid://begoqp4sd2omh"]
+
+[ext_resource type="Material" uid="uid://c21nbvktru48d" path="res://main/levels/mainlevel/world/materials/chess1.tres" id="1_8cdv3"]
+[ext_resource type="Script" uid="uid://igp50pdynn34" path="res://main/GameMode.gd" id="1_gd6fy"]
+[ext_resource type="PackedScene" uid="uid://l8qtsnl0bjwk" path="res://main/characters/remi/remi.tscn" id="2_g2hce"]
+[ext_resource type="PackedScene" uid="uid://dbyn616ao2mjx" path="res://main/levels/secondlevel/secondenvironment.tscn" id="3_g2hce"]
+[ext_resource type="Script" uid="uid://cs1h2uapegeht" path="res://main/levels/secondlevel/backlevel.gd" id="5_jrwuo"]
+[ext_resource type="Material" uid="uid://0lieaxl8pge8" path="res://main/levels/mainlevel/world/materials/chess5.tres" id="6_jrwuo"]
+[ext_resource type="PackedScene" uid="uid://i28tfwafw5nx" path="res://main/hud/hud.tscn" id="6_k836b"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_xuwmg"]
+material = ExtResource("1_8cdv3")
+size = Vector3(30, 0.5, 30)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_gsw6h"]
+size = Vector3(30, 0.5, 30)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_483ex"]
+size = Vector3(1, 2, 1)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_etcgr"]
+size = Vector2(1, 1)
+
+[node name="SecondLevel" type="Node3D" unique_id=125321045]
+script = ExtResource("1_gd6fy")
+playerPawn = ExtResource("2_g2hce")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=50662523]
+transform = Transform3D(1, 0, 0, 0, 0.9848078, 0.17364816, 0, -0.17364813, 0.98480785, 0, 0, 0)
+light_color = Color(0.681299, 0.687393, 0.421867, 1)
+light_energy = 0.5
+light_indirect_energy = 0.5
+shadow_enabled = true
+
+[node name="WorldEnvironment" parent="." unique_id=1168285189 instance=ExtResource("3_g2hce")]
+controlVar = ""
+
+[node name="PlayerStart" type="Node3D" parent="." unique_id=1303993026]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3, 0)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=1359496604]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D" unique_id=1174469209]
+mesh = SubResource("BoxMesh_xuwmg")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=1503335354]
+shape = SubResource("BoxShape3D_gsw6h")
+
+[node name="BackLevelArea3D" type="Area3D" parent="." unique_id=1788577010]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 1.3, 10)
+collision_mask = 3
+script = ExtResource("5_jrwuo")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="BackLevelArea3D" unique_id=980138274]
+shape = SubResource("BoxShape3D_483ex")
+debug_color = Color(1, 0, 0, 0.419608)
+
+[node name="Label3D" type="Label3D" parent="BackLevelArea3D" unique_id=1000094798]
+transform = Transform3D(-0.866026, 0, 0.5, 0, 1, 0, -0.5, 0, -0.866026, 0, 1.5, 0)
+text = "BACK LEVEL"
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="BackLevelArea3D" unique_id=1662611673]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1, 0)
+mesh = SubResource("PlaneMesh_etcgr")
+surface_material_override/0 = ExtResource("6_jrwuo")
+
+[node name="HUD" parent="." unique_id=772283965 instance=ExtResource("6_k836b")]
+
+[connection signal="body_entered" from="BackLevelArea3D" to="BackLevelArea3D" method="_on_body_entered"]

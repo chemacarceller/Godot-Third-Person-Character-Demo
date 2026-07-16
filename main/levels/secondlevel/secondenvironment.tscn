@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://dbyn616ao2mjx"]
+
+[ext_resource type="Environment" uid="uid://bq0xob62qmug1" path="res://main/levels/secondlevel/secondenvironment/secondenvironment.tres" id="1_dlslt"]
+[ext_resource type="Script" uid="uid://bjmw0daahn1ci" path="res://main/plugins/wordenvironment/world_environment.gd" id="2_th53y"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" unique_id=1168285189]
+environment = ExtResource("1_dlslt")
+script = ExtResource("2_th53y")
+controlVar = "second_environment"

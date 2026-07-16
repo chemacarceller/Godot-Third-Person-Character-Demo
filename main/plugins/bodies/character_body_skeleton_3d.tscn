@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://dxkwyt7o2c2c7"]
+
+[ext_resource type="Script" uid="uid://b6r3hyidmbcmf" path="res://main/plugins/bodies/character_body_skeleton_3d.gd" id="1_a75xq"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_i0g47"]
+radius = 0.35
+height = 1.8
+
+[node name="CharacterBodySkeleton3D" type="CharacterBody3D"]
+platform_on_leave = 2
+script = ExtResource("1_a75xq")
+skeletonScaleFactor = Vector3(1, 1, 1)
+
+[node name="Armature" type="Node3D" parent="."]
+
+[node name="Skeleton3D" type="Skeleton3D" parent="Armature"]
+
+[node name="CollisionHull" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.9, 0)
+shape = SubResource("CapsuleShape3D_i0g47")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+
+[node name="AnimationTree" type="AnimationTree" parent="."]
+anim_player = NodePath("../AnimationPlayer")
