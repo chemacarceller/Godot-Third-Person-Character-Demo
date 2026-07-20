@@ -1,3 +1,4 @@
 {
-    "cmake.sourceDirectory": "C:/Users/YoMisMo/Documents/Godot Projects/TPCharacter/godot-cpp"
+    "cmake.sourceDirectory": "C:/Users/YoMisMo/Documents/Godot Projects/TPCharacter/godot-cpp",
+    "cmake.ignoreCMakeListsMissing": true
 }

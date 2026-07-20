@@ -10,7 +10,7 @@
                 "SCons", // Ejecutamos scons como módulo
                 "platform=windows",
                 "target=template_debug",
-                "dev_build=yes"
+                "arch=x86_64"
             ],
             "group": {
                 "kind": "build",
