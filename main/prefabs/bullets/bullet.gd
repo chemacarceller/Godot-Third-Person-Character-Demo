@@ -22,7 +22,7 @@ func _ready() -> void :
 func _physics_process(delta: float) -> void:
 
 	# We launch a beam to the position where the bullet will be in the next frame
-	var distance_this_frame : float = get_movementComponent().speed * delta
+	var distance_this_frame : float = get_movementComponent().get_speed() * delta
 	ray_cast.target_position.z = -distance_this_frame * 1.2   # 1.2 security margin
 	
 	# If any collidable object is detected
@@ -68,7 +68,7 @@ func _on_body_entered(body: Node3D) -> void :
 		global_position = impact_pos
 
 	# Stop movement through the component
-	get_movementComponent().set_IsEnabled(false)
+	get_movementComponent().set_enabled(false)
 
 	MyLogger.info("FRAME : " + str(Engine.get_process_frames()) + " : " + str(self) + " Collision detected with: " + str(body), 'bullet.gd', 73, true)
 

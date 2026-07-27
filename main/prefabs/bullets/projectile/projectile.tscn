@@ -26,7 +26,7 @@ surface_material_override/0 = SubResource("StandardMaterial3D_ihqe4")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1904664169]
 shape = SubResource("SphereShape3D_ihqe4")
 
-[node name="ProjectileMovementComponent" type="ProjectileMovementComponent" parent="." unique_id=316833029]
-speed = 40.0
+[node name="ProjectileMovementComponent" type="ProjectileMovementComponent" parent="." unique_id=1887988512]
+_speed = 30.0
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]

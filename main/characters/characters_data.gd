@@ -5,7 +5,7 @@ class_name CharacterData extends RefCounted
 var position : Vector3 = Vector3.ZERO
 var armatureRotation : Vector3 = Vector3.ZERO
 var velocity : Vector3 = Vector3.ZERO
-var movementContext : BasicCharacterMovementData = null
+var movementContext : CharacterMovementData = null
 var cameraControllerContext : CameraControllerData = null
 var isArmed : bool = false
 var weapon : Weapon = null

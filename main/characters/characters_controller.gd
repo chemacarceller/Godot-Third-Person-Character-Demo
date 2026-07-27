@@ -55,12 +55,12 @@ func _ready() -> void:
 	MyLogger.info(" CharacterController Ready " + name + " ...", 'characters_controller.gd', 36, true)
 	
 	# I emit an event to show what movement it has.
-	var characterMovementComponent : BasicCharacterMovementComponent = GameInstance._character.get_movementComponent()
-	if characterMovementComponent._state == characterMovementComponent.MOVEMENT_STATE.RUNING :
+	var MovementComponent : CharacterMovementComponent = GameInstance._character.get_movementComponent()
+	if MovementComponent.get_movementState() == MovementComponent.RUNING :
 		EventBus.emit(self._ready, EventBus.EVENT.Movement_Changed,["Runing",""])
-	elif characterMovementComponent._state == characterMovementComponent.MOVEMENT_STATE.WALKING :
+	elif MovementComponent.get_movementState() == MovementComponent.WALKING :
 		EventBus.emit(self._ready, EventBus.EVENT.Movement_Changed,["Walking",""])
-	elif characterMovementComponent._state == characterMovementComponent.MOVEMENT_STATE.IDLE :
+	elif MovementComponent.get_movementState() == MovementComponent.IDLE :
 		EventBus.emit(self._ready, EventBus.EVENT.Movement_Changed,["Idle",""])
 
 	# Emit event to show which camera mode you are using
@@ -80,19 +80,17 @@ func _input(_event) -> void:
 		# If move_run action changes, the runing variable of the movement modified
 		if Input.is_action_pressed("move_run_change") and _changeModeEnabled:
 			_changeModeEnabled = false
-			get_movementComponent().set_isRuning(not get_movementComponent().get_isRuning())
+			get_movementComponent().set_isRunOrWalk(not get_movementComponent().get_isRunOrWalk())
 			_timer.wait_time = DELAY_TIME_CHANGE_MODE
 			_timer.start()
 		elif Input.is_action_pressed("move_run_continuos"):
+			get_movementComponent().set_isRunOrWalk(true)
 			_changeModeEnabled = true
-			if _timer.time_left > 0:
-				_timer.stop()
-			get_movementComponent().set_isRuning(true)
+			if _timer.time_left > 0 : _timer.stop()
 		elif Input.is_action_just_released("move_run_continuos"):
+			get_movementComponent().set_isRunOrWalk(false)
 			_changeModeEnabled = true
-			if _timer.time_left > 0:
-				_timer.stop()
-			get_movementComponent().set_isRuning(false)
+			if _timer.time_left > 0 : _timer.stop()
 
 func _on_timer_timeout():
 	if isEnabled :
@@ -113,7 +111,7 @@ func get_cameraController() -> Node3D:
 
 # Only one movement can be assigned and this function retireves it
 func get_movementComponent() -> Node:
-	return get_node("BasicCharacterMovement") as Node
+	return get_node("CharacterMovementComponent") as Node
 
 # returns the character context, that is the data needed being passed by a character's change
 func get_context() -> CharacterData:
@@ -168,9 +166,13 @@ func get_bone() -> BoneAttachment3D :
 	
 func set_isArmed(value : bool) :
 	_isArmed = value
+	get_animationTree()._on_character_movement_component_movementStateChanged(get_movementComponent().get_movementState())
 
 func get_isArmed() -> bool :
 	return _isArmed
 
 func get_weaponHull() -> CollisionShape3D:
 	return get_node("WeaponHull")
+
+func get_animationTree() -> AnimationTree :
+	return get_node("AnimationTree")

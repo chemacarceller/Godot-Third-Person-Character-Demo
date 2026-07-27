@@ -55,9 +55,11 @@ func fire() -> void :
 	var direction_vector : Vector3 = owner.get_movementComponent().get_direction()
 	direction_vector.y = 0
 	direction_vector = direction_vector.normalized()
+	
+	print("OWNER : ====================> ", str(direction_vector))
 
 	# We establish the direction of the bullet
-	_bullet.get_movementComponent().direction =  direction_vector
+	_bullet.get_movementComponent().set_direction(direction_vector)
 
 
 # For doing smooth movement
