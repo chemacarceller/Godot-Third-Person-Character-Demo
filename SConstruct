@@ -39,8 +39,8 @@ SConscript(os.path.join(godot_cpp_path, "SConstruct"), exports="env")
 # For each folder from which we want to create a library, we add this code...
 # You can add as many folders as you want, just make sure to create the corresponding folder in the src directory and add your .cpp files there.
 
-# modules = ["LogFileWriter","RandomMovementComponent","RotatingMovementComponent","ProjectileMovementComponent","FollowingBodyMovementComponent","CharacterMovementComponent","VehicleMovementComponent"];
-modules = ["CharacterMovementComponent"];
+# modules = ["LogFileWriter","RandomMovementComponent","RotatingMovementComponent","ProjectileMovementComponent","FollowingBodyMovementComponent","CharacterMovementComponent","VehicleMovementComponent","ProjectileContinuousCollisionDetectorRayCast3D"];
+modules = ["CharacterMovementComponent","ProjectileContinuousCollisionDetectorRayCast3D"];
 
 # Note: The name of the library will be the same as the folder name, so make sure to name your folders accordingly. The output file will be named like this: "lib_name.platform.target.extension" (e.g., "TestingClasses.windows.template_debug.dll").
 for module in modules :

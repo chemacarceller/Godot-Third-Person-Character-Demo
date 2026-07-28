@@ -16,8 +16,8 @@ radius = 0.025
 collision_layer = 2
 script = ExtResource("1_h56tm")
 
-[node name="RayCast3D" type="RayCast3D" parent="." unique_id=25089495]
-target_position = Vector3(0, 0, -1)
+[node name="ProjectileContinuousCollisionDetectorRayCast3D" type="ProjectileContinuousCollisionDetectorRayCast3D" parent="." unique_id=1287174224 node_paths=PackedStringArray("_movementComponent")]
+_movementComponent = NodePath("../ProjectileMovementComponent")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=477982222]
 mesh = SubResource("SphereMesh_h56tm")
@@ -30,3 +30,4 @@ shape = SubResource("SphereShape3D_ihqe4")
 _speed = 30.0
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="COLLISION_DETECTED" from="ProjectileContinuousCollisionDetectorRayCast3D" to="." method="_on_body_entered"]
