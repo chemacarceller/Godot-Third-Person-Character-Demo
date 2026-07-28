@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://l8qtsnl0bjwk"]
 
-[ext_resource type="PackedScene" uid="uid://dxkwyt7o2c2c7" path="res://main/plugins/bodies/character_body_skeleton_3d.tscn" id="1_awbey"]
+[ext_resource type="PackedScene" uid="uid://dxkwyt7o2c2c7" path="res://main/characters/CharacterBodySkeleton3D.tscn" id="1_awbey"]
 [ext_resource type="Script" uid="uid://b588ofmdwvmg5" path="res://main/characters/remi/controllers/remi_controller.gd" id="2_7mpmj"]
 [ext_resource type="PackedScene" uid="uid://bduvq5xs7xvkm" path="res://main/characters/remi/skeleton/remi_skeleton3d.tscn" id="3_3fpl6"]
 [ext_resource type="Script" uid="uid://bqe516os8ahh2" path="res://main/characters/remi/controllers/remi_animations_controller.gd" id="3_nrndb"]
@@ -14,7 +14,7 @@
 [ext_resource type="AnimationLibrary" uid="uid://g7vcd1r5kt6n" path="res://main/characters/remi/animationplayer/Run.glb" id="8_65rp5"]
 [ext_resource type="AnimationLibrary" uid="uid://bn3j17p1ve5yw" path="res://main/characters/remi/animationplayer/Walk.glb" id="9_qxu67"]
 [ext_resource type="AnimationNodeStateMachine" uid="uid://ddast1t351a3w" path="res://main/characters/remi/animationtree/remi_animationtree.tres" id="12_05r5n"]
-[ext_resource type="Script" uid="uid://cvxnupkuvs86c" path="res://main/plugins/components/controllers/camera_controller.gd" id="13_5x23f"]
+[ext_resource type="Script" uid="uid://cvxnupkuvs86c" path="res://main/plugins/cameracontroller/camera_controller.gd" id="13_5x23f"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_5x23f"]
 size = Vector3(0.2, 0.1, 0.55)

@@ -1,6 +1,6 @@
 # structure to store the character's context data
 
-class_name CharacterData extends RefCounted
+class_name CharactersData extends RefCounted
 
 var position : Vector3 = Vector3.ZERO
 var armatureRotation : Vector3 = Vector3.ZERO

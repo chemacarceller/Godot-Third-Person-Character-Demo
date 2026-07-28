@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://8c755h5kyoxw"]
 
-[ext_resource type="PackedScene" uid="uid://dxkwyt7o2c2c7" path="res://main/plugins/bodies/character_body_skeleton_3d.tscn" id="1_uxnl1"]
+[ext_resource type="PackedScene" uid="uid://dxkwyt7o2c2c7" path="res://main/characters/CharacterBodySkeleton3D.tscn" id="1_uxnl1"]
 [ext_resource type="Script" uid="uid://dq8q86p7845a4" path="res://main/characters/manequin1/controllers/manequin1_controller.gd" id="2_6cgp3"]
 [ext_resource type="Script" uid="uid://px4l5xo284sw" path="res://main/characters/manequin1/controllers/manequin1_animations_controller.gd" id="3_o51xa"]
 [ext_resource type="PackedScene" uid="uid://cte4tnoxjr82l" path="res://main/characters/manequin1/skeleton/manequin1_skeleton.tscn" id="3_svtgo"]
@@ -13,7 +13,7 @@
 [ext_resource type="AnimationLibrary" uid="uid://csdp4caculx7s" path="res://main/characters/manequin1/animationplayer/Walk.glb" id="10_dicay"]
 [ext_resource type="AnimationLibrary" uid="uid://bmtccmg03cl5r" path="res://main/characters/manequin1/animationplayer/RunArmed.glb" id="10_hrxdt"]
 [ext_resource type="AnimationLibrary" uid="uid://extjjth44a1r" path="res://main/characters/manequin1/animationplayer/WalkArmed.glb" id="12_xtyeo"]
-[ext_resource type="Script" uid="uid://cvxnupkuvs86c" path="res://main/plugins/components/controllers/camera_controller.gd" id="13_svtgo"]
+[ext_resource type="Script" uid="uid://cvxnupkuvs86c" path="res://main/plugins/cameracontroller/camera_controller.gd" id="13_svtgo"]
 [ext_resource type="AnimationNodeStateMachine" uid="uid://im40g0rame24" path="res://main/characters/manequin1/animationtree/manequin1_animationtree.tres" id="13_xtyeo"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_hrxdt"]

@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://108wptwia2ei"]
 
-[ext_resource type="PackedScene" uid="uid://dxkwyt7o2c2c7" path="res://main/plugins/bodies/character_body_skeleton_3d.tscn" id="1_lmpew"]
+[ext_resource type="PackedScene" uid="uid://dxkwyt7o2c2c7" path="res://main/characters/CharacterBodySkeleton3D.tscn" id="1_lmpew"]
 [ext_resource type="Script" uid="uid://cf0gkllbgiqvx" path="res://main/characters/man/controllers/man_controller.gd" id="2_epbrb"]
 [ext_resource type="Script" uid="uid://ljxpljt4w221" path="res://main/characters/man/controllers/man_animations_controller.gd" id="3_eh01w"]
 [ext_resource type="PackedScene" uid="uid://bw3yf4aqcplfh" path="res://main/characters/man/skeleton/man_skeleton.tscn" id="3_vxckm"]
@@ -13,7 +13,7 @@
 [ext_resource type="AnimationLibrary" uid="uid://bbw38qolbgrvm" path="res://main/characters/man/animationplayer/RunArmed.glb" id="9_yjp2u"]
 [ext_resource type="AnimationLibrary" uid="uid://r3u3jefp84fx" path="res://main/characters/man/animationplayer/WalkArmed.glb" id="11_l8a7p"]
 [ext_resource type="AnimationNodeStateMachine" uid="uid://hpf8n0yrybxm" path="res://main/characters/man/animationtree/man_animationtree.tres" id="12_l8a7p"]
-[ext_resource type="Script" uid="uid://cvxnupkuvs86c" path="res://main/plugins/components/controllers/camera_controller.gd" id="14_yjp2u"]
+[ext_resource type="Script" uid="uid://cvxnupkuvs86c" path="res://main/plugins/cameracontroller/camera_controller.gd" id="14_yjp2u"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_yjp2u"]
 size = Vector3(0.2, 0.1, 0.55)

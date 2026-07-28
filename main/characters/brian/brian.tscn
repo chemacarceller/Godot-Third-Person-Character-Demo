@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://djkek0bduqxkk"]
 
-[ext_resource type="PackedScene" uid="uid://dxkwyt7o2c2c7" path="res://main/plugins/bodies/character_body_skeleton_3d.tscn" id="1_efnb7"]
+[ext_resource type="PackedScene" uid="uid://dxkwyt7o2c2c7" path="res://main/characters/CharacterBodySkeleton3D.tscn" id="1_efnb7"]
 [ext_resource type="Script" uid="uid://chxv7e22c5fsv" path="res://main/characters/brian/controllers/brian_controller.gd" id="2_qqdgl"]
 [ext_resource type="PackedScene" uid="uid://bh2ikffboaga6" path="res://main/characters/brian/skeleton/brian_skeleton3d.tscn" id="3_tv02b"]
 [ext_resource type="PackedScene" uid="uid://6iudjhaf1gp2" path="res://main/characters/brian/animationplayer/brian_animationplayer.tscn" id="4_u1sab"]
@@ -13,7 +13,7 @@
 [ext_resource type="AnimationLibrary" uid="uid://dpgfjlr7sgqf7" path="res://main/characters/brian/animationplayer/BrianWalking.glb" id="11_4rp60"]
 [ext_resource type="AnimationNodeStateMachine" uid="uid://cm0tamfl64pvu" path="res://main/characters/brian/animationtree/brian_animationtree1.tres" id="12_1ruve"]
 [ext_resource type="Script" uid="uid://btcahdqr8tg82" path="res://main/characters/brian/controllers/brian_animationcontroller.gd" id="12_2hs5o"]
-[ext_resource type="PackedScene" uid="uid://cga072t5cs0nx" path="res://main/plugins/components/controllers/camera_controller.tscn" id="13_sdnlc"]
+[ext_resource type="PackedScene" uid="uid://cga072t5cs0nx" path="res://main/plugins/cameracontroller/camera_controller.tscn" id="13_sdnlc"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_sdnlc"]
 size = Vector3(0.2, 0.1, 0.55)

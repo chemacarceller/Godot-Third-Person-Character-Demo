@@ -1,4 +1,4 @@
-class_name  AnimationsController extends AnimationTree
+class_name  CharactersAnimationsController extends AnimationTree
 
 # Indicating during how many frames must be detected the fall movement happens continuosly 
 # until the animation takes place. To avoid short animations changes

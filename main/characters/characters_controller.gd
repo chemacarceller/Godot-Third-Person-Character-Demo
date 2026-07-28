@@ -114,8 +114,8 @@ func get_movementComponent() -> Node:
 	return get_node("CharacterMovementComponent") as Node
 
 # returns the character context, that is the data needed being passed by a character's change
-func get_context() -> CharacterData:
-	var context = CharacterData.new()
+func get_context() -> CharactersData:
+	var context = CharactersData.new()
 	context.position = position
 	context.armatureRotation = get_armature().rotation
 	context.velocity = velocity
@@ -138,7 +138,7 @@ func get_context() -> CharacterData:
 	return context
 
 # setting the character's context
-func set_context(context : CharacterData) -> void:
+func set_context(context : CharactersData) -> void:
 	position = context.position
 	get_armature().rotation = context.armatureRotation
 	velocity = context.velocity

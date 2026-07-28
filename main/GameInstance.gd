@@ -181,7 +181,7 @@ func _replaceCharacter(new_char_key: String) -> void:
 		return
 
 	# Get context if it exists
-	var context : CharacterData = null
+	var context : CharactersData = null
 	if is_instance_valid(_character) :
 		if _character.has_method("get_context") : context = _character.get_context()
 		if _character.get_parent() : _character.get_parent().remove_child(_character)

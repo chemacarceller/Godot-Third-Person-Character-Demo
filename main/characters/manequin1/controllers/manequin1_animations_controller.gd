@@ -1,1 +1,1 @@
-class_name Manequin1AnimationsController extends AnimationsController
+class_name Manequin1AnimationsController extends CharactersAnimationsController
