@@ -56,8 +56,8 @@ func _on_body_entered(body: Node3D) -> void :
 
 		# Enabling the Hull designed for the weapon in the character
 		body.get_weaponHull().call_deferred("set", "disabled", false)
-		body.get_weaponHull().global_position = weapon.get_node("WeaponHull").global_position
-		body.get_weaponHull().global_rotation = weapon.get_node("WeaponHull").global_rotation
+		body.get_weaponHull().global_position = weapon.get_collisionShape().global_position
+		body.get_weaponHull().global_rotation = weapon.get_collisionShape().global_rotation
 
 		is_doing = false
 

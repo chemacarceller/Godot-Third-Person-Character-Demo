@@ -17,13 +17,14 @@
 [ext_resource type="Material" uid="uid://bnccb6hdrgpjn" path="res://main/characters/remi/materials/remi_skeleton3d_shoes.tres" id="8_54aud"]
 [ext_resource type="Material" uid="uid://bg6gvfg7riss5" path="res://main/characters/remi/materials/remi_skeleton3d_tops.tres" id="9_unn8t"]
 [ext_resource type="Script" uid="uid://c4jm48yuuhjth" path="res://main/plugins/loadingscreen/LoadingData.gd" id="9_vxrr8"]
-[ext_resource type="Material" uid="uid://nmily4l4j8fo" path="res://main/prefabs/weapons/assault_rifle/materials/Black.tres" id="10_hvaxu"]
-[ext_resource type="Material" uid="uid://xgmw8ejsgypo" path="res://main/prefabs/weapons/assault_rifle/materials/DarkMetal.tres" id="11_y5sgl"]
-[ext_resource type="Material" uid="uid://ctdrrpwrcej4g" path="res://main/prefabs/weapons/assault_rifle/materials/DarkWood.tres" id="12_6asof"]
-[ext_resource type="Material" uid="uid://2kymye867ur4" path="res://main/prefabs/weapons/assault_rifle/materials/Metal.tres" id="13_5i1j5"]
+[ext_resource type="Material" uid="uid://nmily4l4j8fo" path="res://main/prefabs/weapons/assault_rifle_1/materials/Black.tres" id="10_hvaxu"]
+[ext_resource type="Material" uid="uid://xgmw8ejsgypo" path="res://main/prefabs/weapons/assault_rifle_1/materials/DarkMetal.tres" id="11_y5sgl"]
+[ext_resource type="Material" uid="uid://ctdrrpwrcej4g" path="res://main/prefabs/weapons/assault_rifle_1/materials/DarkWood.tres" id="12_6asof"]
+[ext_resource type="Material" uid="uid://2kymye867ur4" path="res://main/prefabs/weapons/assault_rifle_1/materials/Metal.tres" id="13_5i1j5"]
 [ext_resource type="Material" uid="uid://b43g1osfgpy2c" path="res://main/levels/mainlevel/world/materials/worldmap1.tres" id="23_x3q8t"]
 [ext_resource type="Material" uid="uid://cmnbvj471w0l" path="res://main/levels/mainlevel/world/materials/worldmap2.tres" id="24_6wbep"]
 [ext_resource type="Environment" uid="uid://bxnp0owt52yky" path="res://main/levels/mainlevel/mainenvironment/mainenvironment.tres" id="25_1kd8i"]
+
 
 [sub_resource type="Resource" id="Resource_w4f6n"]
 script = ExtResource("9_vxrr8")

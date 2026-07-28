@@ -19,11 +19,11 @@ script = ExtResource("1_h56tm")
 [node name="ProjectileContinuousCollisionDetectorRayCast3D" type="ProjectileContinuousCollisionDetectorRayCast3D" parent="." unique_id=1287174224 node_paths=PackedStringArray("_movementComponent")]
 _movementComponent = NodePath("../ProjectileMovementComponent")
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=477982222]
+[node name="Body" type="MeshInstance3D" parent="." unique_id=477982222]
 mesh = SubResource("SphereMesh_h56tm")
 surface_material_override/0 = SubResource("StandardMaterial3D_ihqe4")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1904664169]
+[node name="CollisionShape" type="CollisionShape3D" parent="." unique_id=1904664169]
 shape = SubResource("SphereShape3D_ihqe4")
 
 [node name="ProjectileMovementComponent" type="ProjectileMovementComponent" parent="." unique_id=1887988512]

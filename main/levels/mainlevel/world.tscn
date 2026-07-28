@@ -8,7 +8,7 @@
 [ext_resource type="Material" uid="uid://c76kqxne6rkn0" path="res://main/levels/mainlevel/world/materials/green.tres" id="6_5pnqc"]
 [ext_resource type="Script" uid="uid://iilqumno6wya" path="res://main/levels/mainlevel/world/area3d.gd" id="8_kj1l2"]
 [ext_resource type="Material" uid="uid://0lieaxl8pge8" path="res://main/levels/mainlevel/world/materials/chess5.tres" id="9_bj8sj"]
-[ext_resource type="PackedScene" uid="uid://f85uo8o1u517" path="res://main/prefabs/weapons/assault_rifle/assault_rifle.tscn" id="9_kj1l2"]
+[ext_resource type="PackedScene" uid="uid://f85uo8o1u517" path="res://main/prefabs/weapons/assault_rifle_1/assault_rifle_1.tscn" id="9_kj1l2"]
 [ext_resource type="Material" uid="uid://jh5egmbv5uvk" path="res://main/levels/mainlevel/world/materials/chess4.tres" id="10_7gi0a"]
 [ext_resource type="Material" uid="uid://b43g1osfgpy2c" path="res://main/levels/mainlevel/world/materials/worldmap1.tres" id="10_cxoah"]
 [ext_resource type="Material" uid="uid://cmnbvj471w0l" path="res://main/levels/mainlevel/world/materials/worldmap2.tres" id="11_bj8sj"]
