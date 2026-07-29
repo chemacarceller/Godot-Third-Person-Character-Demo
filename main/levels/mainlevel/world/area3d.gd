@@ -1,6 +1,6 @@
 extends Area3D
 
-@onready var weapon : Weapon = get_node("Weapon")
+@onready var weapon : Weapon = get_node("WeaponAreaCollisionShape/AssaultRifle1")
 
 func _notification(what) :
 	if what == NOTIFICATION_WM_CLOSE_REQUEST :

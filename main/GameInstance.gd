@@ -112,15 +112,15 @@ func _ready() -> void :
 	super()
 
 	# We preload the available characters of our game in memory
-	_prefabs['brian'] = preload('res://main/characters/brian/brian.tscn').instantiate()
+	_prefabs['brian'] = preload('res://main/characters/brian.tscn').instantiate()
 	MyLogger.info("FRAME : " + str(Engine.get_process_frames()) + " : " + " Character brian loaded in memory ... ",str(self),116, true)
-	_prefabs['man'] = preload('res://main/characters/man/man.tscn').instantiate()
+	_prefabs['man'] = preload('res://main/characters/man.tscn').instantiate()
 	MyLogger.info("FRAME : " + str(Engine.get_process_frames()) + " : " + " Character man loaded in memory ... ",str(self),118, true)
-	_prefabs['manequin1'] = preload('res://main/characters/manequin1/manequin1.tscn').instantiate()
+	_prefabs['manequin1'] = preload('res://main/characters/manequin1.tscn').instantiate()
 	MyLogger.info("FRAME : " + str(Engine.get_process_frames()) + " : " + " Character manequin1 loaded in memory ... ",str(self),120, true)
-	_prefabs['manequin2'] = preload('res://main/characters/manequin2/manequin2.tscn').instantiate()
+	_prefabs['manequin2'] = preload('res://main/characters/manequin2.tscn').instantiate()
 	MyLogger.info("FRAME : " + str(Engine.get_process_frames()) + " : " + " Character manequin2 loaded in memory ... ",str(self),122, true)
-	_prefabs['remi'] = preload('res://main/characters/remi/remi.tscn').instantiate()
+	_prefabs['remi'] = preload('res://main/characters/remi.tscn').instantiate()
 	MyLogger.info("FRAME : " + str(Engine.get_process_frames()) + " : " + " Character remi loaded in memory ... ",str(self),124, true)
 	
 	# List of required singletons to be checked

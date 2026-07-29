@@ -8,7 +8,7 @@
 [ext_resource type="Material" uid="uid://c76kqxne6rkn0" path="res://main/levels/mainlevel/world/materials/green.tres" id="6_5pnqc"]
 [ext_resource type="Script" uid="uid://iilqumno6wya" path="res://main/levels/mainlevel/world/area3d.gd" id="8_kj1l2"]
 [ext_resource type="Material" uid="uid://0lieaxl8pge8" path="res://main/levels/mainlevel/world/materials/chess5.tres" id="9_bj8sj"]
-[ext_resource type="PackedScene" uid="uid://f85uo8o1u517" path="res://main/prefabs/weapons/assault_rifle_1/assault_rifle_1.tscn" id="9_kj1l2"]
+[ext_resource type="PackedScene" uid="uid://f85uo8o1u517" path="res://main/prefabs/weapons/assault_rifle_1.tscn" id="9_kj1l2"]
 [ext_resource type="Material" uid="uid://jh5egmbv5uvk" path="res://main/levels/mainlevel/world/materials/chess4.tres" id="10_7gi0a"]
 [ext_resource type="Material" uid="uid://b43g1osfgpy2c" path="res://main/levels/mainlevel/world/materials/worldmap1.tres" id="10_cxoah"]
 [ext_resource type="Material" uid="uid://cmnbvj471w0l" path="res://main/levels/mainlevel/world/materials/worldmap2.tres" id="11_bj8sj"]
@@ -26,19 +26,19 @@ size = Vector3(50, 1, 50)
 size = Vector3(50, 15, 1)
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_r28mn"]
-size = Vector3(50, 15, 1)
+size = Vector3(50, 15, 1.25)
 
 [sub_resource type="BoxMesh" id="BoxMesh_2q7lk"]
 size = Vector3(10, 5, 10)
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_a1h3m"]
-size = Vector3(10, 5, 10)
+size = Vector3(10.25, 5, 10.25)
 
 [sub_resource type="BoxMesh" id="BoxMesh_fha7l"]
 size = Vector3(2, 2.5, 12)
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_2q7lk"]
-size = Vector3(2, 2.5, 12)
+size = Vector3(1, 2.5, 12)
 
 [sub_resource type="BoxMesh" id="BoxMesh_a1h3m"]
 size = Vector3(2, 2.5, 2)
@@ -50,7 +50,7 @@ size = Vector3(2, 2.5, 2)
 left_to_right = 0.0
 size = Vector3(10, 2.5, 2)
 
-[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_fha7l"]
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_hpqad"]
 data = PackedVector3Array(-5, 1.25, 1, 5, -1.25, 1, -5, -1.25, 1, -5, 1.25, -1, -5, -1.25, -1, 5, -1.25, -1, -5, 1.25, 1, -5, 1.25, -1, 5, -1.25, 1, -5, 1.25, -1, 5, -1.25, -1, 5, -1.25, 1, -5, 1.25, -1, -5, 1.25, 1, -5, -1.25, -1, -5, 1.25, 1, -5, -1.25, 1, -5, -1.25, -1, -5, -1.25, 1, 5, -1.25, 1, -5, -1.25, -1, 5, -1.25, 1, 5, -1.25, -1, -5, -1.25, -1)
 
 [sub_resource type="PrismMesh" id="PrismMesh_kj1l2"]
@@ -113,11 +113,11 @@ radius = 1.0
 [sub_resource type="SphereShape3D" id="SphereShape3D_ih5o8"]
 radius = 1.0
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_5pnqc"]
-size = Vector3(1, 2, 1)
-
 [sub_resource type="PlaneMesh" id="PlaneMesh_50svc"]
 size = Vector2(1, 1)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_5pnqc"]
+size = Vector3(1, 2, 1)
 
 [node name="World" type="Node3D" unique_id=1414143457]
 
@@ -148,15 +148,15 @@ mesh = SubResource("BoxMesh_faa3e")
 [node name="Wall1CollisionShape" type="CollisionShape3D" parent="StaticBodies/Walls/Wall1" unique_id=707083352]
 shape = SubResource("BoxShape3D_r28mn")
 
-[node name="Wall4" type="StaticBody3D" parent="StaticBodies/Walls" unique_id=897742475]
-transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 25, 7.5, 0)
+[node name="Wall2" type="StaticBody3D" parent="StaticBodies/Walls" unique_id=886417916]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 7.5, 25)
 collision_mask = 7
 
-[node name="Wall4Mesh" type="MeshInstance3D" parent="StaticBodies/Walls/Wall4" unique_id=55749861]
+[node name="Wall2Mesh" type="MeshInstance3D" parent="StaticBodies/Walls/Wall2" unique_id=415216109]
 material_override = ExtResource("3_r28mn")
 mesh = SubResource("BoxMesh_faa3e")
 
-[node name="Wall4CollisionShape" type="CollisionShape3D" parent="StaticBodies/Walls/Wall4" unique_id=1075903811]
+[node name="Wall2CollisionShape" type="CollisionShape3D" parent="StaticBodies/Walls/Wall2" unique_id=170880974]
 shape = SubResource("BoxShape3D_r28mn")
 
 [node name="Wall3" type="StaticBody3D" parent="StaticBodies/Walls" unique_id=2007641864]
@@ -170,15 +170,15 @@ mesh = SubResource("BoxMesh_faa3e")
 [node name="Wall3CollisionShape" type="CollisionShape3D" parent="StaticBodies/Walls/Wall3" unique_id=659191877]
 shape = SubResource("BoxShape3D_r28mn")
 
-[node name="Wall2" type="StaticBody3D" parent="StaticBodies/Walls" unique_id=886417916]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 7.5, 25)
+[node name="Wall4" type="StaticBody3D" parent="StaticBodies/Walls" unique_id=897742475]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 25, 7.5, 0)
 collision_mask = 7
 
-[node name="Wall2Mesh" type="MeshInstance3D" parent="StaticBodies/Walls/Wall2" unique_id=415216109]
+[node name="Wall4Mesh" type="MeshInstance3D" parent="StaticBodies/Walls/Wall4" unique_id=55749861]
 material_override = ExtResource("3_r28mn")
 mesh = SubResource("BoxMesh_faa3e")
 
-[node name="Wall2CollisionShape" type="CollisionShape3D" parent="StaticBodies/Walls/Wall2" unique_id=170880974]
+[node name="Wall4CollisionShape" type="CollisionShape3D" parent="StaticBodies/Walls/Wall4" unique_id=1075903811]
 shape = SubResource("BoxShape3D_r28mn")
 
 [node name="Platform" type="Node3D" parent="StaticBodies" unique_id=1684116945]
@@ -186,71 +186,70 @@ shape = SubResource("BoxShape3D_r28mn")
 [node name="CentralCube" type="StaticBody3D" parent="StaticBodies/Platform" unique_id=360442503]
 collision_mask = 7
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBodies/Platform/CentralCube" unique_id=1802760637]
+[node name="CentralCubeMesh" type="MeshInstance3D" parent="StaticBodies/Platform/CentralCube" unique_id=1802760637]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.5, 0)
 material_override = ExtResource("3_7kt7w")
 mesh = SubResource("BoxMesh_2q7lk")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBodies/Platform/CentralCube" unique_id=1098847521]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.5, 0)
+[node name="CentralCubeCollisionShape" type="CollisionShape3D" parent="StaticBodies/Platform/CentralCube" unique_id=1098847521]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.125, 2.5, 0)
 shape = SubResource("BoxShape3D_a1h3m")
 
 [node name="LateralCube" type="StaticBody3D" parent="StaticBodies/Platform" unique_id=1986810847]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 1.25, 1)
 collision_mask = 7
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBodies/Platform/LateralCube" unique_id=669774500]
+[node name="LateralCubeMesh" type="MeshInstance3D" parent="StaticBodies/Platform/LateralCube" unique_id=669774500]
 material_override = ExtResource("4_xo1ao")
 mesh = SubResource("BoxMesh_fha7l")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBodies/Platform/LateralCube" unique_id=167571740]
+[node name="LateralCubeCollisionShape" type="CollisionShape3D" parent="StaticBodies/Platform/LateralCube" unique_id=167571740]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.1, 0, 0)
 shape = SubResource("BoxShape3D_2q7lk")
 
 [node name="LastCube" type="StaticBody3D" parent="StaticBodies/Platform" unique_id=681827223]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 3.75, -4)
 collision_mask = 7
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBodies/Platform/LastCube" unique_id=1316436962]
+[node name="LastCubeMesh" type="MeshInstance3D" parent="StaticBodies/Platform/LastCube" unique_id=1316436962]
 material_override = ExtResource("5_cxoah")
 mesh = SubResource("BoxMesh_a1h3m")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBodies/Platform/LastCube" unique_id=1856428149]
+[node name="LastCubeCollisionShape" type="CollisionShape3D" parent="StaticBodies/Platform/LastCube" unique_id=1856428149]
 shape = SubResource("BoxShape3D_vkygj")
 
 [node name="Ramp1" type="StaticBody3D" parent="StaticBodies/Platform" unique_id=1404073981]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.25, 6)
 collision_mask = 7
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBodies/Platform/Ramp1" unique_id=569259615]
+[node name="Ramp1Mesh" type="MeshInstance3D" parent="StaticBodies/Platform/Ramp1" unique_id=569259615]
 material_override = ExtResource("4_xo1ao")
 mesh = SubResource("PrismMesh_fha7l")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBodies/Platform/Ramp1" unique_id=520884733]
-shape = SubResource("ConcavePolygonShape3D_fha7l")
+[node name="Ramp1CollisionShape" type="CollisionShape3D" parent="StaticBodies/Platform/Ramp1" unique_id=520884733]
+shape = SubResource("ConcavePolygonShape3D_hpqad")
 
 [node name="Ramp2" type="StaticBody3D" parent="StaticBodies/Platform" unique_id=1537947705]
 transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -6, 3.75, 1)
 collision_mask = 7
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBodies/Platform/Ramp2" unique_id=2046476453]
+[node name="Ramp2Mesh" type="MeshInstance3D" parent="StaticBodies/Platform/Ramp2" unique_id=2046476453]
 material_override = ExtResource("4_xo1ao")
 mesh = SubResource("PrismMesh_kj1l2")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBodies/Platform/Ramp2" unique_id=1323674396]
+[node name="Ramp2CollisionShape" type="CollisionShape3D" parent="StaticBodies/Platform/Ramp2" unique_id=1323674396]
 shape = SubResource("ConcavePolygonShape3D_2q7lk")
 
 [node name="SmallCubes" type="Node3D" parent="StaticBodies" unique_id=954157851]
 
 [node name="SmallCube1" type="Node3D" parent="StaticBodies/SmallCubes" unique_id=1238751429]
-transform = Transform3D(0.17481223, 0, 0.9756461, 0, 1, 0, -0.9756461, 0, 0.17481223, 20.013485, 5.1521053, -6.6176224)
+transform = Transform3D(0.50158346, 0, 0.8502664, 0, 1, 0, -0.8502664, 0, 0.50158346, 20.013485, 5.1521053, -6.6176224)
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBodies/SmallCubes/SmallCube1" unique_id=1890607012]
+[node name="SmallCube1Mesh" type="MeshInstance3D" parent="StaticBodies/SmallCubes/SmallCube1" unique_id=1890607012]
 mesh = SubResource("BoxMesh_bj8sj")
 surface_material_override/0 = ExtResource("6_5pnqc")
 
 [node name="FollowingBodyMovementComponent" type="FollowingBodyMovementComponent" parent="StaticBodies/SmallCubes/SmallCube1" unique_id=2058165141]
-_bodyToFollow = Object(RigidBody3D,"unique_name_in_owner":false,"process_mode":0,"process_priority":0,"process_physics_priority":0,"process_thread_group":0,"physics_interpolation_mode":0,"auto_translate_mode":0,"editor_description":"","transform":Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20.0262, 4.1521053, -3.832943),"rotation_edit_mode":0,"rotation_order":2,"top_level":false,"visible":true,"visibility_parent":NodePath(""),"disable_mode":0,"collision_layer":1,"collision_mask":7,"collision_priority":1.0,"input_ray_pickable":true,"input_capture_on_drag":false,"axis_lock_linear_x":false,"axis_lock_linear_y":false,"axis_lock_linear_z":false,"axis_lock_angular_x":false,"axis_lock_angular_y":false,"axis_lock_angular_z":false,"mass":10.0,"physics_material_override":null,"gravity_scale":1.0,"center_of_mass_mode":0,"center_of_mass":Vector3(0, 0, 0),"inertia":Vector3(0, 0, 0),"sleeping":false,"can_sleep":true,"lock_rotation":false,"freeze":false,"freeze_mode":0,"custom_integrator":false,"continuous_cd":true,"contact_monitor":false,"max_contacts_reported":0,"linear_velocity":Vector3(0, 0, 0),"linear_damp_mode":0,"linear_damp":0.0,"angular_velocity":Vector3(0, 0, 0),"angular_damp_mode":0,"angular_damp":0.0,"constant_force":Vector3(0, 0, 0),"constant_torque":Vector3(0, 0, 0),"script":null)
-
 _bodytoFollowPath = NodePath("../../../../RigidBodies/Ball1")
 
 [node name="RotatingMovementComponent" type="RotatingMovementComponent" parent="StaticBodies/SmallCubes/SmallCube1" unique_id=1680206350]
@@ -259,52 +258,48 @@ _speed = 33.0
 [node name="SmallCube2" type="Node3D" parent="StaticBodies/SmallCubes" unique_id=1425425318]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.3313417, 4.56834, -12.586579)
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBodies/SmallCubes/SmallCube2" unique_id=340965959]
+[node name="SmallCube2Mesh" type="MeshInstance3D" parent="StaticBodies/SmallCubes/SmallCube2" unique_id=340965959]
 mesh = SubResource("BoxMesh_bj8sj")
 surface_material_override/0 = ExtResource("6_5pnqc")
 
 [node name="FollowingBodyMovementComponent" type="FollowingBodyMovementComponent" parent="StaticBodies/SmallCubes/SmallCube2" unique_id=928951100]
-_bodyToFollow = Object(RigidBody3D,"unique_name_in_owner":false,"process_mode":0,"process_priority":0,"process_physics_priority":0,"process_thread_group":0,"physics_interpolation_mode":0,"auto_translate_mode":0,"editor_description":"","transform":Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.57665, 3.5, -15.0622),"rotation_edit_mode":0,"rotation_order":2,"top_level":false,"visible":true,"visibility_parent":NodePath(""),"disable_mode":0,"collision_layer":1,"collision_mask":7,"collision_priority":1.0,"input_ray_pickable":true,"input_capture_on_drag":false,"axis_lock_linear_x":false,"axis_lock_linear_y":false,"axis_lock_linear_z":false,"axis_lock_angular_x":false,"axis_lock_angular_y":false,"axis_lock_angular_z":false,"mass":15.0,"physics_material_override":null,"gravity_scale":1.0,"center_of_mass_mode":0,"center_of_mass":Vector3(0, 0, 0),"inertia":Vector3(0, 0, 0),"sleeping":false,"can_sleep":true,"lock_rotation":false,"freeze":false,"freeze_mode":0,"custom_integrator":false,"continuous_cd":true,"contact_monitor":false,"max_contacts_reported":0,"linear_velocity":Vector3(0, 0, 0),"linear_damp_mode":0,"linear_damp":0.0,"angular_velocity":Vector3(0, 0, 0),"angular_damp_mode":0,"angular_damp":0.0,"constant_force":Vector3(0, 0, 0),"constant_torque":Vector3(0, 0, 0),"script":null)
-
 _bodytoFollowPath = NodePath("../../../../RigidBodies/Ball2")
 
 [node name="SmallCube3" type="Node3D" parent="StaticBodies/SmallCubes" unique_id=795663504]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.275515, 6.4291186, -10.042754)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.316297, 6.4863048, -10.011549)
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBodies/SmallCubes/SmallCube3" unique_id=2119805227]
+[node name="SmallCube3Mesh" type="MeshInstance3D" parent="StaticBodies/SmallCubes/SmallCube3" unique_id=2119805227]
 mesh = SubResource("BoxMesh_bj8sj")
 surface_material_override/0 = ExtResource("6_5pnqc")
 
 [node name="FollowingBodyMovementComponent" type="FollowingBodyMovementComponent" parent="StaticBodies/SmallCubes/SmallCube3" unique_id=228357097]
-_bodyToFollow = Object(RigidBody3D,"unique_name_in_owner":false,"process_mode":0,"process_priority":0,"process_physics_priority":0,"process_thread_group":0,"physics_interpolation_mode":0,"auto_translate_mode":0,"editor_description":"","transform":Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.4277, 5.44102, -11.8213),"rotation_edit_mode":0,"rotation_order":2,"top_level":false,"visible":true,"visibility_parent":NodePath(""),"disable_mode":0,"collision_layer":1,"collision_mask":7,"collision_priority":1.0,"input_ray_pickable":true,"input_capture_on_drag":false,"axis_lock_linear_x":false,"axis_lock_linear_y":false,"axis_lock_linear_z":false,"axis_lock_angular_x":false,"axis_lock_angular_y":false,"axis_lock_angular_z":false,"mass":20.0,"physics_material_override":null,"gravity_scale":1.0,"center_of_mass_mode":0,"center_of_mass":Vector3(0, 0, 0),"inertia":Vector3(0, 0, 0),"sleeping":false,"can_sleep":true,"lock_rotation":false,"freeze":false,"freeze_mode":0,"custom_integrator":false,"continuous_cd":true,"contact_monitor":false,"max_contacts_reported":0,"linear_velocity":Vector3(0, 0, 0),"linear_damp_mode":0,"linear_damp":0.0,"angular_velocity":Vector3(0, 0, 0),"angular_damp_mode":0,"angular_damp":0.0,"constant_force":Vector3(0, 0, 0),"constant_torque":Vector3(0, 0, 0),"script":null)
-
 _bodytoFollowPath = NodePath("../../../../RigidBodies/Ball3")
 
 [node name="RandomMovementComponent" type="RandomMovementComponent" parent="StaticBodies/SmallCubes/SmallCube3" unique_id=917209310]
 
 [node name="RotatingPlatform1" type="StaticBody3D" parent="StaticBodies" unique_id=1499199231]
-transform = Transform3D(-0.6844441, 0, -0.72192574, 0, 1, 0, 0.72192574, 0, -0.6844441, 17, 0.5, 17)
+transform = Transform3D(0.8854719, 0, -0.4602549, 0, 1, 0, 0.4602549, 0, 0.8854719, 17, 0.5, 17)
 collision_mask = 7
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBodies/RotatingPlatform1" unique_id=620059428]
+[node name="RotatingPlatform1Mesh" type="MeshInstance3D" parent="StaticBodies/RotatingPlatform1" unique_id=620059428]
 mesh = SubResource("CylinderMesh_vkygj")
 surface_material_override/0 = ExtResource("9_bj8sj")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBodies/RotatingPlatform1" unique_id=1096946840]
+[node name="RotatingPlatform1CollisionShape" type="CollisionShape3D" parent="StaticBodies/RotatingPlatform1" unique_id=1096946840]
 shape = SubResource("CylinderShape3D_wyxhm")
 
 [node name="RotatingMovementComponent" type="RotatingMovementComponent" parent="StaticBodies/RotatingPlatform1" unique_id=335900789]
 _speed = 5.0
 
 [node name="RotatingPlatform2" type="AnimatableBody3D" parent="StaticBodies" unique_id=1538662904]
-transform = Transform3D(0.112159394, 0, -0.9884984, 0, 1, 0, 0.9884984, 0, 0.112159394, 17, 0.5, 4)
+transform = Transform3D(-0.98420733, 0, 0.16532095, 0, 1, 0, -0.16532095, 0, -0.98420733, 17, 0.5, 4)
 collision_mask = 7
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBodies/RotatingPlatform2" unique_id=958579149]
+[node name="RotatingPlatform2Mesh" type="MeshInstance3D" parent="StaticBodies/RotatingPlatform2" unique_id=958579149]
 mesh = SubResource("CylinderMesh_vkygj")
 surface_material_override/0 = ExtResource("10_7gi0a")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBodies/RotatingPlatform2" unique_id=1474389926]
+[node name="RotatingPlatform2CollisionShape" type="CollisionShape3D" parent="StaticBodies/RotatingPlatform2" unique_id=1474389926]
 shape = SubResource("CylinderShape3D_wyxhm")
 
 [node name="RotatingMovementComponent" type="RotatingMovementComponent" parent="StaticBodies/RotatingPlatform2" unique_id=461319895]
@@ -318,11 +313,11 @@ collision_mask = 7
 mass = 10.0
 continuous_cd = true
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="RigidBodies/Ball1" unique_id=551117708]
+[node name="Ball1Mesh" type="MeshInstance3D" parent="RigidBodies/Ball1" unique_id=551117708]
 mesh = SubResource("SphereMesh_fha7l")
 surface_material_override/0 = ExtResource("12_50svc")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBodies/Ball1" unique_id=17017100]
+[node name="Ball2CollisionShape" type="CollisionShape3D" parent="RigidBodies/Ball1" unique_id=17017100]
 shape = SubResource("SphereShape3D_a1h3m")
 
 [node name="Ball2" type="RigidBody3D" parent="RigidBodies" unique_id=1285357812]
@@ -331,11 +326,11 @@ collision_mask = 7
 mass = 15.0
 continuous_cd = true
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="RigidBodies/Ball2" unique_id=1901539515]
+[node name="Ball2Mesh" type="MeshInstance3D" parent="RigidBodies/Ball2" unique_id=1901539515]
 mesh = SubResource("SphereMesh_fha7l")
 surface_material_override/0 = ExtResource("12_50svc")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBodies/Ball2" unique_id=1040435341]
+[node name="Ball2CollisionShape" type="CollisionShape3D" parent="RigidBodies/Ball2" unique_id=1040435341]
 shape = SubResource("SphereShape3D_a1h3m")
 
 [node name="Ball3" type="RigidBody3D" parent="RigidBodies" unique_id=207880530]
@@ -344,11 +339,11 @@ collision_mask = 7
 mass = 20.0
 continuous_cd = true
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="RigidBodies/Ball3" unique_id=1482085216]
+[node name="Ball3Mesh" type="MeshInstance3D" parent="RigidBodies/Ball3" unique_id=1482085216]
 mesh = SubResource("SphereMesh_fha7l")
 surface_material_override/0 = ExtResource("12_50svc")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBodies/Ball3" unique_id=1448633339]
+[node name="Ball3CollisionShape" type="CollisionShape3D" parent="RigidBodies/Ball3" unique_id=1448633339]
 shape = SubResource("SphereShape3D_a1h3m")
 
 [node name="Cube 1" type="RigidBody3D" parent="RigidBodies" unique_id=1929792500]
@@ -357,11 +352,11 @@ collision_mask = 7
 mass = 8.0
 continuous_cd = true
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="RigidBodies/Cube 1" unique_id=479857710]
+[node name="Cube1Mesh" type="MeshInstance3D" parent="RigidBodies/Cube 1" unique_id=479857710]
 mesh = SubResource("BoxMesh_r28mn")
 surface_material_override/0 = ExtResource("12_50svc")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBodies/Cube 1" unique_id=1792412381]
+[node name="Cube1CollisionShape" type="CollisionShape3D" parent="RigidBodies/Cube 1" unique_id=1792412381]
 shape = SubResource("BoxShape3D_fha7l")
 
 [node name="Cube 2" type="RigidBody3D" parent="RigidBodies" unique_id=1586549238]
@@ -370,11 +365,11 @@ collision_mask = 7
 mass = 16.0
 continuous_cd = true
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="RigidBodies/Cube 2" unique_id=1845801593]
+[node name="Cube2Mesh" type="MeshInstance3D" parent="RigidBodies/Cube 2" unique_id=1845801593]
 mesh = SubResource("BoxMesh_r28mn")
 surface_material_override/0 = ExtResource("12_50svc")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBodies/Cube 2" unique_id=1976618067]
+[node name="Cube2CollisionShape" type="CollisionShape3D" parent="RigidBodies/Cube 2" unique_id=1976618067]
 shape = SubResource("BoxShape3D_7gi0a")
 
 [node name="Cube 3" type="RigidBody3D" parent="RigidBodies" unique_id=1896728882]
@@ -383,11 +378,11 @@ collision_mask = 7
 mass = 24.0
 continuous_cd = true
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="RigidBodies/Cube 3" unique_id=1679888419]
+[node name="Cube3Mesh" type="MeshInstance3D" parent="RigidBodies/Cube 3" unique_id=1679888419]
 mesh = SubResource("BoxMesh_r28mn")
 surface_material_override/0 = ExtResource("12_50svc")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBodies/Cube 3" unique_id=975067225]
+[node name="Cube3CollisionShape" type="CollisionShape3D" parent="RigidBodies/Cube 3" unique_id=975067225]
 shape = SubResource("BoxShape3D_et6c1")
 
 [node name="Cube 4" type="RigidBody3D" parent="RigidBodies" unique_id=1273981]
@@ -396,11 +391,11 @@ collision_mask = 7
 mass = 10.0
 continuous_cd = true
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="RigidBodies/Cube 4" unique_id=216744746]
+[node name="Cube4Mesh" type="MeshInstance3D" parent="RigidBodies/Cube 4" unique_id=216744746]
 mesh = SubResource("BoxMesh_kbyyj")
 surface_material_override/0 = SubResource("StandardMaterial3D_p38n8")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBodies/Cube 4" unique_id=544145236]
+[node name="Cube4CollisionShape" type="CollisionShape3D" parent="RigidBodies/Cube 4" unique_id=544145236]
 shape = SubResource("BoxShape3D_tok07")
 
 [node name="Cube 5" type="RigidBody3D" parent="RigidBodies" unique_id=1992635560]
@@ -409,11 +404,11 @@ collision_mask = 7
 mass = 10.0
 continuous_cd = true
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="RigidBodies/Cube 5" unique_id=1923585818]
+[node name="Cube5Mesh" type="MeshInstance3D" parent="RigidBodies/Cube 5" unique_id=1923585818]
 mesh = SubResource("BoxMesh_r28mn")
 surface_material_override/0 = ExtResource("13_sqp7f")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBodies/Cube 5" unique_id=793177551]
+[node name="Cube5CollisionShape" type="CollisionShape3D" parent="RigidBodies/Cube 5" unique_id=793177551]
 shape = SubResource("BoxShape3D_et6c1")
 
 [node name="BigBall1" type="RigidBody3D" parent="RigidBodies" unique_id=1594381678]
@@ -422,22 +417,22 @@ collision_mask = 7
 mass = 20.0
 continuous_cd = true
 
-[node name="Sphere" type="MeshInstance3D" parent="RigidBodies/BigBall1" unique_id=1991283004]
+[node name="BigBall1Mesh" type="MeshInstance3D" parent="RigidBodies/BigBall1" unique_id=1991283004]
 mesh = SubResource("SphereMesh_2q7lk")
 surface_material_override/0 = ExtResource("10_cxoah")
 
-[node name="Cube" type="MeshInstance3D" parent="RigidBodies/BigBall1/Sphere" unique_id=443990653]
+[node name="BigBall1CubeMesh" type="MeshInstance3D" parent="RigidBodies/BigBall1/BigBall1Mesh" unique_id=443990653]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.3385, 3.55636, 0)
 top_level = true
 mesh = SubResource("BoxMesh_5pnqc")
 surface_material_override/0 = SubResource("StandardMaterial3D_vkygj")
 
-[node name="RemoteTransform3D" type="RemoteTransform3D" parent="RigidBodies/BigBall1/Sphere" unique_id=1715611947]
-remote_path = NodePath("../Cube")
+[node name="BigBall1RemoteTransform3D" type="RemoteTransform3D" parent="RigidBodies/BigBall1/BigBall1Mesh" unique_id=1715611947]
+remote_path = NodePath("../BigBall1CubeMesh")
 update_rotation = false
 update_scale = false
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBodies/BigBall1" unique_id=555885999]
+[node name="BigBall1CollisionShape" type="CollisionShape3D" parent="RigidBodies/BigBall1" unique_id=555885999]
 shape = SubResource("SphereShape3D_vkygj")
 
 [node name="BigBall2" type="RigidBody3D" parent="RigidBodies" unique_id=2057654948]
@@ -446,51 +441,52 @@ collision_mask = 7
 mass = 20.0
 continuous_cd = true
 
-[node name="Sphere" type="MeshInstance3D" parent="RigidBodies/BigBall2" unique_id=1236375789]
+[node name="BigBall2Mesh" type="MeshInstance3D" parent="RigidBodies/BigBall2" unique_id=1236375789]
 mesh = SubResource("SphereMesh_2q7lk")
 surface_material_override/0 = ExtResource("11_bj8sj")
 
-[node name="Cube" type="MeshInstance3D" parent="RigidBodies/BigBall2/Sphere" unique_id=191305410]
+[node name="BigBall2CubeMesh" type="MeshInstance3D" parent="RigidBodies/BigBall2/BigBall2Mesh" unique_id=191305410]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.8378, 7.49481, -6.05808)
 top_level = true
 mesh = SubResource("BoxMesh_5pnqc")
 surface_material_override/0 = SubResource("StandardMaterial3D_vkygj")
 
-[node name="RemoteTransform3D" type="RemoteTransform3D" parent="RigidBodies/BigBall2/Sphere" unique_id=1099650385]
-remote_path = NodePath("../Cube")
+[node name="BigBall2RemoteTransform3D" type="RemoteTransform3D" parent="RigidBodies/BigBall2/BigBall2Mesh" unique_id=1099650385]
+remote_path = NodePath("../BigBall2CubeMesh")
 update_rotation = false
 update_scale = false
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBodies/BigBall2" unique_id=252645386]
+[node name="BigBall2CollisionShape" type="CollisionShape3D" parent="RigidBodies/BigBall2" unique_id=252645386]
 shape = SubResource("SphereShape3D_vkygj")
 
-[node name="WeaponArea3D" type="Area3D" parent="." unique_id=1866583608]
+[node name="WeaponArea" type="Area3D" parent="." unique_id=1866583608]
 transform = Transform3D(0.99999994, 0, 0, 0, 0.99999994, 0, 0, 0, 1, 10, 1, 0)
 collision_mask = 2
 script = ExtResource("8_kj1l2")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="WeaponArea3D" unique_id=1155801331]
+[node name="WeaponAreaCollisionShape" type="CollisionShape3D" parent="WeaponArea" unique_id=1155801331]
 shape = SubResource("SphereShape3D_ih5o8")
 
-[node name="Weapon" parent="WeaponArea3D" unique_id=1573816698 instance=ExtResource("9_kj1l2")]
+[node name="AssaultRifle1" parent="WeaponArea/WeaponAreaCollisionShape" unique_id=1573816698 instance=ExtResource("9_kj1l2")]
+transform = Transform3D(0.9999998, 0, 0, 0, 0.9999998, 0, 0, 0, 1, 0, 0, 0)
 
-[node name="NextLevelArea3D" type="Area3D" parent="." unique_id=194468545]
+[node name="NextLevelArea" type="Area3D" parent="." unique_id=194468545]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20, 1.1, 20)
 collision_mask = 3
 script = ExtResource("18_50svc")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="NextLevelArea3D" unique_id=1087078038]
-shape = SubResource("BoxShape3D_5pnqc")
-debug_color = Color(1, 0, 0, 0.419608)
-
-[node name="Label3D" type="Label3D" parent="NextLevelArea3D" unique_id=2107583714]
-transform = Transform3D(-0.866026, 0, 0.5, 0, 1, 0, -0.5, 0, -0.866026, 0, 1.5, 0)
-text = "NEXT LEVEL"
-
-[node name="MeshInstance3D" type="MeshInstance3D" parent="NextLevelArea3D" unique_id=2017024051]
+[node name="NextLevelAreaMesh" type="MeshInstance3D" parent="NextLevelArea" unique_id=2017024051]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1, 0)
 mesh = SubResource("PlaneMesh_50svc")
 surface_material_override/0 = ExtResource("10_7gi0a")
 
-[connection signal="body_entered" from="WeaponArea3D" to="WeaponArea3D" method="_on_body_entered"]
-[connection signal="body_entered" from="NextLevelArea3D" to="NextLevelArea3D" method="_on_body_entered"]
+[node name="NextLevelAreaCollisionShape" type="CollisionShape3D" parent="NextLevelArea" unique_id=1087078038]
+shape = SubResource("BoxShape3D_5pnqc")
+debug_color = Color(1, 0, 0, 0.419608)
+
+[node name="NextLevelAreaLabel" type="Label3D" parent="NextLevelArea" unique_id=2107583714]
+transform = Transform3D(-0.866026, 0, 0.5, 0, 1, 0, -0.5, 0, -0.866026, 0, 1.5, 0)
+text = "NEXT LEVEL"
+
+[connection signal="body_entered" from="WeaponArea" to="WeaponArea" method="_on_body_entered"]
+[connection signal="body_entered" from="NextLevelArea" to="NextLevelArea" method="_on_body_entered"]

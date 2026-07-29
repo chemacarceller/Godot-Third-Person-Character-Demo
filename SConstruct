@@ -66,7 +66,7 @@ for module in modules :
     # 7. Binary Construction
     # This is where we actually create the shared library using the sources we defined. The target name includes the platform and target to ensure that the output file is correctly named and can be easily identified.
     library = env.SharedLibrary(
-        target=f"main/bin/{lib_name}.{env['platform']}.{env['target']}{lib_suffix}",
+        target=f"bin/{lib_name}.{env['platform']}.{env['target']}{lib_suffix}",
         source=sources,
         LIBPREFIX=""
     )
