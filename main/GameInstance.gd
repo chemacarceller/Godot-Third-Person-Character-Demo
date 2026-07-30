@@ -290,7 +290,7 @@ func _quit_gracefully( existMyLogger : bool = true) -> void :
 
 	if existMyLogger :
 		MyLogger.info("FRAME : " + str(Engine.get_process_frames()) + " : " + "Last log: Freeing C++ Singleton memory",str(self), 292, true)
-		MyLogger.free()
+		if ClassDB.class_has_method("MyLogger", "freeing") : MyLogger.freeing()
 
 	# Definitive game exit
 	get_tree().quit()

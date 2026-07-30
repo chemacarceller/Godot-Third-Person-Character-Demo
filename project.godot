@@ -26,7 +26,6 @@ EventBus="*res://main/plugins/eventbus/EventBus.gd"
 GameInstance="*res://main/GameInstance.gd"
 LevelManager="*uid://bj4wdj5mxh3ao"
 DebugMenu="*res://main/addons/debugmenu/debug_menu.tscn"
-MyLogger="*res://main/MyLogger.gd"
 
 [debug]
 
