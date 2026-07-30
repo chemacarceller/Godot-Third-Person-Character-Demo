@@ -26,19 +26,19 @@ size = Vector3(50, 1, 50)
 size = Vector3(50, 15, 1)
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_r28mn"]
-size = Vector3(50, 15, 1.25)
+size = Vector3(50, 15, 1)
 
 [sub_resource type="BoxMesh" id="BoxMesh_2q7lk"]
 size = Vector3(10, 5, 10)
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_a1h3m"]
-size = Vector3(10.25, 5, 10.25)
+size = Vector3(10, 5, 10)
 
 [sub_resource type="BoxMesh" id="BoxMesh_fha7l"]
 size = Vector3(2, 2.5, 12)
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_2q7lk"]
-size = Vector3(1, 2.5, 12)
+size = Vector3(2, 2.5, 12)
 
 [sub_resource type="BoxMesh" id="BoxMesh_a1h3m"]
 size = Vector3(2, 2.5, 2)
@@ -192,7 +192,7 @@ material_override = ExtResource("3_7kt7w")
 mesh = SubResource("BoxMesh_2q7lk")
 
 [node name="CentralCubeCollisionShape" type="CollisionShape3D" parent="StaticBodies/Platform/CentralCube" unique_id=1098847521]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.125, 2.5, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.5, 0)
 shape = SubResource("BoxShape3D_a1h3m")
 
 [node name="LateralCube" type="StaticBody3D" parent="StaticBodies/Platform" unique_id=1986810847]
@@ -243,7 +243,7 @@ shape = SubResource("ConcavePolygonShape3D_2q7lk")
 [node name="SmallCubes" type="Node3D" parent="StaticBodies" unique_id=954157851]
 
 [node name="SmallCube1" type="Node3D" parent="StaticBodies/SmallCubes" unique_id=1238751429]
-transform = Transform3D(0.50158346, 0, 0.8502664, 0, 1, 0, -0.8502664, 0, 0.50158346, 20.013485, 5.1521053, -6.6176224)
+transform = Transform3D(-0.42122018, 0, 0.8925299, 0, 1, 0, -0.8925299, 0, -0.42122018, 20.013485, 5.1521053, -6.6176224)
 
 [node name="SmallCube1Mesh" type="MeshInstance3D" parent="StaticBodies/SmallCubes/SmallCube1" unique_id=1890607012]
 mesh = SubResource("BoxMesh_bj8sj")
@@ -266,7 +266,7 @@ surface_material_override/0 = ExtResource("6_5pnqc")
 _bodytoFollowPath = NodePath("../../../../RigidBodies/Ball2")
 
 [node name="SmallCube3" type="Node3D" parent="StaticBodies/SmallCubes" unique_id=795663504]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.316297, 6.4863048, -10.011549)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.331223, 6.4702477, -10.027027)
 
 [node name="SmallCube3Mesh" type="MeshInstance3D" parent="StaticBodies/SmallCubes/SmallCube3" unique_id=2119805227]
 mesh = SubResource("BoxMesh_bj8sj")
@@ -278,7 +278,7 @@ _bodytoFollowPath = NodePath("../../../../RigidBodies/Ball3")
 [node name="RandomMovementComponent" type="RandomMovementComponent" parent="StaticBodies/SmallCubes/SmallCube3" unique_id=917209310]
 
 [node name="RotatingPlatform1" type="StaticBody3D" parent="StaticBodies" unique_id=1499199231]
-transform = Transform3D(0.8854719, 0, -0.4602549, 0, 1, 0, 0.4602549, 0, 0.8854719, 17, 0.5, 17)
+transform = Transform3D(0.81195414, 0, 0.57992476, 0, 1, 0, -0.57992476, 0, 0.81195414, 17, 0.5, 17)
 collision_mask = 7
 
 [node name="RotatingPlatform1Mesh" type="MeshInstance3D" parent="StaticBodies/RotatingPlatform1" unique_id=620059428]
@@ -292,7 +292,7 @@ shape = SubResource("CylinderShape3D_wyxhm")
 _speed = 5.0
 
 [node name="RotatingPlatform2" type="AnimatableBody3D" parent="StaticBodies" unique_id=1538662904]
-transform = Transform3D(-0.98420733, 0, 0.16532095, 0, 1, 0, -0.16532095, 0, -0.98420733, 17, 0.5, 4)
+transform = Transform3D(-0.29946566, 0, 0.9518448, 0, 1, 0, -0.9518448, 0, -0.29946566, 17, 0.5, 4)
 collision_mask = 7
 
 [node name="RotatingPlatform2Mesh" type="MeshInstance3D" parent="StaticBodies/RotatingPlatform2" unique_id=958579149]

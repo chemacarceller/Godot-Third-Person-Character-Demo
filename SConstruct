@@ -63,6 +63,14 @@ for module in modules :
     else:
         lib_suffix = ".so"
 
+    if env["target"] == "template_debug":
+        try:
+            doc_data = env.GodotCPPDocData("src/gen/doc_data.gen.cpp", source=Glob("bin/*.xml"))
+            sources.append(doc_data) 
+        except AttributeError:
+            print("The documentation system is not available in this version of godot-cpp")
+
+
     # 7. Binary Construction
     # This is where we actually create the shared library using the sources we defined. The target name includes the platform and target to ensure that the output file is correctly named and can be easily identified.
     library = env.SharedLibrary(
@@ -74,5 +82,18 @@ for module in modules :
     # 8. Link with godot-cpp
     # This step is crucial as it links the generated library with the godot-cpp library, ensuring that all necessary symbols are resolved and that the library can be used in Godot. The exact libraries to link against may vary based on your specific setup and the requirements of your project.
     Default(library)
+
+# Register a function that runs when SCons shuts down completely
+def clean_up_final_residues():
+    import shutil
+    try:
+        shutil.rmtree("src/gen")
+        print("Compilation complete: Temporary folder src/gen successfully deleted!")
+    except Exception:
+        pass
+
+# SCons will call this function right before exiting the terminal.
+import atexit
+atexit.register(clean_up_final_residues)
 
 # ====================================================================================

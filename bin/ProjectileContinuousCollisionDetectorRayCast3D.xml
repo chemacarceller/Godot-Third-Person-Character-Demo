@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<class name="ProjectileContinuousCollisionDetectorRayCast3D" inherits="RayCast3D" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/godotengine/godot/master/doc/class.xsd">
+	<brief_description>
+	</brief_description>
+	<description>
+	</description>
+	<tutorials>
+	</tutorials>
+	<members>
+		<member name="_isEnabled" type="bool" setter="set_enabled" getter="is_enabled" default="true">
+		Property to activate or deactivate the movement
+		</member>
+		<member name="_movementComponent" type="Node" setter="set_movementComponent" getter="get_movementComponent">
+		Movement component from which the speed is retrieved via the `get_speed()` method, which it must implement.
+		</member>
+	</members>
+	<signals>
+		<signal name="COLLISION_DETECTED">
+			<param index="0" name="node_hit" type="Node3D" />
+			<description>
+			</description>
+		</signal>
+	</signals>
+</class>

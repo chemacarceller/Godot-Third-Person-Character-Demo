@@ -9,7 +9,7 @@
 [ext_resource type="Material" uid="uid://ctdrrpwrcej4g" path="res://main/prefabs/weapons/assault_rifle_1/materials/DarkWood.tres" id="7_jmeyb"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_flbwa"]
-size = Vector3(0.07, 0.3, 0.8696777)
+size = Vector3(0.05, 0.3, 0.85)
 
 [node name="AssaultRifle1" type="Area3D" unique_id=1573816698]
 script = ExtResource("1_rsg41")
