@@ -1,213 +1,186 @@
-[11:24:39.564] [INFO] [EventBus:<Node#81134618090>:36] FRAME : 0 :  Checked the success of MyLogger existence ... 
-[11:24:39.564] [INFO] [EventBus:<Node#81134618090>:51] FRAME : 0 :  Instantiated ... 
-[11:24:39.567] [INFO] [GameInstance:<Node#81822484340>:96] FRAME : 0 :  Checked the success of MyLogger existence ... 
-[11:24:39.567] [INFO] [GameInstance:<Node#81822484340>:106] FRAME : 0 :  Instantiated ... 
-[11:24:39.567] [INFO] [LevelManager:<Node#81906370424>:31] FRAME : 0 :  Checked the success of MyLogger existence ... 
-[11:24:39.567] [INFO] [LevelManager:<Node#81906370424>:46] FRAME : 0 :  Instantiated ... 
-[11:24:39.581] [INFO] [GameMode.gd:21] FRAME : 0 : MainLevel Instantiated ... 
-[11:24:39.581] [INFO] [area3d.gd:7] FRAME : 0 : /root/MainLevel/World/WeaponArea Instantiated ... 
-[11:24:39.581] [INFO] [EventBus:<Node#81134618090>:182] FRAME : 0 :  : Listener : Area3D(AssaultRifle)::onWeaponPositionAdjusting exist in event Movement_Changed ? false
-[11:24:39.582] [INFO] [EventBus:<Node#81134618090>:76] FRAME : 0 :  : Subscribed listener '{ "object_name": &"AssaultRifle1", "method_name": &"onWeaponPositionAdjusting" }' to event 'Movement_Changed'.
-[11:24:39.582] [INFO] [weapon.gd:12] FRAME : 0 : /root/MainLevel/World/WeaponArea/WeaponAreaCollisionShape/AssaultRifle1 Instantiated ... AssaultRifle1:<Area3D#105209923785>
-[11:24:39.582] [INFO] [nextlevel.gd:16] FRAME : 0 : /root/MainLevel/World/NextLevelArea Instantiated ... 
-[11:24:39.582] [INFO] [hud.gd:3] FRAME : 0 : /root/MainLevel/HUD Instantiated ... 
-[11:24:39.582] [INFO] [movement_mode_label3d.gd:4] FRAME : 0 : /root/MainLevel/HUD/MovementMode Instantiated ... 
-[11:24:39.582] [INFO] [EventBus:<Node#81134618090>:182] FRAME : 0 :  : Listener : Label(movement_mode_label3d.gd)::on_MovementChanged exist in event Movement_Changed ? false
-[11:24:39.582] [INFO] [EventBus:<Node#81134618090>:76] FRAME : 0 :  : Subscribed listener '{ "object_name": &"MovementMode", "method_name": &"on_MovementChanged" }' to event 'Movement_Changed'.
-[11:24:39.582] [INFO] [direction_mode_label3d.gd:4] FRAME : 0 : /root/MainLevel/HUD/DirectionMode Instantiated ... 
-[11:24:39.582] [INFO] [EventBus:<Node#81134618090>:182] FRAME : 0 :  : Listener : Label(direction_mode_label3d.gd)::on_MovementChanged exist in event Movement_Changed ? false
-[11:24:39.582] [INFO] [EventBus:<Node#81134618090>:76] FRAME : 0 :  : Subscribed listener '{ "object_name": &"DirectionMode", "method_name": &"on_MovementChanged" }' to event 'Movement_Changed'.
-[11:24:39.582] [INFO] [camera_mode_label3d.gd:4] FRAME : 0 : /root/MainLevel/HUD/CameraMode Instantiated ... 
-[11:24:39.582] [INFO] [EventBus:<Node#81134618090>:182] FRAME : 0 :  : Listener : Label(camera_mode_label3d.gd)::on_cameraChanged exist in event CameraMode_Changed ? false
-[11:24:39.582] [INFO] [EventBus:<Node#81134618090>:76] FRAME : 0 :  : Subscribed listener '{ "object_name": &"CameraMode", "method_name": &"on_cameraChanged" }' to event 'CameraMode_Changed'.
-[11:24:39.582] [INFO] [graphic_profile.gd:4] FRAME : 0 : /root/MainLevel/HUD/GraphicProfile Instantiated ... 
-[11:24:39.582] [INFO] [EventBus:<Node#81134618090>:182] FRAME : 0 :  : Listener : Label(graphic_profile.gd)::on_graphicProfileChanged exist in event GraphicProfile_Changed ? false
-[11:24:39.582] [INFO] [EventBus:<Node#81134618090>:76] FRAME : 0 :  : Subscribed listener '{ "object_name": &"GraphicProfile", "method_name": &"on_graphicProfileChanged" }' to event 'GraphicProfile_Changed'.
-[11:24:39.582] [INFO] [hour.gd:4] FRAME : 0 : /root/MainLevel/HUD/Hour Instantiated ... 
-[11:24:39.582] [INFO] [EventBus:<Node#81134618090>:182] FRAME : 0 :  : Listener : Label(hour.gd)::_showHour exist in event Time_TicToc ? false
-[11:24:39.582] [INFO] [EventBus:<Node#81134618090>:76] FRAME : 0 :  : Subscribed listener '{ "object_name": &"Hour", "method_name": &"_showHour" }' to event 'Time_TicToc'.
-[11:24:39.582] [INFO] [count.gd:4] FRAME : 0 : /root/MainLevel/HUD/Count Instantiated ... 
-[11:24:39.582] [INFO] [EventBus:<Node#81134618090>:182] FRAME : 0 :  : Listener : Label(count.gd)::_showCount exist in event Time_TicToc ? false
-[11:24:39.582] [INFO] [EventBus:<Node#81134618090>:76] FRAME : 0 :  : Subscribed listener '{ "object_name": &"Count", "method_name": &"_showCount" }' to event 'Time_TicToc'.
-[11:24:39.583] [INFO] [world_environment.gd:13] FRAME : 0 : /root/MainLevel/WorldEnvironment Instantiated ... 
-[11:24:39.583] [INFO] [EventBus:<Node#81134618090>:55] FRAME : 0 :  Ready ... 
-[11:24:39.585] [INFO] [GameInstance:<Node#81822484340>:116] FRAME : 0 :  Character brian loaded in memory ... 
-[11:24:39.610] [INFO] [GameInstance:<Node#81822484340>:118] FRAME : 0 :  Character man loaded in memory ... 
-[11:24:39.611] [INFO] [GameInstance:<Node#81822484340>:120] FRAME : 0 :  Character manequin1 loaded in memory ... 
-[11:24:39.612] [INFO] [GameInstance:<Node#81822484340>:122] FRAME : 0 :  Character manequin2 loaded in memory ... 
-[11:24:39.613] [INFO] [GameInstance:<Node#81822484340>:124] FRAME : 0 :  Character remi loaded in memory ... 
-[11:24:39.613] [INFO] [GameInstance:<Node#81822484340>:147] FRAME : 0 : ["EventBus", "LevelManager"]  available ... 
-[11:24:39.614] [INFO] [GameInstance:<Node#81822484340>:157] FRAME : 0 :  Ready ... 
-[11:24:39.614] [INFO] [LevelManager:<Node#81906370424>:75] FRAME : 0 : ["GameInstance", "EventBus"]  available ... 
-[11:24:39.634] [INFO] [weapon.gd:14] FRAME : 0 : /root/MainLevel/World/WeaponArea/WeaponAreaCollisionShape/AssaultRifle1 Ready ... 
-[11:24:39.634] [INFO] [area3d.gd:10] FRAME : 0 : /root/MainLevel/World/WeaponArea Ready ... WeaponArea:<Area3D#105176369351>
-[11:24:39.634] [INFO] [nextlevel.gd:17] FRAME : 0 : /root/MainLevel/World/NextLevelArea Ready ... 
-[11:24:39.635] [INFO] [movement_mode_label3d.gd:8] FRAME : 0 : /root/MainLevel/HUD/MovementMode Ready ... 
-[11:24:39.635] [INFO] [direction_mode_label3d.gd:8] FRAME : 0 : /root/MainLevel/HUD/DirectionMode Ready ... 
-[11:24:39.635] [INFO] [camera_mode_label3d.gd:8] FRAME : 0 : /root/MainLevel/HUD/CameraMode Ready ... 
-[11:24:39.635] [INFO] [graphic_profile.gd:8] FRAME : 0 : /root/MainLevel/HUD/GraphicProfile Ready ... 
-[11:24:39.635] [INFO] [hour.gd:7] FRAME : 0 : /root/MainLevel/HUD/Hour Ready ... 
-[11:24:39.635] [INFO] [count.gd:7] FRAME : 0 : /root/MainLevel/HUD/Count Ready ... 
-[11:24:39.635] [INFO] [hud.gd:4] FRAME : 0 : /root/MainLevel/HUD Ready ... 
-[11:24:41.585] [INFO] [ConfigRender.gd:158] FRAME : 0 : [ViewPort] Integrated or low VRAM 
-[11:24:41.586] [INFO] [GameMode.gd:46] FRAME : 0 :  Setting Character ... 
-[11:24:41.586] [INFO] [GameMode.gd:88] FRAME : 0 : Character assigned from preloaded prefabs: manequin2
-[11:24:41.586] [INFO] [characters_controller.gd:36]  CharacterController instantiated manequin2 ...
-[11:24:41.587] [INFO] [animations_controller.gd:21]  AnimationController instantiated AnimationTree ...
-[11:24:41.587] [INFO] [animations_controller.gd:19]  AnimationController Ready AnimationTree ...
-[11:24:41.588] [INFO] [characters_controller.gd:36]  CharacterController Ready manequin2 ...
-[11:24:41.588] [INFO] [EventBus:<Node#81134618090>:103] FRAME : 0 :  : Emitting event : ( Movement_Changed ) CharacterBody3D(Manequin2Controller)::_ready
-[11:24:41.588] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 0 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"manequin2", "sender_path": "/root/MainLevel/manequin2", "sender_method": &"_ready", "listener_obj": &"AssaultRifle1", "listener_path": "/root/MainLevel/World/WeaponArea/WeaponAreaCollisionShape/AssaultRifle1", "listener_method": &"onWeaponPositionAdjusting", "args": ["Idle", ""], "time": "09:24:41", "date": "2026-07-29", "frame": 0, "ticks_msec": 5852, "frame_delta_ms": 0.0, "fps": 0.0 }
-[11:24:41.588] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 0 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"manequin2", "sender_path": "/root/MainLevel/manequin2", "sender_method": &"_ready", "listener_obj": &"MovementMode", "listener_path": "/root/MainLevel/HUD/MovementMode", "listener_method": &"on_MovementChanged", "args": ["Idle", ""], "time": "09:24:41", "date": "2026-07-29", "frame": 0, "ticks_msec": 5852, "frame_delta_ms": 0.0, "fps": 0.0 }
-[11:24:41.589] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 0 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"manequin2", "sender_path": "/root/MainLevel/manequin2", "sender_method": &"_ready", "listener_obj": &"DirectionMode", "listener_path": "/root/MainLevel/HUD/DirectionMode", "listener_method": &"on_MovementChanged", "args": ["Idle", ""], "time": "09:24:41", "date": "2026-07-29", "frame": 0, "ticks_msec": 5853, "frame_delta_ms": 0.0, "fps": 0.0 }
-[11:24:41.589] [INFO] [EventBus:<Node#81134618090>:103] FRAME : 0 :  : Emitting event : ( CameraMode_Changed ) CharacterBody3D(Manequin2Controller)::_ready
-[11:24:41.589] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 0 :  : Executing handler method : { "event": "CameraMode_Changed", "sender_obj": &"manequin2", "sender_path": "/root/MainLevel/manequin2", "sender_method": &"_ready", "listener_obj": &"CameraMode", "listener_path": "/root/MainLevel/HUD/CameraMode", "listener_method": &"on_cameraChanged", "args": "FULL", "time": "09:24:41", "date": "2026-07-29", "frame": 0, "ticks_msec": 5853, "frame_delta_ms": 0.0, "fps": 0.0 }
-[11:24:41.589] [INFO] [GameMode.gd:94] FRAME : 0 : manequin2:<CharacterBody3D#107239967006> Added to the scene ... 
-[11:24:41.589] [INFO] [GameInstance:<Node#81822484340>:164] FRAME : 0 : GameInstance Global timer started
-[11:24:41.589] [INFO] [GameMode.gd:54] FRAME : 0 :  Emitting TicToc event from GameMode ... 
-[11:24:41.589] [INFO] [GameInstance:<Node#81822484340>:170] FRAME : 0 : Emiting GameInstance Global timer event
-[11:24:41.589] [INFO] [EventBus:<Node#81134618090>:103] FRAME : 0 :  : Emitting event : ( Time_TicToc ) Node(GameInstance.gd)::_on_timer_timeout
-[11:24:41.589] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 0 :  : Executing handler method : { "event": "Time_TicToc", "sender_obj": &"GameInstance", "sender_path": "/root/GameInstance", "sender_method": &"_on_timer_timeout", "listener_obj": &"Hour", "listener_path": "/root/MainLevel/HUD/Hour", "listener_method": &"_showHour", "args": 0, "time": "09:24:41", "date": "2026-07-29", "frame": 0, "ticks_msec": 5853, "frame_delta_ms": 0.0, "fps": 0.0 }
-[11:24:41.589] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 0 :  : Executing handler method : { "event": "Time_TicToc", "sender_obj": &"GameInstance", "sender_path": "/root/GameInstance", "sender_method": &"_on_timer_timeout", "listener_obj": &"Count", "listener_path": "/root/MainLevel/HUD/Count", "listener_method": &"_showCount", "args": 0, "time": "09:24:41", "date": "2026-07-29", "frame": 0, "ticks_msec": 5853, "frame_delta_ms": 0.0, "fps": 0.0 }
-[11:24:41.589] [INFO] [GameMode.gd:57] FRAME : 0 : MainLevel Ready ... 
-[11:24:41.601] [INFO] [EventBus:<Node#81134618090>:103] FRAME : 0 :  : Emitting event : ( Movement_Changed ) AnimationTree(Manequin2AnimationsController)::_on_character_movement_component_movementStateChanged
-[11:24:41.601] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 0 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin2/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"AssaultRifle1", "listener_path": "/root/MainLevel/World/WeaponArea/WeaponAreaCollisionShape/AssaultRifle1", "listener_method": &"onWeaponPositionAdjusting", "args": ["Falling", ""], "time": "09:24:41", "date": "2026-07-29", "frame": 0, "ticks_msec": 5865, "frame_delta_ms": 0.0, "fps": 0.0 }
-[11:24:41.601] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 0 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin2/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"MovementMode", "listener_path": "/root/MainLevel/HUD/MovementMode", "listener_method": &"on_MovementChanged", "args": ["Falling", ""], "time": "09:24:41", "date": "2026-07-29", "frame": 0, "ticks_msec": 5865, "frame_delta_ms": 0.0, "fps": 0.0 }
-[11:24:41.602] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 0 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin2/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"DirectionMode", "listener_path": "/root/MainLevel/HUD/DirectionMode", "listener_method": &"on_MovementChanged", "args": ["Falling", ""], "time": "09:24:41", "date": "2026-07-29", "frame": 0, "ticks_msec": 5866, "frame_delta_ms": 0.0, "fps": 0.0 }
-[11:24:41.632] [INFO] [ConfigRender.gd:268] FRAME : 0 : [Render] Integrated or low VRAM. SDFGI: OFF 
-[11:24:41.632] [INFO] [EventBus:<Node#81134618090>:103] FRAME : 0 :  : Emitting event : ( GraphicProfile_Changed ) WorldEnvironment(world_environment.gd)::_configure_local_environment
-[11:24:41.632] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 0 :  : Executing handler method : { "event": "GraphicProfile_Changed", "sender_obj": &"WorldEnvironment", "sender_path": "/root/MainLevel/WorldEnvironment", "sender_method": &"_configure_local_environment", "listener_obj": &"GraphicProfile", "listener_path": "/root/MainLevel/HUD/GraphicProfile", "listener_method": &"on_graphicProfileChanged", "args": "LOW", "time": "09:24:41", "date": "2026-07-29", "frame": 0, "ticks_msec": 5896, "frame_delta_ms": 142.56, "fps": 7.0 }
-[11:24:41.632] [INFO] [world_environment.gd:88] FRAME : 0 : /root/MainLevel/WorldEnvironment Ready ... 
-[11:24:41.632] [INFO] [LevelManager:<Node#81906370424>:110] FRAME : 0 :  Set the First Level Loaded as MainLevel:<Node3D#103297320826>
-[11:24:41.632] [INFO] [LevelManager:<Node#81906370424>:112] FRAME : 0 :  Unhandled Input enabled MainLevel:<Node3D#103297320826>
-[11:24:41.632] [INFO] [LevelManager:<Node#81906370424>:80] FRAME : 0 :  Ready ... 
-[11:24:42.238] [INFO] [EventBus:<Node#81134618090>:103] FRAME : 52 :  : Emitting event : ( Movement_Changed ) AnimationTree(Manequin2AnimationsController)::_on_character_movement_component_movementStateChanged
-[11:24:42.238] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 52 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin2/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"AssaultRifle1", "listener_path": "/root/MainLevel/World/WeaponArea/WeaponAreaCollisionShape/AssaultRifle1", "listener_method": &"onWeaponPositionAdjusting", "args": ["", "None"], "time": "09:24:42", "date": "2026-07-29", "frame": 52, "ticks_msec": 6502, "frame_delta_ms": 8.15, "fps": 122.7 }
-[11:24:42.238] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 52 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin2/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"MovementMode", "listener_path": "/root/MainLevel/HUD/MovementMode", "listener_method": &"on_MovementChanged", "args": ["", "None"], "time": "09:24:42", "date": "2026-07-29", "frame": 52, "ticks_msec": 6502, "frame_delta_ms": 8.15, "fps": 122.7 }
-[11:24:42.238] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 52 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin2/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"DirectionMode", "listener_path": "/root/MainLevel/HUD/DirectionMode", "listener_method": &"on_MovementChanged", "args": ["", "None"], "time": "09:24:42", "date": "2026-07-29", "frame": 52, "ticks_msec": 6502, "frame_delta_ms": 8.15, "fps": 122.7 }
-[11:24:42.239] [INFO] [EventBus:<Node#81134618090>:103] FRAME : 52 :  : Emitting event : ( Movement_Changed ) AnimationTree(Manequin2AnimationsController)::_on_character_movement_component_movementStateChanged
-[11:24:42.239] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 52 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin2/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"AssaultRifle1", "listener_path": "/root/MainLevel/World/WeaponArea/WeaponAreaCollisionShape/AssaultRifle1", "listener_method": &"onWeaponPositionAdjusting", "args": ["Idle", ""], "time": "09:24:42", "date": "2026-07-29", "frame": 52, "ticks_msec": 6503, "frame_delta_ms": 8.15, "fps": 122.7 }
-[11:24:42.240] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 52 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin2/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"MovementMode", "listener_path": "/root/MainLevel/HUD/MovementMode", "listener_method": &"on_MovementChanged", "args": ["Idle", ""], "time": "09:24:42", "date": "2026-07-29", "frame": 52, "ticks_msec": 6504, "frame_delta_ms": 8.15, "fps": 122.7 }
-[11:24:42.241] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 52 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin2/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"DirectionMode", "listener_path": "/root/MainLevel/HUD/DirectionMode", "listener_method": &"on_MovementChanged", "args": ["Idle", ""], "time": "09:24:42", "date": "2026-07-29", "frame": 52, "ticks_msec": 6504, "frame_delta_ms": 8.15, "fps": 122.7 }
-[11:24:42.530] [INFO] [GameInstance:<Node#81822484340>:170] FRAME : 89 : Emiting GameInstance Global timer event
-[11:24:42.530] [INFO] [EventBus:<Node#81134618090>:103] FRAME : 89 :  : Emitting event : ( Time_TicToc ) Node(GameInstance.gd)::_on_timer_timeout
-[11:24:42.531] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 89 :  : Executing handler method : { "event": "Time_TicToc", "sender_obj": &"GameInstance", "sender_path": "/root/GameInstance", "sender_method": &"_on_timer_timeout", "listener_obj": &"Hour", "listener_path": "/root/MainLevel/HUD/Hour", "listener_method": &"_showHour", "args": 1, "time": "09:24:42", "date": "2026-07-29", "frame": 89, "ticks_msec": 6795, "frame_delta_ms": 7.58, "fps": 132.0 }
-[11:24:42.531] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 89 :  : Executing handler method : { "event": "Time_TicToc", "sender_obj": &"GameInstance", "sender_path": "/root/GameInstance", "sender_method": &"_on_timer_timeout", "listener_obj": &"Count", "listener_path": "/root/MainLevel/HUD/Count", "listener_method": &"_showCount", "args": 1, "time": "09:24:42", "date": "2026-07-29", "frame": 89, "ticks_msec": 6795, "frame_delta_ms": 7.58, "fps": 132.0 }
-[11:24:43.179] [INFO] [EventBus:<Node#81134618090>:103] FRAME : 171 :  : Emitting event : ( Movement_Changed ) AnimationTree(Manequin2AnimationsController)::_on_character_movement_component_movementStateChanged
-[11:24:43.179] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 171 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin2/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"AssaultRifle1", "listener_path": "/root/MainLevel/World/WeaponArea/WeaponAreaCollisionShape/AssaultRifle1", "listener_method": &"onWeaponPositionAdjusting", "args": ["", "Forward"], "time": "09:24:43", "date": "2026-07-29", "frame": 171, "ticks_msec": 7443, "frame_delta_ms": 8.33, "fps": 120.0 }
-[11:24:43.179] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 171 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin2/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"MovementMode", "listener_path": "/root/MainLevel/HUD/MovementMode", "listener_method": &"on_MovementChanged", "args": ["", "Forward"], "time": "09:24:43", "date": "2026-07-29", "frame": 171, "ticks_msec": 7443, "frame_delta_ms": 8.33, "fps": 120.0 }
-[11:24:43.179] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 171 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin2/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"DirectionMode", "listener_path": "/root/MainLevel/HUD/DirectionMode", "listener_method": &"on_MovementChanged", "args": ["", "Forward"], "time": "09:24:43", "date": "2026-07-29", "frame": 171, "ticks_msec": 7443, "frame_delta_ms": 8.33, "fps": 120.0 }
-[11:24:43.179] [INFO] [EventBus:<Node#81134618090>:103] FRAME : 171 :  : Emitting event : ( Movement_Changed ) AnimationTree(Manequin2AnimationsController)::_on_character_movement_component_movementStateChanged
-[11:24:43.179] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 171 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin2/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"AssaultRifle1", "listener_path": "/root/MainLevel/World/WeaponArea/WeaponAreaCollisionShape/AssaultRifle1", "listener_method": &"onWeaponPositionAdjusting", "args": ["Runing", ""], "time": "09:24:43", "date": "2026-07-29", "frame": 171, "ticks_msec": 7443, "frame_delta_ms": 8.33, "fps": 120.0 }
-[11:24:43.179] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 171 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin2/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"MovementMode", "listener_path": "/root/MainLevel/HUD/MovementMode", "listener_method": &"on_MovementChanged", "args": ["Runing", ""], "time": "09:24:43", "date": "2026-07-29", "frame": 171, "ticks_msec": 7443, "frame_delta_ms": 8.33, "fps": 120.0 }
-[11:24:43.179] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 171 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin2/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"DirectionMode", "listener_path": "/root/MainLevel/HUD/DirectionMode", "listener_method": &"on_MovementChanged", "args": ["Runing", ""], "time": "09:24:43", "date": "2026-07-29", "frame": 171, "ticks_msec": 7443, "frame_delta_ms": 8.33, "fps": 120.0 }
-[11:24:43.530] [INFO] [GameInstance:<Node#81822484340>:170] FRAME : 215 : Emiting GameInstance Global timer event
-[11:24:43.531] [INFO] [EventBus:<Node#81134618090>:103] FRAME : 215 :  : Emitting event : ( Time_TicToc ) Node(GameInstance.gd)::_on_timer_timeout
-[11:24:43.531] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 215 :  : Executing handler method : { "event": "Time_TicToc", "sender_obj": &"GameInstance", "sender_path": "/root/GameInstance", "sender_method": &"_on_timer_timeout", "listener_obj": &"Hour", "listener_path": "/root/MainLevel/HUD/Hour", "listener_method": &"_showHour", "args": 2, "time": "09:24:43", "date": "2026-07-29", "frame": 215, "ticks_msec": 7795, "frame_delta_ms": 7.58, "fps": 132.0 }
-[11:24:43.531] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 215 :  : Executing handler method : { "event": "Time_TicToc", "sender_obj": &"GameInstance", "sender_path": "/root/GameInstance", "sender_method": &"_on_timer_timeout", "listener_obj": &"Count", "listener_path": "/root/MainLevel/HUD/Count", "listener_method": &"_showCount", "args": 2, "time": "09:24:43", "date": "2026-07-29", "frame": 215, "ticks_msec": 7795, "frame_delta_ms": 7.58, "fps": 132.0 }
-[11:24:44.537] [INFO] [GameInstance:<Node#81822484340>:170] FRAME : 338 : Emiting GameInstance Global timer event
-[11:24:44.537] [INFO] [EventBus:<Node#81134618090>:103] FRAME : 338 :  : Emitting event : ( Time_TicToc ) Node(GameInstance.gd)::_on_timer_timeout
-[11:24:44.537] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 338 :  : Executing handler method : { "event": "Time_TicToc", "sender_obj": &"GameInstance", "sender_path": "/root/GameInstance", "sender_method": &"_on_timer_timeout", "listener_obj": &"Hour", "listener_path": "/root/MainLevel/HUD/Hour", "listener_method": &"_showHour", "args": 3, "time": "09:24:44", "date": "2026-07-29", "frame": 338, "ticks_msec": 8801, "frame_delta_ms": 8.33, "fps": 120.0 }
-[11:24:44.537] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 338 :  : Executing handler method : { "event": "Time_TicToc", "sender_obj": &"GameInstance", "sender_path": "/root/GameInstance", "sender_method": &"_on_timer_timeout", "listener_obj": &"Count", "listener_path": "/root/MainLevel/HUD/Count", "listener_method": &"_showCount", "args": 3, "time": "09:24:44", "date": "2026-07-29", "frame": 338, "ticks_msec": 8802, "frame_delta_ms": 8.33, "fps": 120.0 }
-[11:24:45.522] [INFO] [GameInstance:<Node#81822484340>:170] FRAME : 455 : Emiting GameInstance Global timer event
-[11:24:45.522] [INFO] [EventBus:<Node#81134618090>:103] FRAME : 455 :  : Emitting event : ( Time_TicToc ) Node(GameInstance.gd)::_on_timer_timeout
-[11:24:45.522] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 455 :  : Executing handler method : { "event": "Time_TicToc", "sender_obj": &"GameInstance", "sender_path": "/root/GameInstance", "sender_method": &"_on_timer_timeout", "listener_obj": &"Hour", "listener_path": "/root/MainLevel/HUD/Hour", "listener_method": &"_showHour", "args": 4, "time": "09:24:45", "date": "2026-07-29", "frame": 455, "ticks_msec": 9786, "frame_delta_ms": 8.33, "fps": 120.0 }
-[11:24:45.522] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 455 :  : Executing handler method : { "event": "Time_TicToc", "sender_obj": &"GameInstance", "sender_path": "/root/GameInstance", "sender_method": &"_on_timer_timeout", "listener_obj": &"Count", "listener_path": "/root/MainLevel/HUD/Count", "listener_method": &"_showCount", "args": 4, "time": "09:24:45", "date": "2026-07-29", "frame": 455, "ticks_msec": 9786, "frame_delta_ms": 8.33, "fps": 120.0 }
-[11:24:46.529] [INFO] [GameInstance:<Node#81822484340>:170] FRAME : 577 : Emiting GameInstance Global timer event
-[11:24:46.529] [INFO] [EventBus:<Node#81134618090>:103] FRAME : 577 :  : Emitting event : ( Time_TicToc ) Node(GameInstance.gd)::_on_timer_timeout
-[11:24:46.530] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 577 :  : Executing handler method : { "event": "Time_TicToc", "sender_obj": &"GameInstance", "sender_path": "/root/GameInstance", "sender_method": &"_on_timer_timeout", "listener_obj": &"Hour", "listener_path": "/root/MainLevel/HUD/Hour", "listener_method": &"_showHour", "args": 5, "time": "09:24:46", "date": "2026-07-29", "frame": 577, "ticks_msec": 10794, "frame_delta_ms": 8.33, "fps": 120.0 }
-[11:24:46.530] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 577 :  : Executing handler method : { "event": "Time_TicToc", "sender_obj": &"GameInstance", "sender_path": "/root/GameInstance", "sender_method": &"_on_timer_timeout", "listener_obj": &"Count", "listener_path": "/root/MainLevel/HUD/Count", "listener_method": &"_showCount", "args": 5, "time": "09:24:46", "date": "2026-07-29", "frame": 577, "ticks_msec": 10794, "frame_delta_ms": 8.33, "fps": 120.0 }
-[11:24:46.984] [INFO] [EventBus:<Node#81134618090>:182] FRAME : 631 :  : Listener : Area3D(AssaultRifle)::onWeaponPositionAdjusting exist in event Movement_Changed ? true
-[11:24:46.984] [INFO] [weapon.gd:12] FRAME : 631 : /root/MainLevel/manequin2/Armature/Skeleton3D/Bone/AssaultRifle1 Instantiated ... AssaultRifle1:<Area3D#105209923785>
-[11:24:46.984] [INFO] [EventBus:<Node#81134618090>:103] FRAME : 631 :  : Emitting event : ( Movement_Changed ) AnimationTree(Manequin2AnimationsController)::_on_character_movement_component_movementStateChanged
-[11:24:46.984] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 631 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin2/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"AssaultRifle1", "listener_path": "/root/MainLevel/manequin2/Armature/Skeleton3D/Bone/AssaultRifle1", "listener_method": &"onWeaponPositionAdjusting", "args": ["Runing", ""], "time": "09:24:46", "date": "2026-07-29", "frame": 631, "ticks_msec": 11248, "frame_delta_ms": 8.33, "fps": 120.0 }
-[11:24:46.984] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 631 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin2/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"MovementMode", "listener_path": "/root/MainLevel/HUD/MovementMode", "listener_method": &"on_MovementChanged", "args": ["Runing", ""], "time": "09:24:46", "date": "2026-07-29", "frame": 631, "ticks_msec": 11248, "frame_delta_ms": 8.33, "fps": 120.0 }
-[11:24:46.984] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 631 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin2/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"DirectionMode", "listener_path": "/root/MainLevel/HUD/DirectionMode", "listener_method": &"on_MovementChanged", "args": ["Runing", ""], "time": "09:24:46", "date": "2026-07-29", "frame": 631, "ticks_msec": 11248, "frame_delta_ms": 8.33, "fps": 120.0 }
-[11:24:46.984] [INFO] [EventBus:<Node#81134618090>:103] FRAME : 631 :  : Emitting event : ( Movement_Changed ) Area3D(area3d.gd)::_on_body_entered
-[11:24:46.985] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 631 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"WeaponArea", "sender_path": "/root/MainLevel/World/WeaponArea", "sender_method": &"_on_body_entered", "listener_obj": &"AssaultRifle1", "listener_path": "/root/MainLevel/manequin2/Armature/Skeleton3D/Bone/AssaultRifle1", "listener_method": &"onWeaponPositionAdjusting", "args": ["Runing", ""], "time": "09:24:46", "date": "2026-07-29", "frame": 631, "ticks_msec": 11249, "frame_delta_ms": 8.33, "fps": 120.0 }
-[11:24:46.985] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 631 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"WeaponArea", "sender_path": "/root/MainLevel/World/WeaponArea", "sender_method": &"_on_body_entered", "listener_obj": &"MovementMode", "listener_path": "/root/MainLevel/HUD/MovementMode", "listener_method": &"on_MovementChanged", "args": ["Runing", ""], "time": "09:24:46", "date": "2026-07-29", "frame": 631, "ticks_msec": 11249, "frame_delta_ms": 8.33, "fps": 120.0 }
-[11:24:46.985] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 631 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"WeaponArea", "sender_path": "/root/MainLevel/World/WeaponArea", "sender_method": &"_on_body_entered", "listener_obj": &"DirectionMode", "listener_path": "/root/MainLevel/HUD/DirectionMode", "listener_method": &"on_MovementChanged", "args": ["Runing", ""], "time": "09:24:46", "date": "2026-07-29", "frame": 631, "ticks_msec": 11249, "frame_delta_ms": 8.33, "fps": 120.0 }
-[11:24:47.439] [INFO] [EventBus:<Node#81134618090>:103] FRAME : 685 :  : Emitting event : ( Movement_Changed ) AnimationTree(Manequin2AnimationsController)::_on_character_movement_component_movementStateChanged
-[11:24:47.440] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 685 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin2/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"AssaultRifle1", "listener_path": "/root/MainLevel/manequin2/Armature/Skeleton3D/Bone/AssaultRifle1", "listener_method": &"onWeaponPositionAdjusting", "args": ["", "Straif Left"], "time": "09:24:47", "date": "2026-07-29", "frame": 685, "ticks_msec": 11704, "frame_delta_ms": 8.33, "fps": 120.0 }
-[11:24:47.440] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 685 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin2/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"MovementMode", "listener_path": "/root/MainLevel/HUD/MovementMode", "listener_method": &"on_MovementChanged", "args": ["", "Straif Left"], "time": "09:24:47", "date": "2026-07-29", "frame": 685, "ticks_msec": 11704, "frame_delta_ms": 8.33, "fps": 120.0 }
-[11:24:47.440] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 685 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin2/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"DirectionMode", "listener_path": "/root/MainLevel/HUD/DirectionMode", "listener_method": &"on_MovementChanged", "args": ["", "Straif Left"], "time": "09:24:47", "date": "2026-07-29", "frame": 685, "ticks_msec": 11704, "frame_delta_ms": 8.33, "fps": 120.0 }
-[11:24:47.538] [INFO] [GameInstance:<Node#81822484340>:170] FRAME : 697 : Emiting GameInstance Global timer event
-[11:24:47.538] [INFO] [EventBus:<Node#81134618090>:103] FRAME : 697 :  : Emitting event : ( Time_TicToc ) Node(GameInstance.gd)::_on_timer_timeout
-[11:24:47.538] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 697 :  : Executing handler method : { "event": "Time_TicToc", "sender_obj": &"GameInstance", "sender_path": "/root/GameInstance", "sender_method": &"_on_timer_timeout", "listener_obj": &"Hour", "listener_path": "/root/MainLevel/HUD/Hour", "listener_method": &"_showHour", "args": 6, "time": "09:24:47", "date": "2026-07-29", "frame": 697, "ticks_msec": 11802, "frame_delta_ms": 8.33, "fps": 120.0 }
-[11:24:47.538] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 697 :  : Executing handler method : { "event": "Time_TicToc", "sender_obj": &"GameInstance", "sender_path": "/root/GameInstance", "sender_method": &"_on_timer_timeout", "listener_obj": &"Count", "listener_path": "/root/MainLevel/HUD/Count", "listener_method": &"_showCount", "args": 6, "time": "09:24:47", "date": "2026-07-29", "frame": 697, "ticks_msec": 11802, "frame_delta_ms": 8.33, "fps": 120.0 }
-[11:24:48.526] [INFO] [GameInstance:<Node#81822484340>:170] FRAME : 813 : Emiting GameInstance Global timer event
-[11:24:48.526] [INFO] [EventBus:<Node#81134618090>:103] FRAME : 813 :  : Emitting event : ( Time_TicToc ) Node(GameInstance.gd)::_on_timer_timeout
-[11:24:48.526] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 813 :  : Executing handler method : { "event": "Time_TicToc", "sender_obj": &"GameInstance", "sender_path": "/root/GameInstance", "sender_method": &"_on_timer_timeout", "listener_obj": &"Hour", "listener_path": "/root/MainLevel/HUD/Hour", "listener_method": &"_showHour", "args": 7, "time": "09:24:48", "date": "2026-07-29", "frame": 813, "ticks_msec": 12790, "frame_delta_ms": 8.33, "fps": 120.0 }
-[11:24:48.526] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 813 :  : Executing handler method : { "event": "Time_TicToc", "sender_obj": &"GameInstance", "sender_path": "/root/GameInstance", "sender_method": &"_on_timer_timeout", "listener_obj": &"Count", "listener_path": "/root/MainLevel/HUD/Count", "listener_method": &"_showCount", "args": 7, "time": "09:24:48", "date": "2026-07-29", "frame": 813, "ticks_msec": 12790, "frame_delta_ms": 8.33, "fps": 120.0 }
-[11:24:49.262] [INFO] [EventBus:<Node#81134618090>:103] FRAME : 899 :  : Emitting event : ( Movement_Changed ) AnimationTree(Manequin2AnimationsController)::_on_character_movement_component_movementStateChanged
-[11:24:49.263] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 899 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin2/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"AssaultRifle1", "listener_path": "/root/MainLevel/manequin2/Armature/Skeleton3D/Bone/AssaultRifle1", "listener_method": &"onWeaponPositionAdjusting", "args": ["", "None"], "time": "09:24:49", "date": "2026-07-29", "frame": 899, "ticks_msec": 13527, "frame_delta_ms": 8.33, "fps": 120.0 }
-[11:24:49.263] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 899 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin2/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"MovementMode", "listener_path": "/root/MainLevel/HUD/MovementMode", "listener_method": &"on_MovementChanged", "args": ["", "None"], "time": "09:24:49", "date": "2026-07-29", "frame": 899, "ticks_msec": 13527, "frame_delta_ms": 8.33, "fps": 120.0 }
-[11:24:49.263] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 899 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin2/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"DirectionMode", "listener_path": "/root/MainLevel/HUD/DirectionMode", "listener_method": &"on_MovementChanged", "args": ["", "None"], "time": "09:24:49", "date": "2026-07-29", "frame": 899, "ticks_msec": 13527, "frame_delta_ms": 8.33, "fps": 120.0 }
-[11:24:49.263] [INFO] [EventBus:<Node#81134618090>:103] FRAME : 899 :  : Emitting event : ( Movement_Changed ) AnimationTree(Manequin2AnimationsController)::_on_character_movement_component_movementStateChanged
-[11:24:49.263] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 899 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin2/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"AssaultRifle1", "listener_path": "/root/MainLevel/manequin2/Armature/Skeleton3D/Bone/AssaultRifle1", "listener_method": &"onWeaponPositionAdjusting", "args": ["Idle", ""], "time": "09:24:49", "date": "2026-07-29", "frame": 899, "ticks_msec": 13527, "frame_delta_ms": 8.33, "fps": 120.0 }
-[11:24:49.263] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 899 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin2/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"MovementMode", "listener_path": "/root/MainLevel/HUD/MovementMode", "listener_method": &"on_MovementChanged", "args": ["Idle", ""], "time": "09:24:49", "date": "2026-07-29", "frame": 899, "ticks_msec": 13527, "frame_delta_ms": 8.33, "fps": 120.0 }
-[11:24:49.263] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 899 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin2/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"DirectionMode", "listener_path": "/root/MainLevel/HUD/DirectionMode", "listener_method": &"on_MovementChanged", "args": ["Idle", ""], "time": "09:24:49", "date": "2026-07-29", "frame": 899, "ticks_msec": 13527, "frame_delta_ms": 8.33, "fps": 120.0 }
-[11:24:49.524] [INFO] [GameInstance:<Node#81822484340>:170] FRAME : 930 : Emiting GameInstance Global timer event
-[11:24:49.524] [INFO] [EventBus:<Node#81134618090>:103] FRAME : 930 :  : Emitting event : ( Time_TicToc ) Node(GameInstance.gd)::_on_timer_timeout
-[11:24:49.524] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 930 :  : Executing handler method : { "event": "Time_TicToc", "sender_obj": &"GameInstance", "sender_path": "/root/GameInstance", "sender_method": &"_on_timer_timeout", "listener_obj": &"Hour", "listener_path": "/root/MainLevel/HUD/Hour", "listener_method": &"_showHour", "args": 8, "time": "09:24:49", "date": "2026-07-29", "frame": 930, "ticks_msec": 13788, "frame_delta_ms": 8.33, "fps": 120.0 }
-[11:24:49.524] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 930 :  : Executing handler method : { "event": "Time_TicToc", "sender_obj": &"GameInstance", "sender_path": "/root/GameInstance", "sender_method": &"_on_timer_timeout", "listener_obj": &"Count", "listener_path": "/root/MainLevel/HUD/Count", "listener_method": &"_showCount", "args": 8, "time": "09:24:49", "date": "2026-07-29", "frame": 930, "ticks_msec": 13788, "frame_delta_ms": 8.33, "fps": 120.0 }
-[11:24:50.011] [INFO] [EventBus:<Node#81134618090>:103] FRAME : 988 :  : Emitting event : ( Movement_Changed ) AnimationTree(Manequin2AnimationsController)::_on_character_movement_component_movementStateChanged
-[11:24:50.011] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 988 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin2/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"AssaultRifle1", "listener_path": "/root/MainLevel/manequin2/Armature/Skeleton3D/Bone/AssaultRifle1", "listener_method": &"onWeaponPositionAdjusting", "args": ["", "Straif Right"], "time": "09:24:50", "date": "2026-07-29", "frame": 988, "ticks_msec": 14275, "frame_delta_ms": 8.33, "fps": 120.0 }
-[11:24:50.012] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 988 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin2/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"MovementMode", "listener_path": "/root/MainLevel/HUD/MovementMode", "listener_method": &"on_MovementChanged", "args": ["", "Straif Right"], "time": "09:24:50", "date": "2026-07-29", "frame": 988, "ticks_msec": 14276, "frame_delta_ms": 8.33, "fps": 120.0 }
-[11:24:50.012] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 988 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin2/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"DirectionMode", "listener_path": "/root/MainLevel/HUD/DirectionMode", "listener_method": &"on_MovementChanged", "args": ["", "Straif Right"], "time": "09:24:50", "date": "2026-07-29", "frame": 988, "ticks_msec": 14276, "frame_delta_ms": 8.33, "fps": 120.0 }
-[11:24:50.012] [INFO] [EventBus:<Node#81134618090>:103] FRAME : 988 :  : Emitting event : ( Movement_Changed ) AnimationTree(Manequin2AnimationsController)::_on_character_movement_component_movementStateChanged
-[11:24:50.012] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 988 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin2/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"AssaultRifle1", "listener_path": "/root/MainLevel/manequin2/Armature/Skeleton3D/Bone/AssaultRifle1", "listener_method": &"onWeaponPositionAdjusting", "args": ["Runing", ""], "time": "09:24:50", "date": "2026-07-29", "frame": 988, "ticks_msec": 14276, "frame_delta_ms": 8.33, "fps": 120.0 }
-[11:24:50.012] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 988 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin2/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"MovementMode", "listener_path": "/root/MainLevel/HUD/MovementMode", "listener_method": &"on_MovementChanged", "args": ["Runing", ""], "time": "09:24:50", "date": "2026-07-29", "frame": 988, "ticks_msec": 14276, "frame_delta_ms": 8.33, "fps": 120.0 }
-[11:24:50.012] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 988 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin2/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"DirectionMode", "listener_path": "/root/MainLevel/HUD/DirectionMode", "listener_method": &"on_MovementChanged", "args": ["Runing", ""], "time": "09:24:50", "date": "2026-07-29", "frame": 988, "ticks_msec": 14276, "frame_delta_ms": 8.33, "fps": 120.0 }
-[11:24:50.529] [INFO] [GameInstance:<Node#81822484340>:170] FRAME : 1050 : Emiting GameInstance Global timer event
-[11:24:50.529] [INFO] [EventBus:<Node#81134618090>:103] FRAME : 1050 :  : Emitting event : ( Time_TicToc ) Node(GameInstance.gd)::_on_timer_timeout
-[11:24:50.529] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 1050 :  : Executing handler method : { "event": "Time_TicToc", "sender_obj": &"GameInstance", "sender_path": "/root/GameInstance", "sender_method": &"_on_timer_timeout", "listener_obj": &"Hour", "listener_path": "/root/MainLevel/HUD/Hour", "listener_method": &"_showHour", "args": 9, "time": "09:24:50", "date": "2026-07-29", "frame": 1050, "ticks_msec": 14794, "frame_delta_ms": 8.33, "fps": 120.0 }
-[11:24:50.530] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 1050 :  : Executing handler method : { "event": "Time_TicToc", "sender_obj": &"GameInstance", "sender_path": "/root/GameInstance", "sender_method": &"_on_timer_timeout", "listener_obj": &"Count", "listener_path": "/root/MainLevel/HUD/Count", "listener_method": &"_showCount", "args": 9, "time": "09:24:50", "date": "2026-07-29", "frame": 1050, "ticks_msec": 14794, "frame_delta_ms": 8.33, "fps": 120.0 }
-[11:24:51.529] [INFO] [GameInstance:<Node#81822484340>:170] FRAME : 1168 : Emiting GameInstance Global timer event
-[11:24:51.529] [INFO] [EventBus:<Node#81134618090>:103] FRAME : 1168 :  : Emitting event : ( Time_TicToc ) Node(GameInstance.gd)::_on_timer_timeout
-[11:24:51.529] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 1168 :  : Executing handler method : { "event": "Time_TicToc", "sender_obj": &"GameInstance", "sender_path": "/root/GameInstance", "sender_method": &"_on_timer_timeout", "listener_obj": &"Hour", "listener_path": "/root/MainLevel/HUD/Hour", "listener_method": &"_showHour", "args": 10, "time": "09:24:51", "date": "2026-07-29", "frame": 1168, "ticks_msec": 15793, "frame_delta_ms": 9.09, "fps": 110.0 }
-[11:24:51.530] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 1168 :  : Executing handler method : { "event": "Time_TicToc", "sender_obj": &"GameInstance", "sender_path": "/root/GameInstance", "sender_method": &"_on_timer_timeout", "listener_obj": &"Count", "listener_path": "/root/MainLevel/HUD/Count", "listener_method": &"_showCount", "args": 10, "time": "09:24:51", "date": "2026-07-29", "frame": 1168, "ticks_msec": 15794, "frame_delta_ms": 9.09, "fps": 110.0 }
-[11:24:52.528] [INFO] [GameInstance:<Node#81822484340>:170] FRAME : 1287 : Emiting GameInstance Global timer event
-[11:24:52.528] [INFO] [EventBus:<Node#81134618090>:103] FRAME : 1287 :  : Emitting event : ( Time_TicToc ) Node(GameInstance.gd)::_on_timer_timeout
-[11:24:52.528] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 1287 :  : Executing handler method : { "event": "Time_TicToc", "sender_obj": &"GameInstance", "sender_path": "/root/GameInstance", "sender_method": &"_on_timer_timeout", "listener_obj": &"Hour", "listener_path": "/root/MainLevel/HUD/Hour", "listener_method": &"_showHour", "args": 11, "time": "09:24:52", "date": "2026-07-29", "frame": 1287, "ticks_msec": 16792, "frame_delta_ms": 8.33, "fps": 120.0 }
-[11:24:52.528] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 1287 :  : Executing handler method : { "event": "Time_TicToc", "sender_obj": &"GameInstance", "sender_path": "/root/GameInstance", "sender_method": &"_on_timer_timeout", "listener_obj": &"Count", "listener_path": "/root/MainLevel/HUD/Count", "listener_method": &"_showCount", "args": 11, "time": "09:24:52", "date": "2026-07-29", "frame": 1287, "ticks_msec": 16792, "frame_delta_ms": 8.33, "fps": 120.0 }
-[11:24:53.329] [INFO] [EventBus:<Node#81134618090>:103] FRAME : 1382 :  : Emitting event : ( Movement_Changed ) AnimationTree(Manequin2AnimationsController)::_on_character_movement_component_movementStateChanged
-[11:24:53.329] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 1382 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin2/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"AssaultRifle1", "listener_path": "/root/MainLevel/manequin2/Armature/Skeleton3D/Bone/AssaultRifle1", "listener_method": &"onWeaponPositionAdjusting", "args": ["", "None"], "time": "09:24:53", "date": "2026-07-29", "frame": 1382, "ticks_msec": 17593, "frame_delta_ms": 9.09, "fps": 110.0 }
-[11:24:53.329] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 1382 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin2/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"MovementMode", "listener_path": "/root/MainLevel/HUD/MovementMode", "listener_method": &"on_MovementChanged", "args": ["", "None"], "time": "09:24:53", "date": "2026-07-29", "frame": 1382, "ticks_msec": 17593, "frame_delta_ms": 9.09, "fps": 110.0 }
-[11:24:53.329] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 1382 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin2/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"DirectionMode", "listener_path": "/root/MainLevel/HUD/DirectionMode", "listener_method": &"on_MovementChanged", "args": ["", "None"], "time": "09:24:53", "date": "2026-07-29", "frame": 1382, "ticks_msec": 17593, "frame_delta_ms": 9.09, "fps": 110.0 }
-[11:24:53.329] [INFO] [EventBus:<Node#81134618090>:103] FRAME : 1382 :  : Emitting event : ( Movement_Changed ) AnimationTree(Manequin2AnimationsController)::_on_character_movement_component_movementStateChanged
-[11:24:53.329] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 1382 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin2/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"AssaultRifle1", "listener_path": "/root/MainLevel/manequin2/Armature/Skeleton3D/Bone/AssaultRifle1", "listener_method": &"onWeaponPositionAdjusting", "args": ["Idle", ""], "time": "09:24:53", "date": "2026-07-29", "frame": 1382, "ticks_msec": 17593, "frame_delta_ms": 9.09, "fps": 110.0 }
-[11:24:53.329] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 1382 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin2/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"MovementMode", "listener_path": "/root/MainLevel/HUD/MovementMode", "listener_method": &"on_MovementChanged", "args": ["Idle", ""], "time": "09:24:53", "date": "2026-07-29", "frame": 1382, "ticks_msec": 17593, "frame_delta_ms": 9.09, "fps": 110.0 }
-[11:24:53.329] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 1382 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin2/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"DirectionMode", "listener_path": "/root/MainLevel/HUD/DirectionMode", "listener_method": &"on_MovementChanged", "args": ["Idle", ""], "time": "09:24:53", "date": "2026-07-29", "frame": 1382, "ticks_msec": 17593, "frame_delta_ms": 9.09, "fps": 110.0 }
-[11:24:53.531] [INFO] [GameInstance:<Node#81822484340>:170] FRAME : 1406 : Emiting GameInstance Global timer event
-[11:24:53.531] [INFO] [EventBus:<Node#81134618090>:103] FRAME : 1406 :  : Emitting event : ( Time_TicToc ) Node(GameInstance.gd)::_on_timer_timeout
-[11:24:53.531] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 1406 :  : Executing handler method : { "event": "Time_TicToc", "sender_obj": &"GameInstance", "sender_path": "/root/GameInstance", "sender_method": &"_on_timer_timeout", "listener_obj": &"Hour", "listener_path": "/root/MainLevel/HUD/Hour", "listener_method": &"_showHour", "args": 12, "time": "09:24:53", "date": "2026-07-29", "frame": 1406, "ticks_msec": 17795, "frame_delta_ms": 8.33, "fps": 120.0 }
-[11:24:53.532] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 1406 :  : Executing handler method : { "event": "Time_TicToc", "sender_obj": &"GameInstance", "sender_path": "/root/GameInstance", "sender_method": &"_on_timer_timeout", "listener_obj": &"Count", "listener_path": "/root/MainLevel/HUD/Count", "listener_method": &"_showCount", "args": 12, "time": "09:24:53", "date": "2026-07-29", "frame": 1406, "ticks_msec": 17796, "frame_delta_ms": 8.33, "fps": 120.0 }
-[11:24:54.527] [INFO] [GameInstance:<Node#81822484340>:170] FRAME : 1524 : Emiting GameInstance Global timer event
-[11:24:54.527] [INFO] [EventBus:<Node#81134618090>:103] FRAME : 1524 :  : Emitting event : ( Time_TicToc ) Node(GameInstance.gd)::_on_timer_timeout
-[11:24:54.527] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 1524 :  : Executing handler method : { "event": "Time_TicToc", "sender_obj": &"GameInstance", "sender_path": "/root/GameInstance", "sender_method": &"_on_timer_timeout", "listener_obj": &"Hour", "listener_path": "/root/MainLevel/HUD/Hour", "listener_method": &"_showHour", "args": 13, "time": "09:24:54", "date": "2026-07-29", "frame": 1524, "ticks_msec": 18791, "frame_delta_ms": 8.33, "fps": 120.0 }
-[11:24:54.527] [INFO] [EventBus:<Node#81134618090>:162] FRAME : 1524 :  : Executing handler method : { "event": "Time_TicToc", "sender_obj": &"GameInstance", "sender_path": "/root/GameInstance", "sender_method": &"_on_timer_timeout", "listener_obj": &"Count", "listener_path": "/root/MainLevel/HUD/Count", "listener_method": &"_showCount", "args": 13, "time": "09:24:54", "date": "2026-07-29", "frame": 1524, "ticks_msec": 18791, "frame_delta_ms": 8.33, "fps": 120.0 }
-[11:24:54.741] [INFO] [GameInstance:<Node#81822484340>:273] FRAME : 1550 : Pressed ESC key
-[11:24:54.741] [INFO] [GameInstance:<Node#81822484340>:286] FRAME : 1550 : Safe quitting...
-[11:24:54.742] [INFO] [GameInstance:<Node#81822484340>:60] FRAME : 1550 : Exiting...
-[11:24:54.742] [INFO] [GameInstance:<Node#81822484340>:65] FRAME : 1550 : Active prefab released with queue_free: brian:<CharacterBody3D#105981675566>
-[11:24:54.742] [INFO] [GameInstance:<Node#81822484340>:65] FRAME : 1550 : Active prefab released with queue_free: man:<CharacterBody3D#106350774515>
-[11:24:54.742] [INFO] [GameInstance:<Node#81822484340>:65] FRAME : 1550 : Active prefab released with queue_free: manequin1:<CharacterBody3D#106921199883>
-[11:24:54.742] [INFO] [GameInstance:<Node#81822484340>:65] FRAME : 1550 : Active prefab released with queue_free: manequin2:<CharacterBody3D#107239967006>
-[11:24:54.742] [INFO] [GameInstance:<Node#81822484340>:65] FRAME : 1550 : Active prefab released with queue_free: remi:<CharacterBody3D#107558734129>
-[11:24:54.742] [INFO] [GameInstance:<Node#81822484340>:68] FRAME : 1550 : The prefabs dictionary is cleared...
-[11:24:54.742] [INFO] [GameInstance:<Node#81822484340>:71] FRAME : 1550 : The GameInstance Timer is queue_free and set to null for avoiding memory leak : 
-[11:24:54.742] [INFO] [GameInstance:<Node#81822484340>:80] FRAME : 1550 : The _materials and _meshes dictionaries are cleared...
-[11:24:54.742] [INFO] [GameInstance:<Node#81822484340>:85] FRAME : 1550 : Notification sent to :EventBus
-[11:24:54.742] [INFO] [EventBus:<Node#81134618090>:189] FRAME : 1550 :  Cleared the listeners dictionary
-[11:24:54.743] [INFO] [EventBus:<Node#81134618090>:209] FRAME : 1550 :  Printing the historical list of events that have taken place:
+[10:57:15.441] [INFO] [EventBus:<Node#88650810858>:51] FRAME : 0 :  Instantiated ... 
+[10:57:15.445] [INFO] [GameInstance:<Node#89338677109>:96] FRAME : 0 :  Checked the success of MyLogger existence ... 
+[10:57:15.445] [INFO] [GameInstance:<Node#89338677109>:106] FRAME : 0 :  Instantiated ... 
+[10:57:15.445] [INFO] [LevelManager:<Node#89422563193>:31] FRAME : 0 :  Checked the success of MyLogger existence ... 
+[10:57:15.445] [INFO] [LevelManager:<Node#89422563193>:46] FRAME : 0 :  Instantiated ... 
+[10:57:15.464] [INFO] [GameMode.gd:21] FRAME : 0 : MainLevel Instantiated ... 
+[10:57:15.467] [INFO] [area3d.gd:7] FRAME : 0 : /root/MainLevel/World/WeaponArea Instantiated ... 
+[10:57:15.467] [INFO] [EventBus:<Node#88650810858>:182] FRAME : 0 :  : Listener : Area3D(AssaultRifle)::onWeaponPositionAdjusting exist in event Movement_Changed ? false
+[10:57:15.468] [INFO] [EventBus:<Node#88650810858>:76] FRAME : 0 :  : Subscribed listener '{ "object_name": &"AssaultRifle1", "method_name": &"onWeaponPositionAdjusting" }' to event 'Movement_Changed'.
+[10:57:15.468] [INFO] [weapon.gd:12] FRAME : 0 : /root/MainLevel/World/WeaponArea/WeaponAreaCollisionShape/AssaultRifle1 Instantiated ... AssaultRifle1:<Area3D#117474068683>
+[10:57:15.469] [INFO] [nextlevel.gd:16] FRAME : 0 : /root/MainLevel/World/NextLevelArea Instantiated ... 
+[10:57:15.469] [INFO] [hud.gd:3] FRAME : 0 : /root/MainLevel/HUD Instantiated ... 
+[10:57:15.470] [INFO] [movement_mode_label3d.gd:4] FRAME : 0 : /root/MainLevel/HUD/MovementMode Instantiated ... 
+[10:57:15.470] [INFO] [EventBus:<Node#88650810858>:182] FRAME : 0 :  : Listener : Label(movement_mode_label3d.gd)::on_MovementChanged exist in event Movement_Changed ? false
+[10:57:15.470] [INFO] [EventBus:<Node#88650810858>:76] FRAME : 0 :  : Subscribed listener '{ "object_name": &"MovementMode", "method_name": &"on_MovementChanged" }' to event 'Movement_Changed'.
+[10:57:15.470] [INFO] [direction_mode_label3d.gd:4] FRAME : 0 : /root/MainLevel/HUD/DirectionMode Instantiated ... 
+[10:57:15.470] [INFO] [EventBus:<Node#88650810858>:182] FRAME : 0 :  : Listener : Label(direction_mode_label3d.gd)::on_MovementChanged exist in event Movement_Changed ? false
+[10:57:15.470] [INFO] [EventBus:<Node#88650810858>:76] FRAME : 0 :  : Subscribed listener '{ "object_name": &"DirectionMode", "method_name": &"on_MovementChanged" }' to event 'Movement_Changed'.
+[10:57:15.471] [INFO] [camera_mode_label3d.gd:4] FRAME : 0 : /root/MainLevel/HUD/CameraMode Instantiated ... 
+[10:57:15.471] [INFO] [EventBus:<Node#88650810858>:182] FRAME : 0 :  : Listener : Label(camera_mode_label3d.gd)::on_cameraChanged exist in event CameraMode_Changed ? false
+[10:57:15.471] [INFO] [EventBus:<Node#88650810858>:76] FRAME : 0 :  : Subscribed listener '{ "object_name": &"CameraMode", "method_name": &"on_cameraChanged" }' to event 'CameraMode_Changed'.
+[10:57:15.471] [INFO] [graphic_profile.gd:4] FRAME : 0 : /root/MainLevel/HUD/GraphicProfile Instantiated ... 
+[10:57:15.471] [INFO] [EventBus:<Node#88650810858>:182] FRAME : 0 :  : Listener : Label(graphic_profile.gd)::on_graphicProfileChanged exist in event GraphicProfile_Changed ? false
+[10:57:15.471] [INFO] [EventBus:<Node#88650810858>:76] FRAME : 0 :  : Subscribed listener '{ "object_name": &"GraphicProfile", "method_name": &"on_graphicProfileChanged" }' to event 'GraphicProfile_Changed'.
+[10:57:15.471] [INFO] [hour.gd:4] FRAME : 0 : /root/MainLevel/HUD/Hour Instantiated ... 
+[10:57:15.471] [INFO] [EventBus:<Node#88650810858>:182] FRAME : 0 :  : Listener : Label(hour.gd)::_showHour exist in event Time_TicToc ? false
+[10:57:15.471] [INFO] [EventBus:<Node#88650810858>:76] FRAME : 0 :  : Subscribed listener '{ "object_name": &"Hour", "method_name": &"_showHour" }' to event 'Time_TicToc'.
+[10:57:15.471] [INFO] [count.gd:4] FRAME : 0 : /root/MainLevel/HUD/Count Instantiated ... 
+[10:57:15.471] [INFO] [EventBus:<Node#88650810858>:182] FRAME : 0 :  : Listener : Label(count.gd)::_showCount exist in event Time_TicToc ? false
+[10:57:15.471] [INFO] [EventBus:<Node#88650810858>:76] FRAME : 0 :  : Subscribed listener '{ "object_name": &"Count", "method_name": &"_showCount" }' to event 'Time_TicToc'.
+[10:57:15.471] [INFO] [world_environment.gd:13] FRAME : 0 : /root/MainLevel/WorldEnvironment Instantiated ... 
+[10:57:15.471] [INFO] [EventBus:<Node#88650810858>:55] FRAME : 0 :  Ready ... 
+[10:57:15.474] [INFO] [GameInstance:<Node#89338677109>:116] FRAME : 0 :  Character brian loaded in memory ... 
+[10:57:15.515] [INFO] [GameInstance:<Node#89338677109>:118] FRAME : 0 :  Character man loaded in memory ... 
+[10:57:15.520] [INFO] [GameInstance:<Node#89338677109>:120] FRAME : 0 :  Character manequin1 loaded in memory ... 
+[10:57:15.523] [INFO] [GameInstance:<Node#89338677109>:122] FRAME : 0 :  Character manequin2 loaded in memory ... 
+[10:57:15.524] [INFO] [GameInstance:<Node#89338677109>:124] FRAME : 0 :  Character remi loaded in memory ... 
+[10:57:15.524] [INFO] [GameInstance:<Node#89338677109>:147] FRAME : 0 : ["EventBus", "LevelManager"]  available ... 
+[10:57:15.526] [INFO] [GameInstance:<Node#89338677109>:157] FRAME : 0 :  Ready ... 
+[10:57:15.527] [INFO] [LevelManager:<Node#89422563193>:75] FRAME : 0 : ["GameInstance", "EventBus"]  available ... 
+[10:57:15.556] [INFO] [weapon.gd:14] FRAME : 0 : /root/MainLevel/World/WeaponArea/WeaponAreaCollisionShape/AssaultRifle1 Ready ... 
+[10:57:15.556] [INFO] [area3d.gd:10] FRAME : 0 : /root/MainLevel/World/WeaponArea Ready ... WeaponArea:<Area3D#117440514249>
+[10:57:15.556] [INFO] [nextlevel.gd:17] FRAME : 0 : /root/MainLevel/World/NextLevelArea Ready ... 
+[10:57:15.556] [INFO] [movement_mode_label3d.gd:8] FRAME : 0 : /root/MainLevel/HUD/MovementMode Ready ... 
+[10:57:15.557] [INFO] [direction_mode_label3d.gd:8] FRAME : 0 : /root/MainLevel/HUD/DirectionMode Ready ... 
+[10:57:15.557] [INFO] [camera_mode_label3d.gd:8] FRAME : 0 : /root/MainLevel/HUD/CameraMode Ready ... 
+[10:57:15.558] [INFO] [graphic_profile.gd:8] FRAME : 0 : /root/MainLevel/HUD/GraphicProfile Ready ... 
+[10:57:15.558] [INFO] [hour.gd:7] FRAME : 0 : /root/MainLevel/HUD/Hour Ready ... 
+[10:57:15.559] [INFO] [count.gd:7] FRAME : 0 : /root/MainLevel/HUD/Count Ready ... 
+[10:57:15.559] [INFO] [hud.gd:4] FRAME : 0 : /root/MainLevel/HUD Ready ... 
+[10:57:18.002] [INFO] [ConfigRender.gd:158] FRAME : 0 : [ViewPort] Integrated or low VRAM 
+[10:57:18.002] [INFO] [GameMode.gd:46] FRAME : 0 :  Setting Character ... 
+[10:57:18.002] [INFO] [GameMode.gd:88] FRAME : 0 : Character assigned from preloaded prefabs: manequin2
+[10:57:18.002] [INFO] [characters_controller.gd:36]  CharacterController instantiated manequin2 ...
+[10:57:18.003] [INFO] [animations_controller.gd:21]  AnimationController instantiated AnimationTree ...
+[10:57:18.003] [INFO] [animations_controller.gd:19]  AnimationController Ready AnimationTree ...
+[10:57:18.003] [INFO] [characters_controller.gd:36]  CharacterController Ready manequin2 ...
+[10:57:18.003] [INFO] [EventBus:<Node#88650810858>:103] FRAME : 0 :  : Emitting event : ( Movement_Changed ) CharacterBody3D(Manequin2Controller)::_ready
+[10:57:18.003] [INFO] [EventBus:<Node#88650810858>:162] FRAME : 0 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"manequin2", "sender_path": "/root/MainLevel/manequin2", "sender_method": &"_ready", "listener_obj": &"AssaultRifle1", "listener_path": "/root/MainLevel/World/WeaponArea/WeaponAreaCollisionShape/AssaultRifle1", "listener_method": &"onWeaponPositionAdjusting", "args": ["Idle", ""], "time": "08:57:18", "date": "2026-07-30", "frame": 0, "ticks_msec": 7195, "frame_delta_ms": 0.0, "fps": 0.0 }
+[10:57:18.004] [INFO] [EventBus:<Node#88650810858>:162] FRAME : 0 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"manequin2", "sender_path": "/root/MainLevel/manequin2", "sender_method": &"_ready", "listener_obj": &"MovementMode", "listener_path": "/root/MainLevel/HUD/MovementMode", "listener_method": &"on_MovementChanged", "args": ["Idle", ""], "time": "08:57:18", "date": "2026-07-30", "frame": 0, "ticks_msec": 7195, "frame_delta_ms": 0.0, "fps": 0.0 }
+[10:57:18.004] [INFO] [EventBus:<Node#88650810858>:162] FRAME : 0 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"manequin2", "sender_path": "/root/MainLevel/manequin2", "sender_method": &"_ready", "listener_obj": &"DirectionMode", "listener_path": "/root/MainLevel/HUD/DirectionMode", "listener_method": &"on_MovementChanged", "args": ["Idle", ""], "time": "08:57:18", "date": "2026-07-30", "frame": 0, "ticks_msec": 7195, "frame_delta_ms": 0.0, "fps": 0.0 }
+[10:57:18.004] [INFO] [EventBus:<Node#88650810858>:103] FRAME : 0 :  : Emitting event : ( CameraMode_Changed ) CharacterBody3D(Manequin2Controller)::_ready
+[10:57:18.004] [INFO] [EventBus:<Node#88650810858>:162] FRAME : 0 :  : Executing handler method : { "event": "CameraMode_Changed", "sender_obj": &"manequin2", "sender_path": "/root/MainLevel/manequin2", "sender_method": &"_ready", "listener_obj": &"CameraMode", "listener_path": "/root/MainLevel/HUD/CameraMode", "listener_method": &"on_cameraChanged", "args": "FULL", "time": "08:57:18", "date": "2026-07-30", "frame": 0, "ticks_msec": 7196, "frame_delta_ms": 0.0, "fps": 0.0 }
+[10:57:18.004] [INFO] [GameMode.gd:94] FRAME : 0 : manequin2:<CharacterBody3D#119487334688> Added to the scene ... 
+[10:57:18.005] [INFO] [GameInstance:<Node#89338677109>:164] FRAME : 0 : GameInstance Global timer started
+[10:57:18.005] [INFO] [GameMode.gd:54] FRAME : 0 :  Emitting TicToc event from GameMode ... 
+[10:57:18.005] [INFO] [GameInstance:<Node#89338677109>:170] FRAME : 0 : Emiting GameInstance Global timer event
+[10:57:18.005] [INFO] [EventBus:<Node#88650810858>:103] FRAME : 0 :  : Emitting event : ( Time_TicToc ) Node(GameInstance.gd)::_on_timer_timeout
+[10:57:18.005] [INFO] [EventBus:<Node#88650810858>:162] FRAME : 0 :  : Executing handler method : { "event": "Time_TicToc", "sender_obj": &"GameInstance", "sender_path": "/root/GameInstance", "sender_method": &"_on_timer_timeout", "listener_obj": &"Hour", "listener_path": "/root/MainLevel/HUD/Hour", "listener_method": &"_showHour", "args": 0, "time": "08:57:18", "date": "2026-07-30", "frame": 0, "ticks_msec": 7196, "frame_delta_ms": 0.0, "fps": 0.0 }
+[10:57:18.005] [INFO] [EventBus:<Node#88650810858>:162] FRAME : 0 :  : Executing handler method : { "event": "Time_TicToc", "sender_obj": &"GameInstance", "sender_path": "/root/GameInstance", "sender_method": &"_on_timer_timeout", "listener_obj": &"Count", "listener_path": "/root/MainLevel/HUD/Count", "listener_method": &"_showCount", "args": 0, "time": "08:57:18", "date": "2026-07-30", "frame": 0, "ticks_msec": 7197, "frame_delta_ms": 0.0, "fps": 0.0 }
+[10:57:18.005] [INFO] [GameMode.gd:57] FRAME : 0 : MainLevel Ready ... 
+[10:57:18.019] [INFO] [EventBus:<Node#88650810858>:103] FRAME : 0 :  : Emitting event : ( Movement_Changed ) AnimationTree(Manequin2AnimationsController)::_on_character_movement_component_movementStateChanged
+[10:57:18.019] [INFO] [EventBus:<Node#88650810858>:162] FRAME : 0 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin2/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"AssaultRifle1", "listener_path": "/root/MainLevel/World/WeaponArea/WeaponAreaCollisionShape/AssaultRifle1", "listener_method": &"onWeaponPositionAdjusting", "args": ["Falling", ""], "time": "08:57:18", "date": "2026-07-30", "frame": 0, "ticks_msec": 7211, "frame_delta_ms": 0.0, "fps": 0.0 }
+[10:57:18.019] [INFO] [EventBus:<Node#88650810858>:162] FRAME : 0 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin2/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"MovementMode", "listener_path": "/root/MainLevel/HUD/MovementMode", "listener_method": &"on_MovementChanged", "args": ["Falling", ""], "time": "08:57:18", "date": "2026-07-30", "frame": 0, "ticks_msec": 7211, "frame_delta_ms": 0.0, "fps": 0.0 }
+[10:57:18.020] [INFO] [EventBus:<Node#88650810858>:162] FRAME : 0 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin2/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"DirectionMode", "listener_path": "/root/MainLevel/HUD/DirectionMode", "listener_method": &"on_MovementChanged", "args": ["Falling", ""], "time": "08:57:18", "date": "2026-07-30", "frame": 0, "ticks_msec": 7211, "frame_delta_ms": 0.0, "fps": 0.0 }
+[10:57:18.056] [INFO] [ConfigRender.gd:268] FRAME : 0 : [Render] Integrated or low VRAM. SDFGI: OFF 
+[10:57:18.056] [INFO] [EventBus:<Node#88650810858>:103] FRAME : 0 :  : Emitting event : ( GraphicProfile_Changed ) WorldEnvironment(world_environment.gd)::_configure_local_environment
+[10:57:18.056] [INFO] [EventBus:<Node#88650810858>:162] FRAME : 0 :  : Executing handler method : { "event": "GraphicProfile_Changed", "sender_obj": &"WorldEnvironment", "sender_path": "/root/MainLevel/WorldEnvironment", "sender_method": &"_configure_local_environment", "listener_obj": &"GraphicProfile", "listener_path": "/root/MainLevel/HUD/GraphicProfile", "listener_method": &"on_graphicProfileChanged", "args": "LOW", "time": "08:57:18", "date": "2026-07-30", "frame": 0, "ticks_msec": 7247, "frame_delta_ms": 142.08, "fps": 7.0 }
+[10:57:18.056] [INFO] [world_environment.gd:88] FRAME : 0 : /root/MainLevel/WorldEnvironment Ready ... 
+[10:57:18.056] [INFO] [LevelManager:<Node#89422563193>:110] FRAME : 0 :  Set the First Level Loaded as MainLevel:<Node3D#115561465864>
+[10:57:18.056] [INFO] [LevelManager:<Node#89422563193>:112] FRAME : 0 :  Unhandled Input enabled MainLevel:<Node3D#115561465864>
+[10:57:18.056] [INFO] [LevelManager:<Node#89422563193>:80] FRAME : 0 :  Ready ... 
+[10:57:18.709] [INFO] [EventBus:<Node#88650810858>:103] FRAME : 52 :  : Emitting event : ( Movement_Changed ) AnimationTree(Manequin2AnimationsController)::_on_character_movement_component_movementStateChanged
+[10:57:18.710] [INFO] [EventBus:<Node#88650810858>:162] FRAME : 52 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin2/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"AssaultRifle1", "listener_path": "/root/MainLevel/World/WeaponArea/WeaponAreaCollisionShape/AssaultRifle1", "listener_method": &"onWeaponPositionAdjusting", "args": ["", "None"], "time": "08:57:18", "date": "2026-07-30", "frame": 52, "ticks_msec": 7901, "frame_delta_ms": 7.58, "fps": 132.0 }
+[10:57:18.710] [INFO] [EventBus:<Node#88650810858>:162] FRAME : 52 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin2/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"MovementMode", "listener_path": "/root/MainLevel/HUD/MovementMode", "listener_method": &"on_MovementChanged", "args": ["", "None"], "time": "08:57:18", "date": "2026-07-30", "frame": 52, "ticks_msec": 7901, "frame_delta_ms": 7.58, "fps": 132.0 }
+[10:57:18.710] [INFO] [EventBus:<Node#88650810858>:162] FRAME : 52 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin2/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"DirectionMode", "listener_path": "/root/MainLevel/HUD/DirectionMode", "listener_method": &"on_MovementChanged", "args": ["", "None"], "time": "08:57:18", "date": "2026-07-30", "frame": 52, "ticks_msec": 7901, "frame_delta_ms": 7.58, "fps": 132.0 }
+[10:57:18.710] [INFO] [EventBus:<Node#88650810858>:103] FRAME : 52 :  : Emitting event : ( Movement_Changed ) AnimationTree(Manequin2AnimationsController)::_on_character_movement_component_movementStateChanged
+[10:57:18.710] [INFO] [EventBus:<Node#88650810858>:162] FRAME : 52 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin2/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"AssaultRifle1", "listener_path": "/root/MainLevel/World/WeaponArea/WeaponAreaCollisionShape/AssaultRifle1", "listener_method": &"onWeaponPositionAdjusting", "args": ["Idle", ""], "time": "08:57:18", "date": "2026-07-30", "frame": 52, "ticks_msec": 7902, "frame_delta_ms": 7.58, "fps": 132.0 }
+[10:57:18.710] [INFO] [EventBus:<Node#88650810858>:162] FRAME : 52 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin2/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"MovementMode", "listener_path": "/root/MainLevel/HUD/MovementMode", "listener_method": &"on_MovementChanged", "args": ["Idle", ""], "time": "08:57:18", "date": "2026-07-30", "frame": 52, "ticks_msec": 7902, "frame_delta_ms": 7.58, "fps": 132.0 }
+[10:57:18.710] [INFO] [EventBus:<Node#88650810858>:162] FRAME : 52 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin2/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"DirectionMode", "listener_path": "/root/MainLevel/HUD/DirectionMode", "listener_method": &"on_MovementChanged", "args": ["Idle", ""], "time": "08:57:18", "date": "2026-07-30", "frame": 52, "ticks_msec": 7902, "frame_delta_ms": 7.58, "fps": 132.0 }
+[10:57:19.000] [INFO] [GameInstance:<Node#89338677109>:170] FRAME : 87 : Emiting GameInstance Global timer event
+[10:57:19.000] [INFO] [EventBus:<Node#88650810858>:103] FRAME : 87 :  : Emitting event : ( Time_TicToc ) Node(GameInstance.gd)::_on_timer_timeout
+[10:57:19.000] [INFO] [EventBus:<Node#88650810858>:162] FRAME : 87 :  : Executing handler method : { "event": "Time_TicToc", "sender_obj": &"GameInstance", "sender_path": "/root/GameInstance", "sender_method": &"_on_timer_timeout", "listener_obj": &"Hour", "listener_path": "/root/MainLevel/HUD/Hour", "listener_method": &"_showHour", "args": 1, "time": "08:57:18", "date": "2026-07-30", "frame": 87, "ticks_msec": 8191, "frame_delta_ms": 8.33, "fps": 120.0 }
+[10:57:19.000] [INFO] [EventBus:<Node#88650810858>:162] FRAME : 87 :  : Executing handler method : { "event": "Time_TicToc", "sender_obj": &"GameInstance", "sender_path": "/root/GameInstance", "sender_method": &"_on_timer_timeout", "listener_obj": &"Count", "listener_path": "/root/MainLevel/HUD/Count", "listener_method": &"_showCount", "args": 1, "time": "08:57:18", "date": "2026-07-30", "frame": 87, "ticks_msec": 8192, "frame_delta_ms": 8.33, "fps": 120.0 }
+[10:57:19.996] [INFO] [GameInstance:<Node#89338677109>:170] FRAME : 212 : Emiting GameInstance Global timer event
+[10:57:19.996] [INFO] [EventBus:<Node#88650810858>:103] FRAME : 212 :  : Emitting event : ( Time_TicToc ) Node(GameInstance.gd)::_on_timer_timeout
+[10:57:19.996] [INFO] [EventBus:<Node#88650810858>:162] FRAME : 212 :  : Executing handler method : { "event": "Time_TicToc", "sender_obj": &"GameInstance", "sender_path": "/root/GameInstance", "sender_method": &"_on_timer_timeout", "listener_obj": &"Hour", "listener_path": "/root/MainLevel/HUD/Hour", "listener_method": &"_showHour", "args": 2, "time": "08:57:19", "date": "2026-07-30", "frame": 212, "ticks_msec": 9187, "frame_delta_ms": 8.33, "fps": 120.0 }
+[10:57:19.996] [INFO] [EventBus:<Node#88650810858>:162] FRAME : 212 :  : Executing handler method : { "event": "Time_TicToc", "sender_obj": &"GameInstance", "sender_path": "/root/GameInstance", "sender_method": &"_on_timer_timeout", "listener_obj": &"Count", "listener_path": "/root/MainLevel/HUD/Count", "listener_method": &"_showCount", "args": 2, "time": "08:57:19", "date": "2026-07-30", "frame": 212, "ticks_msec": 9188, "frame_delta_ms": 8.33, "fps": 120.0 }
+[10:57:20.031] [INFO] [GameInstance:<Node#89338677109>:219] FRAME : 214 : Pressed a key to change the character
+[10:57:20.032] [INFO] [GameInstance:<Node#89338677109>:188] FRAME : 214 : Got the context of the previous character
+[10:57:20.032] [INFO] [GameInstance:<Node#89338677109>:196] FRAME : 214 : Set the new character
+[10:57:20.033] [INFO] [characters_controller.gd:36]  CharacterController instantiated manequin1 ...
+[10:57:20.033] [INFO] [animations_controller.gd:21]  AnimationController instantiated AnimationTree ...
+[10:57:20.034] [INFO] [animations_controller.gd:19]  AnimationController Ready AnimationTree ...
+[10:57:20.035] [INFO] [characters_controller.gd:36]  CharacterController Ready manequin1 ...
+[10:57:20.035] [INFO] [EventBus:<Node#88650810858>:103] FRAME : 214 :  : Emitting event : ( Movement_Changed ) CharacterBody3D(Manequin1Controller)::_ready
+[10:57:20.035] [INFO] [EventBus:<Node#88650810858>:162] FRAME : 214 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"manequin1", "sender_path": "/root/MainLevel/manequin1", "sender_method": &"_ready", "listener_obj": &"AssaultRifle1", "listener_path": "/root/MainLevel/World/WeaponArea/WeaponAreaCollisionShape/AssaultRifle1", "listener_method": &"onWeaponPositionAdjusting", "args": ["Idle", ""], "time": "08:57:20", "date": "2026-07-30", "frame": 214, "ticks_msec": 9227, "frame_delta_ms": 8.08, "fps": 123.7 }
+[10:57:20.035] [INFO] [EventBus:<Node#88650810858>:162] FRAME : 214 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"manequin1", "sender_path": "/root/MainLevel/manequin1", "sender_method": &"_ready", "listener_obj": &"MovementMode", "listener_path": "/root/MainLevel/HUD/MovementMode", "listener_method": &"on_MovementChanged", "args": ["Idle", ""], "time": "08:57:20", "date": "2026-07-30", "frame": 214, "ticks_msec": 9227, "frame_delta_ms": 8.08, "fps": 123.7 }
+[10:57:20.036] [INFO] [EventBus:<Node#88650810858>:162] FRAME : 214 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"manequin1", "sender_path": "/root/MainLevel/manequin1", "sender_method": &"_ready", "listener_obj": &"DirectionMode", "listener_path": "/root/MainLevel/HUD/DirectionMode", "listener_method": &"on_MovementChanged", "args": ["Idle", ""], "time": "08:57:20", "date": "2026-07-30", "frame": 214, "ticks_msec": 9227, "frame_delta_ms": 8.08, "fps": 123.7 }
+[10:57:20.036] [INFO] [EventBus:<Node#88650810858>:103] FRAME : 214 :  : Emitting event : ( CameraMode_Changed ) CharacterBody3D(Manequin1Controller)::_ready
+[10:57:20.037] [INFO] [EventBus:<Node#88650810858>:162] FRAME : 214 :  : Executing handler method : { "event": "CameraMode_Changed", "sender_obj": &"manequin1", "sender_path": "/root/MainLevel/manequin1", "sender_method": &"_ready", "listener_obj": &"CameraMode", "listener_path": "/root/MainLevel/HUD/CameraMode", "listener_method": &"on_cameraChanged", "args": "FULL", "time": "08:57:20", "date": "2026-07-30", "frame": 214, "ticks_msec": 9228, "frame_delta_ms": 8.08, "fps": 123.7 }
+[10:57:20.037] [INFO] [GameInstance:<Node#89338677109>:201] FRAME : 214 : Added the new character to the scene
+[10:57:20.037] [INFO] [GameInstance:<Node#89338677109>:204] FRAME : 214 : Set the context of the old character to the new one
+[10:57:20.037] [INFO] [GameInstance:<Node#89338677109>:196] FRAME : 214 : Changed Character to: manequin1
+[10:57:20.038] [INFO] [EventBus:<Node#88650810858>:103] FRAME : 214 :  : Emitting event : ( Movement_Changed ) AnimationTree(Manequin1AnimationsController)::_on_character_movement_component_movementStateChanged
+[10:57:20.038] [INFO] [EventBus:<Node#88650810858>:162] FRAME : 214 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin1/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"AssaultRifle1", "listener_path": "/root/MainLevel/World/WeaponArea/WeaponAreaCollisionShape/AssaultRifle1", "listener_method": &"onWeaponPositionAdjusting", "args": ["", "None"], "time": "08:57:20", "date": "2026-07-30", "frame": 214, "ticks_msec": 9229, "frame_delta_ms": 8.08, "fps": 123.7 }
+[10:57:20.038] [INFO] [EventBus:<Node#88650810858>:162] FRAME : 214 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin1/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"MovementMode", "listener_path": "/root/MainLevel/HUD/MovementMode", "listener_method": &"on_MovementChanged", "args": ["", "None"], "time": "08:57:20", "date": "2026-07-30", "frame": 214, "ticks_msec": 9229, "frame_delta_ms": 8.08, "fps": 123.7 }
+[10:57:20.038] [INFO] [EventBus:<Node#88650810858>:162] FRAME : 214 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin1/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"DirectionMode", "listener_path": "/root/MainLevel/HUD/DirectionMode", "listener_method": &"on_MovementChanged", "args": ["", "None"], "time": "08:57:20", "date": "2026-07-30", "frame": 214, "ticks_msec": 9230, "frame_delta_ms": 8.08, "fps": 123.7 }
+[10:57:20.038] [INFO] [EventBus:<Node#88650810858>:103] FRAME : 214 :  : Emitting event : ( Movement_Changed ) AnimationTree(Manequin1AnimationsController)::_on_character_movement_component_movementStateChanged
+[10:57:20.038] [INFO] [EventBus:<Node#88650810858>:162] FRAME : 214 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin1/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"AssaultRifle1", "listener_path": "/root/MainLevel/World/WeaponArea/WeaponAreaCollisionShape/AssaultRifle1", "listener_method": &"onWeaponPositionAdjusting", "args": ["Idle", ""], "time": "08:57:20", "date": "2026-07-30", "frame": 214, "ticks_msec": 9230, "frame_delta_ms": 8.08, "fps": 123.7 }
+[10:57:20.038] [INFO] [EventBus:<Node#88650810858>:162] FRAME : 214 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin1/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"MovementMode", "listener_path": "/root/MainLevel/HUD/MovementMode", "listener_method": &"on_MovementChanged", "args": ["Idle", ""], "time": "08:57:20", "date": "2026-07-30", "frame": 214, "ticks_msec": 9230, "frame_delta_ms": 8.08, "fps": 123.7 }
+[10:57:20.038] [INFO] [EventBus:<Node#88650810858>:162] FRAME : 214 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/manequin1/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"DirectionMode", "listener_path": "/root/MainLevel/HUD/DirectionMode", "listener_method": &"on_MovementChanged", "args": ["Idle", ""], "time": "08:57:20", "date": "2026-07-30", "frame": 214, "ticks_msec": 9230, "frame_delta_ms": 8.08, "fps": 123.7 }
+[10:57:20.720] [INFO] [GameInstance:<Node#89338677109>:219] FRAME : 299 : Pressed a key to change the character
+[10:57:20.721] [INFO] [GameInstance:<Node#89338677109>:188] FRAME : 299 : Got the context of the previous character
+[10:57:20.721] [INFO] [GameInstance:<Node#89338677109>:196] FRAME : 299 : Set the new character
+[10:57:20.721] [INFO] [characters_controller.gd:36]  CharacterController instantiated manequin2 ...
+[10:57:20.721] [INFO] [animations_controller.gd:21]  AnimationController instantiated AnimationTree ...
+[10:57:20.721] [INFO] [GameInstance:<Node#89338677109>:201] FRAME : 299 : Added the new character to the scene
+[10:57:20.721] [INFO] [GameInstance:<Node#89338677109>:204] FRAME : 299 : Set the context of the old character to the new one
+[10:57:20.721] [INFO] [GameInstance:<Node#89338677109>:196] FRAME : 299 : Changed Character to: manequin2
+[10:57:21.006] [INFO] [GameInstance:<Node#89338677109>:170] FRAME : 334 : Emiting GameInstance Global timer event
+[10:57:21.006] [INFO] [EventBus:<Node#88650810858>:103] FRAME : 334 :  : Emitting event : ( Time_TicToc ) Node(GameInstance.gd)::_on_timer_timeout
+[10:57:21.007] [INFO] [EventBus:<Node#88650810858>:162] FRAME : 334 :  : Executing handler method : { "event": "Time_TicToc", "sender_obj": &"GameInstance", "sender_path": "/root/GameInstance", "sender_method": &"_on_timer_timeout", "listener_obj": &"Hour", "listener_path": "/root/MainLevel/HUD/Hour", "listener_method": &"_showHour", "args": 3, "time": "08:57:21", "date": "2026-07-30", "frame": 334, "ticks_msec": 10198, "frame_delta_ms": 8.33, "fps": 120.0 }
+[10:57:21.007] [INFO] [EventBus:<Node#88650810858>:162] FRAME : 334 :  : Executing handler method : { "event": "Time_TicToc", "sender_obj": &"GameInstance", "sender_path": "/root/GameInstance", "sender_method": &"_on_timer_timeout", "listener_obj": &"Count", "listener_path": "/root/MainLevel/HUD/Count", "listener_method": &"_showCount", "args": 3, "time": "08:57:21", "date": "2026-07-30", "frame": 334, "ticks_msec": 10198, "frame_delta_ms": 8.33, "fps": 120.0 }
+[10:57:21.111] [INFO] [GameInstance:<Node#89338677109>:219] FRAME : 347 : Pressed a key to change the character
+[10:57:21.111] [INFO] [GameInstance:<Node#89338677109>:188] FRAME : 347 : Got the context of the previous character
+[10:57:21.112] [INFO] [GameInstance:<Node#89338677109>:196] FRAME : 347 : Set the new character
+[10:57:21.112] [INFO] [characters_controller.gd:36]  CharacterController instantiated man ...
+[10:57:21.112] [INFO] [animations_controller.gd:21]  AnimationController instantiated AnimationTree ...
+[10:57:21.112] [INFO] [animations_controller.gd:19]  AnimationController Ready AnimationTree ...
+[10:57:21.112] [INFO] [characters_controller.gd:36]  CharacterController Ready man ...
+[10:57:21.112] [INFO] [EventBus:<Node#88650810858>:103] FRAME : 347 :  : Emitting event : ( Movement_Changed ) CharacterBody3D(ManController)::_ready
+[10:57:21.112] [INFO] [EventBus:<Node#88650810858>:162] FRAME : 347 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"man", "sender_path": "/root/MainLevel/man", "sender_method": &"_ready", "listener_obj": &"AssaultRifle1", "listener_path": "/root/MainLevel/World/WeaponArea/WeaponAreaCollisionShape/AssaultRifle1", "listener_method": &"onWeaponPositionAdjusting", "args": ["Idle", ""], "time": "08:57:21", "date": "2026-07-30", "frame": 347, "ticks_msec": 10304, "frame_delta_ms": 7.58, "fps": 132.0 }
+[10:57:21.112] [INFO] [EventBus:<Node#88650810858>:162] FRAME : 347 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"man", "sender_path": "/root/MainLevel/man", "sender_method": &"_ready", "listener_obj": &"MovementMode", "listener_path": "/root/MainLevel/HUD/MovementMode", "listener_method": &"on_MovementChanged", "args": ["Idle", ""], "time": "08:57:21", "date": "2026-07-30", "frame": 347, "ticks_msec": 10304, "frame_delta_ms": 7.58, "fps": 132.0 }
+[10:57:21.113] [INFO] [EventBus:<Node#88650810858>:162] FRAME : 347 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"man", "sender_path": "/root/MainLevel/man", "sender_method": &"_ready", "listener_obj": &"DirectionMode", "listener_path": "/root/MainLevel/HUD/DirectionMode", "listener_method": &"on_MovementChanged", "args": ["Idle", ""], "time": "08:57:21", "date": "2026-07-30", "frame": 347, "ticks_msec": 10304, "frame_delta_ms": 7.58, "fps": 132.0 }
+[10:57:21.113] [INFO] [EventBus:<Node#88650810858>:103] FRAME : 347 :  : Emitting event : ( CameraMode_Changed ) CharacterBody3D(ManController)::_ready
+[10:57:21.113] [INFO] [EventBus:<Node#88650810858>:162] FRAME : 347 :  : Executing handler method : { "event": "CameraMode_Changed", "sender_obj": &"man", "sender_path": "/root/MainLevel/man", "sender_method": &"_ready", "listener_obj": &"CameraMode", "listener_path": "/root/MainLevel/HUD/CameraMode", "listener_method": &"on_cameraChanged", "args": "FULL", "time": "08:57:21", "date": "2026-07-30", "frame": 347, "ticks_msec": 10304, "frame_delta_ms": 7.58, "fps": 132.0 }
+[10:57:21.113] [INFO] [GameInstance:<Node#89338677109>:201] FRAME : 347 : Added the new character to the scene
+[10:57:21.113] [INFO] [GameInstance:<Node#89338677109>:204] FRAME : 347 : Set the context of the old character to the new one
+[10:57:21.113] [INFO] [GameInstance:<Node#89338677109>:196] FRAME : 347 : Changed Character to: man
+[10:57:21.118] [INFO] [EventBus:<Node#88650810858>:103] FRAME : 348 :  : Emitting event : ( Movement_Changed ) AnimationTree(ManAnimationsController)::_on_character_movement_component_movementStateChanged
+[10:57:21.119] [INFO] [EventBus:<Node#88650810858>:162] FRAME : 348 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/man/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"AssaultRifle1", "listener_path": "/root/MainLevel/World/WeaponArea/WeaponAreaCollisionShape/AssaultRifle1", "listener_method": &"onWeaponPositionAdjusting", "args": ["", "None"], "time": "08:57:21", "date": "2026-07-30", "frame": 348, "ticks_msec": 10310, "frame_delta_ms": 8.33, "fps": 120.0 }
+[10:57:21.119] [INFO] [EventBus:<Node#88650810858>:162] FRAME : 348 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/man/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"MovementMode", "listener_path": "/root/MainLevel/HUD/MovementMode", "listener_method": &"on_MovementChanged", "args": ["", "None"], "time": "08:57:21", "date": "2026-07-30", "frame": 348, "ticks_msec": 10310, "frame_delta_ms": 8.33, "fps": 120.0 }
+[10:57:21.119] [INFO] [EventBus:<Node#88650810858>:162] FRAME : 348 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/man/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"DirectionMode", "listener_path": "/root/MainLevel/HUD/DirectionMode", "listener_method": &"on_MovementChanged", "args": ["", "None"], "time": "08:57:21", "date": "2026-07-30", "frame": 348, "ticks_msec": 10311, "frame_delta_ms": 8.33, "fps": 120.0 }
+[10:57:21.119] [INFO] [EventBus:<Node#88650810858>:103] FRAME : 348 :  : Emitting event : ( Movement_Changed ) AnimationTree(ManAnimationsController)::_on_character_movement_component_movementStateChanged
+[10:57:21.120] [INFO] [EventBus:<Node#88650810858>:162] FRAME : 348 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/man/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"AssaultRifle1", "listener_path": "/root/MainLevel/World/WeaponArea/WeaponAreaCollisionShape/AssaultRifle1", "listener_method": &"onWeaponPositionAdjusting", "args": ["Idle", ""], "time": "08:57:21", "date": "2026-07-30", "frame": 348, "ticks_msec": 10311, "frame_delta_ms": 8.33, "fps": 120.0 }
+[10:57:21.120] [INFO] [EventBus:<Node#88650810858>:162] FRAME : 348 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/man/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"MovementMode", "listener_path": "/root/MainLevel/HUD/MovementMode", "listener_method": &"on_MovementChanged", "args": ["Idle", ""], "time": "08:57:21", "date": "2026-07-30", "frame": 348, "ticks_msec": 10311, "frame_delta_ms": 8.33, "fps": 120.0 }
+[10:57:21.120] [INFO] [EventBus:<Node#88650810858>:162] FRAME : 348 :  : Executing handler method : { "event": "Movement_Changed", "sender_obj": &"AnimationTree", "sender_path": "/root/MainLevel/man/AnimationTree", "sender_method": &"_on_character_movement_component_movementStateChanged", "listener_obj": &"DirectionMode", "listener_path": "/root/MainLevel/HUD/DirectionMode", "listener_method": &"on_MovementChanged", "args": ["Idle", ""], "time": "08:57:21", "date": "2026-07-30", "frame": 348, "ticks_msec": 10311, "frame_delta_ms": 8.33, "fps": 120.0 }
+[10:57:21.997] [INFO] [GameInstance:<Node#89338677109>:170] FRAME : 452 : Emiting GameInstance Global timer event
+[10:57:21.998] [INFO] [EventBus:<Node#88650810858>:103] FRAME : 452 :  : Emitting event : ( Time_TicToc ) Node(GameInstance.gd)::_on_timer_timeout
+[10:57:21.998] [INFO] [EventBus:<Node#88650810858>:162] FRAME : 452 :  : Executing handler method : { "event": "Time_TicToc", "sender_obj": &"GameInstance", "sender_path": "/root/GameInstance", "sender_method": &"_on_timer_timeout", "listener_obj": &"Hour", "listener_path": "/root/MainLevel/HUD/Hour", "listener_method": &"_showHour", "args": 4, "time": "08:57:21", "date": "2026-07-30", "frame": 452, "ticks_msec": 11189, "frame_delta_ms": 8.33, "fps": 120.0 }
+[10:57:21.998] [INFO] [EventBus:<Node#88650810858>:162] FRAME : 452 :  : Executing handler method : { "event": "Time_TicToc", "sender_obj": &"GameInstance", "sender_path": "/root/GameInstance", "sender_method": &"_on_timer_timeout", "listener_obj": &"Count", "listener_path": "/root/MainLevel/HUD/Count", "listener_method": &"_showCount", "args": 4, "time": "08:57:21", "date": "2026-07-30", "frame": 452, "ticks_msec": 11189, "frame_delta_ms": 8.33, "fps": 120.0 }
+[10:57:22.376] [INFO] [GameInstance:<Node#89338677109>:273] FRAME : 498 : Pressed ESC key
+[10:57:22.376] [INFO] [GameInstance:<Node#89338677109>:286] FRAME : 498 : Safe quitting...
+[10:57:22.376] [INFO] [GameInstance:<Node#89338677109>:60] FRAME : 498 : Exiting...
+[10:57:22.376] [INFO] [GameInstance:<Node#89338677109>:65] FRAME : 498 : Active prefab released with queue_free: brian:<CharacterBody3D#118245820464>
+[10:57:22.376] [INFO] [GameInstance:<Node#89338677109>:65] FRAME : 498 : Active prefab released with queue_free: man:<CharacterBody3D#118614919413>
+[10:57:22.376] [INFO] [GameInstance:<Node#89338677109>:65] FRAME : 498 : Active prefab released with queue_free: manequin1:<CharacterBody3D#119168567565>
+[10:57:22.376] [INFO] [GameInstance:<Node#89338677109>:65] FRAME : 498 : Active prefab released with queue_free: manequin2:<CharacterBody3D#119487334688>
+[10:57:22.376] [INFO] [GameInstance:<Node#89338677109>:65] FRAME : 498 : Active prefab released with queue_free: remi:<CharacterBody3D#119806101811>
+[10:57:22.376] [INFO] [GameInstance:<Node#89338677109>:68] FRAME : 498 : The prefabs dictionary is cleared...
+[10:57:22.376] [INFO] [GameInstance:<Node#89338677109>:71] FRAME : 498 : The GameInstance Timer is queue_free and set to null for avoiding memory leak : 
+[10:57:22.376] [INFO] [GameInstance:<Node#89338677109>:80] FRAME : 498 : The _materials and _meshes dictionaries are cleared...
+[10:57:22.376] [INFO] [GameInstance:<Node#89338677109>:85] FRAME : 498 : Notification sent to :EventBus
+[10:57:22.376] [INFO] [EventBus:<Node#88650810858>:189] FRAME : 498 :  Cleared the listeners dictionary
+[10:57:22.377] [INFO] [EventBus:<Node#88650810858>:209] FRAME : 498 :  Printing the historical list of events that have taken place:
 [
 	{
 		"args": [
 			"Idle",
 			""
 		],
-		"date": "2026-07-29",
+		"date": "2026-07-30",
 		"event": "Movement_Changed",
 		"fps": 0.0,
 		"frame": 0,
@@ -218,15 +191,15 @@
 		"sender_method": "_ready",
 		"sender_obj": "manequin2",
 		"sender_path": "/root/MainLevel/manequin2",
-		"ticks_msec": 5852,
-		"time": "09:24:41"
+		"ticks_msec": 7195,
+		"time": "08:57:18"
 	},
 	{
 		"args": [
 			"Idle",
 			""
 		],
-		"date": "2026-07-29",
+		"date": "2026-07-30",
 		"event": "Movement_Changed",
 		"fps": 0.0,
 		"frame": 0,
@@ -237,15 +210,15 @@
 		"sender_method": "_ready",
 		"sender_obj": "manequin2",
 		"sender_path": "/root/MainLevel/manequin2",
-		"ticks_msec": 5852,
-		"time": "09:24:41"
+		"ticks_msec": 7195,
+		"time": "08:57:18"
 	},
 	{
 		"args": [
 			"Idle",
 			""
 		],
-		"date": "2026-07-29",
+		"date": "2026-07-30",
 		"event": "Movement_Changed",
 		"fps": 0.0,
 		"frame": 0,
@@ -256,12 +229,12 @@
 		"sender_method": "_ready",
 		"sender_obj": "manequin2",
 		"sender_path": "/root/MainLevel/manequin2",
-		"ticks_msec": 5853,
-		"time": "09:24:41"
+		"ticks_msec": 7195,
+		"time": "08:57:18"
 	},
 	{
 		"args": "FULL",
-		"date": "2026-07-29",
+		"date": "2026-07-30",
 		"event": "CameraMode_Changed",
 		"fps": 0.0,
 		"frame": 0,
@@ -272,12 +245,12 @@
 		"sender_method": "_ready",
 		"sender_obj": "manequin2",
 		"sender_path": "/root/MainLevel/manequin2",
-		"ticks_msec": 5853,
-		"time": "09:24:41"
+		"ticks_msec": 7196,
+		"time": "08:57:18"
 	},
 	{
 		"args": 0,
-		"date": "2026-07-29",
+		"date": "2026-07-30",
 		"event": "Time_TicToc",
 		"fps": 0.0,
 		"frame": 0,
@@ -288,12 +261,12 @@
 		"sender_method": "_on_timer_timeout",
 		"sender_obj": "GameInstance",
 		"sender_path": "/root/GameInstance",
-		"ticks_msec": 5853,
-		"time": "09:24:41"
+		"ticks_msec": 7196,
+		"time": "08:57:18"
 	},
 	{
 		"args": 0,
-		"date": "2026-07-29",
+		"date": "2026-07-30",
 		"event": "Time_TicToc",
 		"fps": 0.0,
 		"frame": 0,
@@ -304,15 +277,15 @@
 		"sender_method": "_on_timer_timeout",
 		"sender_obj": "GameInstance",
 		"sender_path": "/root/GameInstance",
-		"ticks_msec": 5853,
-		"time": "09:24:41"
+		"ticks_msec": 7197,
+		"time": "08:57:18"
 	},
 	{
 		"args": [
 			"Falling",
 			""
 		],
-		"date": "2026-07-29",
+		"date": "2026-07-30",
 		"event": "Movement_Changed",
 		"fps": 0.0,
 		"frame": 0,
@@ -323,15 +296,15 @@
 		"sender_method": "_on_character_movement_component_movementStateChanged",
 		"sender_obj": "AnimationTree",
 		"sender_path": "/root/MainLevel/manequin2/AnimationTree",
-		"ticks_msec": 5865,
-		"time": "09:24:41"
+		"ticks_msec": 7211,
+		"time": "08:57:18"
 	},
 	{
 		"args": [
 			"Falling",
 			""
 		],
-		"date": "2026-07-29",
+		"date": "2026-07-30",
 		"event": "Movement_Changed",
 		"fps": 0.0,
 		"frame": 0,
@@ -342,15 +315,15 @@
 		"sender_method": "_on_character_movement_component_movementStateChanged",
 		"sender_obj": "AnimationTree",
 		"sender_path": "/root/MainLevel/manequin2/AnimationTree",
-		"ticks_msec": 5865,
-		"time": "09:24:41"
+		"ticks_msec": 7211,
+		"time": "08:57:18"
 	},
 	{
 		"args": [
 			"Falling",
 			""
 		],
-		"date": "2026-07-29",
+		"date": "2026-07-30",
 		"event": "Movement_Changed",
 		"fps": 0.0,
 		"frame": 0,
@@ -361,355 +334,615 @@
 		"sender_method": "_on_character_movement_component_movementStateChanged",
 		"sender_obj": "AnimationTree",
 		"sender_path": "/root/MainLevel/manequin2/AnimationTree",
-		"ticks_msec": 5866,
-		"time": "09:24:41"
+		"ticks_msec": 7211,
+		"time": "08:57:18"
 	},
 	{
 		"args": "LOW",
-		"date": "2026-07-29",
+		"date": "2026-07-30",
 		"event": "GraphicProfile_Changed",
 		"fps": 7.0,
 		"frame": 0,
-		"frame_delta_ms": 142.56,
+		"frame_delta_ms": 142.08,
 		"listener_method": "on_graphicProfileChanged",
 		"listener_obj": "GraphicProfile",
 		"listener_path": "/root/MainLevel/HUD/GraphicProfile",
 		"sender_method": "_configure_local_environment",
 		"sender_obj": "WorldEnvironment",
 		"sender_path": "/root/MainLevel/WorldEnvironment",
-		"ticks_msec": 5896,
-		"time": "09:24:41"
+		"ticks_msec": 7247,
+		"time": "08:57:18"
 	},
 	{
 		"args": [
 			"",
 			"None"
 		],
-		"date": "2026-07-29",
+		"date": "2026-07-30",
 		"event": "Movement_Changed",
-		"fps": 122.7,
+		"fps": 132.0,
 		"frame": 52,
-		"frame_delta_ms": 8.15,
+		"frame_delta_ms": 7.58,
 		"listener_method": "onWeaponPositionAdjusting",
 		"listener_obj": "AssaultRifle1",
 		"listener_path": "/root/MainLevel/World/WeaponArea/WeaponAreaCollisionShape/AssaultRifle1",
 		"sender_method": "_on_character_movement_component_movementStateChanged",
 		"sender_obj": "AnimationTree",
 		"sender_path": "/root/MainLevel/manequin2/AnimationTree",
-		"ticks_msec": 6502,
-		"time": "09:24:42"
+		"ticks_msec": 7901,
+		"time": "08:57:18"
 	},
 	{
 		"args": [
 			"",
 			"None"
 		],
-		"date": "2026-07-29",
+		"date": "2026-07-30",
 		"event": "Movement_Changed",
-		"fps": 122.7,
+		"fps": 132.0,
 		"frame": 52,
-		"frame_delta_ms": 8.15,
+		"frame_delta_ms": 7.58,
 		"listener_method": "on_MovementChanged",
 		"listener_obj": "MovementMode",
 		"listener_path": "/root/MainLevel/HUD/MovementMode",
 		"sender_method": "_on_character_movement_component_movementStateChanged",
 		"sender_obj": "AnimationTree",
 		"sender_path": "/root/MainLevel/manequin2/AnimationTree",
-		"ticks_msec": 6502,
-		"time": "09:24:42"
+		"ticks_msec": 7901,
+		"time": "08:57:18"
 	},
 	{
 		"args": [
 			"",
 			"None"
 		],
-		"date": "2026-07-29",
+		"date": "2026-07-30",
 		"event": "Movement_Changed",
-		"fps": 122.7,
+		"fps": 132.0,
 		"frame": 52,
-		"frame_delta_ms": 8.15,
+		"frame_delta_ms": 7.58,
 		"listener_method": "on_MovementChanged",
 		"listener_obj": "DirectionMode",
 		"listener_path": "/root/MainLevel/HUD/DirectionMode",
 		"sender_method": "_on_character_movement_component_movementStateChanged",
 		"sender_obj": "AnimationTree",
 		"sender_path": "/root/MainLevel/manequin2/AnimationTree",
-		"ticks_msec": 6502,
-		"time": "09:24:42"
+		"ticks_msec": 7901,
+		"time": "08:57:18"
 	},
 	{
 		"args": [
 			"Idle",
 			""
 		],
-		"date": "2026-07-29",
+		"date": "2026-07-30",
 		"event": "Movement_Changed",
-		"fps": 122.7,
+		"fps": 132.0,
 		"frame": 52,
-		"frame_delta_ms": 8.15,
+		"frame_delta_ms": 7.58,
 		"listener_method": "onWeaponPositionAdjusting",
 		"listener_obj": "AssaultRifle1",
 		"listener_path": "/root/MainLevel/World/WeaponArea/WeaponAreaCollisionShape/AssaultRifle1",
 		"sender_method": "_on_character_movement_component_movementStateChanged",
 		"sender_obj": "AnimationTree",
 		"sender_path": "/root/MainLevel/manequin2/AnimationTree",
-		"ticks_msec": 6503,
-		"time": "09:24:42"
+		"ticks_msec": 7902,
+		"time": "08:57:18"
 	},
 	{
 		"args": [
 			"Idle",
 			""
 		],
-		"date": "2026-07-29",
+		"date": "2026-07-30",
 		"event": "Movement_Changed",
-		"fps": 122.7,
+		"fps": 132.0,
 		"frame": 52,
-		"frame_delta_ms": 8.15,
+		"frame_delta_ms": 7.58,
 		"listener_method": "on_MovementChanged",
 		"listener_obj": "MovementMode",
 		"listener_path": "/root/MainLevel/HUD/MovementMode",
 		"sender_method": "_on_character_movement_component_movementStateChanged",
 		"sender_obj": "AnimationTree",
 		"sender_path": "/root/MainLevel/manequin2/AnimationTree",
-		"ticks_msec": 6504,
-		"time": "09:24:42"
+		"ticks_msec": 7902,
+		"time": "08:57:18"
 	},
 	{
 		"args": [
 			"Idle",
 			""
 		],
-		"date": "2026-07-29",
+		"date": "2026-07-30",
 		"event": "Movement_Changed",
-		"fps": 122.7,
+		"fps": 132.0,
 		"frame": 52,
-		"frame_delta_ms": 8.15,
+		"frame_delta_ms": 7.58,
 		"listener_method": "on_MovementChanged",
 		"listener_obj": "DirectionMode",
 		"listener_path": "/root/MainLevel/HUD/DirectionMode",
 		"sender_method": "_on_character_movement_component_movementStateChanged",
 		"sender_obj": "AnimationTree",
 		"sender_path": "/root/MainLevel/manequin2/AnimationTree",
-		"ticks_msec": 6504,
-		"time": "09:24:42"
+		"ticks_msec": 7902,
+		"time": "08:57:18"
 	},
 	{
 		"args": 1,
-		"date": "2026-07-29",
+		"date": "2026-07-30",
 		"event": "Time_TicToc",
-		"fps": 132.0,
-		"frame": 89,
-		"frame_delta_ms": 7.58,
+		"fps": 120.0,
+		"frame": 87,
+		"frame_delta_ms": 8.33,
 		"listener_method": "_showHour",
 		"listener_obj": "Hour",
 		"listener_path": "/root/MainLevel/HUD/Hour",
 		"sender_method": "_on_timer_timeout",
 		"sender_obj": "GameInstance",
 		"sender_path": "/root/GameInstance",
-		"ticks_msec": 6795,
-		"time": "09:24:42"
+		"ticks_msec": 8191,
+		"time": "08:57:18"
 	},
 	{
 		"args": 1,
-		"date": "2026-07-29",
+		"date": "2026-07-30",
 		"event": "Time_TicToc",
-		"fps": 132.0,
-		"frame": 89,
-		"frame_delta_ms": 7.58,
+		"fps": 120.0,
+		"frame": 87,
+		"frame_delta_ms": 8.33,
 		"listener_method": "_showCount",
 		"listener_obj": "Count",
 		"listener_path": "/root/MainLevel/HUD/Count",
 		"sender_method": "_on_timer_timeout",
 		"sender_obj": "GameInstance",
 		"sender_path": "/root/GameInstance",
-		"ticks_msec": 6795,
-		"time": "09:24:42"
+		"ticks_msec": 8192,
+		"time": "08:57:18"
+	},
+	{
+		"args": 2,
+		"date": "2026-07-30",
+		"event": "Time_TicToc",
+		"fps": 120.0,
+		"frame": 212,
+		"frame_delta_ms": 8.33,
+		"listener_method": "_showHour",
+		"listener_obj": "Hour",
+		"listener_path": "/root/MainLevel/HUD/Hour",
+		"sender_method": "_on_timer_timeout",
+		"sender_obj": "GameInstance",
+		"sender_path": "/root/GameInstance",
+		"ticks_msec": 9187,
+		"time": "08:57:19"
+	},
+	{
+		"args": 2,
+		"date": "2026-07-30",
+		"event": "Time_TicToc",
+		"fps": 120.0,
+		"frame": 212,
+		"frame_delta_ms": 8.33,
+		"listener_method": "_showCount",
+		"listener_obj": "Count",
+		"listener_path": "/root/MainLevel/HUD/Count",
+		"sender_method": "_on_timer_timeout",
+		"sender_obj": "GameInstance",
+		"sender_path": "/root/GameInstance",
+		"ticks_msec": 9188,
+		"time": "08:57:19"
+	},
+	{
+		"args": [
+			"Idle",
+			""
+		],
+		"date": "2026-07-30",
+		"event": "Movement_Changed",
+		"fps": 123.7,
+		"frame": 214,
+		"frame_delta_ms": 8.08,
+		"listener_method": "onWeaponPositionAdjusting",
+		"listener_obj": "AssaultRifle1",
+		"listener_path": "/root/MainLevel/World/WeaponArea/WeaponAreaCollisionShape/AssaultRifle1",
+		"sender_method": "_ready",
+		"sender_obj": "manequin1",
+		"sender_path": "/root/MainLevel/manequin1",
+		"ticks_msec": 9227,
+		"time": "08:57:20"
+	},
+	{
+		"args": [
+			"Idle",
+			""
+		],
+		"date": "2026-07-30",
+		"event": "Movement_Changed",
+		"fps": 123.7,
+		"frame": 214,
+		"frame_delta_ms": 8.08,
+		"listener_method": "on_MovementChanged",
+		"listener_obj": "MovementMode",
+		"listener_path": "/root/MainLevel/HUD/MovementMode",
+		"sender_method": "_ready",
+		"sender_obj": "manequin1",
+		"sender_path": "/root/MainLevel/manequin1",
+		"ticks_msec": 9227,
+		"time": "08:57:20"
+	},
+	{
+		"args": [
+			"Idle",
+			""
+		],
+		"date": "2026-07-30",
+		"event": "Movement_Changed",
+		"fps": 123.7,
+		"frame": 214,
+		"frame_delta_ms": 8.08,
+		"listener_method": "on_MovementChanged",
+		"listener_obj": "DirectionMode",
+		"listener_path": "/root/MainLevel/HUD/DirectionMode",
+		"sender_method": "_ready",
+		"sender_obj": "manequin1",
+		"sender_path": "/root/MainLevel/manequin1",
+		"ticks_msec": 9227,
+		"time": "08:57:20"
+	},
+	{
+		"args": "FULL",
+		"date": "2026-07-30",
+		"event": "CameraMode_Changed",
+		"fps": 123.7,
+		"frame": 214,
+		"frame_delta_ms": 8.08,
+		"listener_method": "on_cameraChanged",
+		"listener_obj": "CameraMode",
+		"listener_path": "/root/MainLevel/HUD/CameraMode",
+		"sender_method": "_ready",
+		"sender_obj": "manequin1",
+		"sender_path": "/root/MainLevel/manequin1",
+		"ticks_msec": 9228,
+		"time": "08:57:20"
 	},
 	{
 		"args": [
 			"",
-			"Forward"
+			"None"
 		],
-		"date": "2026-07-29",
+		"date": "2026-07-30",
+		"event": "Movement_Changed",
+		"fps": 123.7,
+		"frame": 214,
+		"frame_delta_ms": 8.08,
+		"listener_method": "onWeaponPositionAdjusting",
+		"listener_obj": "AssaultRifle1",
+		"listener_path": "/root/MainLevel/World/WeaponArea/WeaponAreaCollisionShape/AssaultRifle1",
+		"sender_method": "_on_character_movement_component_movementStateChanged",
+		"sender_obj": "AnimationTree",
+		"sender_path": "/root/MainLevel/manequin1/AnimationTree",
+		"ticks_msec": 9229,
+		"time": "08:57:20"
+	},
+	{
+		"args": [
+			"",
+			"None"
+		],
+		"date": "2026-07-30",
+		"event": "Movement_Changed",
+		"fps": 123.7,
+		"frame": 214,
+		"frame_delta_ms": 8.08,
+		"listener_method": "on_MovementChanged",
+		"listener_obj": "MovementMode",
+		"listener_path": "/root/MainLevel/HUD/MovementMode",
+		"sender_method": "_on_character_movement_component_movementStateChanged",
+		"sender_obj": "AnimationTree",
+		"sender_path": "/root/MainLevel/manequin1/AnimationTree",
+		"ticks_msec": 9229,
+		"time": "08:57:20"
+	},
+	{
+		"args": [
+			"",
+			"None"
+		],
+		"date": "2026-07-30",
+		"event": "Movement_Changed",
+		"fps": 123.7,
+		"frame": 214,
+		"frame_delta_ms": 8.08,
+		"listener_method": "on_MovementChanged",
+		"listener_obj": "DirectionMode",
+		"listener_path": "/root/MainLevel/HUD/DirectionMode",
+		"sender_method": "_on_character_movement_component_movementStateChanged",
+		"sender_obj": "AnimationTree",
+		"sender_path": "/root/MainLevel/manequin1/AnimationTree",
+		"ticks_msec": 9230,
+		"time": "08:57:20"
+	},
+	{
+		"args": [
+			"Idle",
+			""
+		],
+		"date": "2026-07-30",
+		"event": "Movement_Changed",
+		"fps": 123.7,
+		"frame": 214,
+		"frame_delta_ms": 8.08,
+		"listener_method": "onWeaponPositionAdjusting",
+		"listener_obj": "AssaultRifle1",
+		"listener_path": "/root/MainLevel/World/WeaponArea/WeaponAreaCollisionShape/AssaultRifle1",
+		"sender_method": "_on_character_movement_component_movementStateChanged",
+		"sender_obj": "AnimationTree",
+		"sender_path": "/root/MainLevel/manequin1/AnimationTree",
+		"ticks_msec": 9230,
+		"time": "08:57:20"
+	},
+	{
+		"args": [
+			"Idle",
+			""
+		],
+		"date": "2026-07-30",
+		"event": "Movement_Changed",
+		"fps": 123.7,
+		"frame": 214,
+		"frame_delta_ms": 8.08,
+		"listener_method": "on_MovementChanged",
+		"listener_obj": "MovementMode",
+		"listener_path": "/root/MainLevel/HUD/MovementMode",
+		"sender_method": "_on_character_movement_component_movementStateChanged",
+		"sender_obj": "AnimationTree",
+		"sender_path": "/root/MainLevel/manequin1/AnimationTree",
+		"ticks_msec": 9230,
+		"time": "08:57:20"
+	},
+	{
+		"args": [
+			"Idle",
+			""
+		],
+		"date": "2026-07-30",
+		"event": "Movement_Changed",
+		"fps": 123.7,
+		"frame": 214,
+		"frame_delta_ms": 8.08,
+		"listener_method": "on_MovementChanged",
+		"listener_obj": "DirectionMode",
+		"listener_path": "/root/MainLevel/HUD/DirectionMode",
+		"sender_method": "_on_character_movement_component_movementStateChanged",
+		"sender_obj": "AnimationTree",
+		"sender_path": "/root/MainLevel/manequin1/AnimationTree",
+		"ticks_msec": 9230,
+		"time": "08:57:20"
+	},
+	{
+		"args": 3,
+		"date": "2026-07-30",
+		"event": "Time_TicToc",
+		"fps": 120.0,
+		"frame": 334,
+		"frame_delta_ms": 8.33,
+		"listener_method": "_showHour",
+		"listener_obj": "Hour",
+		"listener_path": "/root/MainLevel/HUD/Hour",
+		"sender_method": "_on_timer_timeout",
+		"sender_obj": "GameInstance",
+		"sender_path": "/root/GameInstance",
+		"ticks_msec": 10198,
+		"time": "08:57:21"
+	},
+	{
+		"args": 3,
+		"date": "2026-07-30",
+		"event": "Time_TicToc",
+		"fps": 120.0,
+		"frame": 334,
+		"frame_delta_ms": 8.33,
+		"listener_method": "_showCount",
+		"listener_obj": "Count",
+		"listener_path": "/root/MainLevel/HUD/Count",
+		"sender_method": "_on_timer_timeout",
+		"sender_obj": "GameInstance",
+		"sender_path": "/root/GameInstance",
+		"ticks_msec": 10198,
+		"time": "08:57:21"
+	},
+	{
+		"args": [
+			"Idle",
+			""
+		],
+		"date": "2026-07-30",
+		"event": "Movement_Changed",
+		"fps": 132.0,
+		"frame": 347,
+		"frame_delta_ms": 7.58,
+		"listener_method": "onWeaponPositionAdjusting",
+		"listener_obj": "AssaultRifle1",
+		"listener_path": "/root/MainLevel/World/WeaponArea/WeaponAreaCollisionShape/AssaultRifle1",
+		"sender_method": "_ready",
+		"sender_obj": "man",
+		"sender_path": "/root/MainLevel/man",
+		"ticks_msec": 10304,
+		"time": "08:57:21"
+	},
+	{
+		"args": [
+			"Idle",
+			""
+		],
+		"date": "2026-07-30",
+		"event": "Movement_Changed",
+		"fps": 132.0,
+		"frame": 347,
+		"frame_delta_ms": 7.58,
+		"listener_method": "on_MovementChanged",
+		"listener_obj": "MovementMode",
+		"listener_path": "/root/MainLevel/HUD/MovementMode",
+		"sender_method": "_ready",
+		"sender_obj": "man",
+		"sender_path": "/root/MainLevel/man",
+		"ticks_msec": 10304,
+		"time": "08:57:21"
+	},
+	{
+		"args": [
+			"Idle",
+			""
+		],
+		"date": "2026-07-30",
+		"event": "Movement_Changed",
+		"fps": 132.0,
+		"frame": 347,
+		"frame_delta_ms": 7.58,
+		"listener_method": "on_MovementChanged",
+		"listener_obj": "DirectionMode",
+		"listener_path": "/root/MainLevel/HUD/DirectionMode",
+		"sender_method": "_ready",
+		"sender_obj": "man",
+		"sender_path": "/root/MainLevel/man",
+		"ticks_msec": 10304,
+		"time": "08:57:21"
+	},
+	{
+		"args": "FULL",
+		"date": "2026-07-30",
+		"event": "CameraMode_Changed",
+		"fps": 132.0,
+		"frame": 347,
+		"frame_delta_ms": 7.58,
+		"listener_method": "on_cameraChanged",
+		"listener_obj": "CameraMode",
+		"listener_path": "/root/MainLevel/HUD/CameraMode",
+		"sender_method": "_ready",
+		"sender_obj": "man",
+		"sender_path": "/root/MainLevel/man",
+		"ticks_msec": 10304,
+		"time": "08:57:21"
+	},
+	{
+		"args": [
+			"",
+			"None"
+		],
+		"date": "2026-07-30",
 		"event": "Movement_Changed",
 		"fps": 120.0,
-		"frame": 171,
+		"frame": 348,
 		"frame_delta_ms": 8.33,
 		"listener_method": "onWeaponPositionAdjusting",
 		"listener_obj": "AssaultRifle1",
 		"listener_path": "/root/MainLevel/World/WeaponArea/WeaponAreaCollisionShape/AssaultRifle1",
 		"sender_method": "_on_character_movement_component_movementStateChanged",
 		"sender_obj": "AnimationTree",
-		"sender_path": "/root/MainLevel/manequin2/AnimationTree",
-		"ticks_msec": 7443,
-		"time": "09:24:43"
+		"sender_path": "/root/MainLevel/man/AnimationTree",
+		"ticks_msec": 10310,
+		"time": "08:57:21"
 	},
 	{
 		"args": [
 			"",
-			"Forward"
+			"None"
 		],
-		"date": "2026-07-29",
+		"date": "2026-07-30",
 		"event": "Movement_Changed",
 		"fps": 120.0,
-		"frame": 171,
+		"frame": 348,
 		"frame_delta_ms": 8.33,
 		"listener_method": "on_MovementChanged",
 		"listener_obj": "MovementMode",
 		"listener_path": "/root/MainLevel/HUD/MovementMode",
 		"sender_method": "_on_character_movement_component_movementStateChanged",
 		"sender_obj": "AnimationTree",
-		"sender_path": "/root/MainLevel/manequin2/AnimationTree",
-		"ticks_msec": 7443,
-		"time": "09:24:43"
+		"sender_path": "/root/MainLevel/man/AnimationTree",
+		"ticks_msec": 10310,
+		"time": "08:57:21"
 	},
 	{
 		"args": [
 			"",
-			"Forward"
+			"None"
 		],
-		"date": "2026-07-29",
+		"date": "2026-07-30",
 		"event": "Movement_Changed",
 		"fps": 120.0,
-		"frame": 171,
+		"frame": 348,
 		"frame_delta_ms": 8.33,
 		"listener_method": "on_MovementChanged",
 		"listener_obj": "DirectionMode",
 		"listener_path": "/root/MainLevel/HUD/DirectionMode",
 		"sender_method": "_on_character_movement_component_movementStateChanged",
 		"sender_obj": "AnimationTree",
-		"sender_path": "/root/MainLevel/manequin2/AnimationTree",
-		"ticks_msec": 7443,
-		"time": "09:24:43"
+		"sender_path": "/root/MainLevel/man/AnimationTree",
+		"ticks_msec": 10311,
+		"time": "08:57:21"
 	},
 	{
 		"args": [
-			"Runing",
+			"Idle",
 			""
 		],
-		"date": "2026-07-29",
+		"date": "2026-07-30",
 		"event": "Movement_Changed",
 		"fps": 120.0,
-		"frame": 171,
+		"frame": 348,
 		"frame_delta_ms": 8.33,
 		"listener_method": "onWeaponPositionAdjusting",
 		"listener_obj": "AssaultRifle1",
 		"listener_path": "/root/MainLevel/World/WeaponArea/WeaponAreaCollisionShape/AssaultRifle1",
 		"sender_method": "_on_character_movement_component_movementStateChanged",
 		"sender_obj": "AnimationTree",
-		"sender_path": "/root/MainLevel/manequin2/AnimationTree",
-		"ticks_msec": 7443,
-		"time": "09:24:43"
+		"sender_path": "/root/MainLevel/man/AnimationTree",
+		"ticks_msec": 10311,
+		"time": "08:57:21"
 	},
 	{
 		"args": [
-			"Runing",
+			"Idle",
 			""
 		],
-		"date": "2026-07-29",
+		"date": "2026-07-30",
 		"event": "Movement_Changed",
 		"fps": 120.0,
-		"frame": 171,
+		"frame": 348,
 		"frame_delta_ms": 8.33,
 		"listener_method": "on_MovementChanged",
 		"listener_obj": "MovementMode",
 		"listener_path": "/root/MainLevel/HUD/MovementMode",
 		"sender_method": "_on_character_movement_component_movementStateChanged",
 		"sender_obj": "AnimationTree",
-		"sender_path": "/root/MainLevel/manequin2/AnimationTree",
-		"ticks_msec": 7443,
-		"time": "09:24:43"
+		"sender_path": "/root/MainLevel/man/AnimationTree",
+		"ticks_msec": 10311,
+		"time": "08:57:21"
 	},
 	{
 		"args": [
-			"Runing",
+			"Idle",
 			""
 		],
-		"date": "2026-07-29",
+		"date": "2026-07-30",
 		"event": "Movement_Changed",
 		"fps": 120.0,
-		"frame": 171,
+		"frame": 348,
 		"frame_delta_ms": 8.33,
 		"listener_method": "on_MovementChanged",
 		"listener_obj": "DirectionMode",
 		"listener_path": "/root/MainLevel/HUD/DirectionMode",
 		"sender_method": "_on_character_movement_component_movementStateChanged",
 		"sender_obj": "AnimationTree",
-		"sender_path": "/root/MainLevel/manequin2/AnimationTree",
-		"ticks_msec": 7443,
-		"time": "09:24:43"
-	},
-	{
-		"args": 2,
-		"date": "2026-07-29",
-		"event": "Time_TicToc",
-		"fps": 132.0,
-		"frame": 215,
-		"frame_delta_ms": 7.58,
-		"listener_method": "_showHour",
-		"listener_obj": "Hour",
-		"listener_path": "/root/MainLevel/HUD/Hour",
-		"sender_method": "_on_timer_timeout",
-		"sender_obj": "GameInstance",
-		"sender_path": "/root/GameInstance",
-		"ticks_msec": 7795,
-		"time": "09:24:43"
-	},
-	{
-		"args": 2,
-		"date": "2026-07-29",
-		"event": "Time_TicToc",
-		"fps": 132.0,
-		"frame": 215,
-		"frame_delta_ms": 7.58,
-		"listener_method": "_showCount",
-		"listener_obj": "Count",
-		"listener_path": "/root/MainLevel/HUD/Count",
-		"sender_method": "_on_timer_timeout",
-		"sender_obj": "GameInstance",
-		"sender_path": "/root/GameInstance",
-		"ticks_msec": 7795,
-		"time": "09:24:43"
-	},
-	{
-		"args": 3,
-		"date": "2026-07-29",
-		"event": "Time_TicToc",
-		"fps": 120.0,
-		"frame": 338,
-		"frame_delta_ms": 8.33,
-		"listener_method": "_showHour",
-		"listener_obj": "Hour",
-		"listener_path": "/root/MainLevel/HUD/Hour",
-		"sender_method": "_on_timer_timeout",
-		"sender_obj": "GameInstance",
-		"sender_path": "/root/GameInstance",
-		"ticks_msec": 8801,
-		"time": "09:24:44"
-	},
-	{
-		"args": 3,
-		"date": "2026-07-29",
-		"event": "Time_TicToc",
-		"fps": 120.0,
-		"frame": 338,
-		"frame_delta_ms": 8.33,
-		"listener_method": "_showCount",
-		"listener_obj": "Count",
-		"listener_path": "/root/MainLevel/HUD/Count",
-		"sender_method": "_on_timer_timeout",
-		"sender_obj": "GameInstance",
-		"sender_path": "/root/GameInstance",
-		"ticks_msec": 8802,
-		"time": "09:24:44"
+		"sender_path": "/root/MainLevel/man/AnimationTree",
+		"ticks_msec": 10311,
+		"time": "08:57:21"
 	},
 	{
 		"args": 4,
-		"date": "2026-07-29",
+		"date": "2026-07-30",
 		"event": "Time_TicToc",
 		"fps": 120.0,
-		"frame": 455,
+		"frame": 452,
 		"frame_delta_ms": 8.33,
 		"listener_method": "_showHour",
 		"listener_obj": "Hour",
@@ -717,15 +950,15 @@
 		"sender_method": "_on_timer_timeout",
 		"sender_obj": "GameInstance",
 		"sender_path": "/root/GameInstance",
-		"ticks_msec": 9786,
-		"time": "09:24:45"
+		"ticks_msec": 11189,
+		"time": "08:57:21"
 	},
 	{
 		"args": 4,
-		"date": "2026-07-29",
+		"date": "2026-07-30",
 		"event": "Time_TicToc",
 		"fps": 120.0,
-		"frame": 455,
+		"frame": 452,
 		"frame_delta_ms": 8.33,
 		"listener_method": "_showCount",
 		"listener_obj": "Count",
@@ -733,852 +966,29 @@
 		"sender_method": "_on_timer_timeout",
 		"sender_obj": "GameInstance",
 		"sender_path": "/root/GameInstance",
-		"ticks_msec": 9786,
-		"time": "09:24:45"
-	},
-	{
-		"args": 5,
-		"date": "2026-07-29",
-		"event": "Time_TicToc",
-		"fps": 120.0,
-		"frame": 577,
-		"frame_delta_ms": 8.33,
-		"listener_method": "_showHour",
-		"listener_obj": "Hour",
-		"listener_path": "/root/MainLevel/HUD/Hour",
-		"sender_method": "_on_timer_timeout",
-		"sender_obj": "GameInstance",
-		"sender_path": "/root/GameInstance",
-		"ticks_msec": 10794,
-		"time": "09:24:46"
-	},
-	{
-		"args": 5,
-		"date": "2026-07-29",
-		"event": "Time_TicToc",
-		"fps": 120.0,
-		"frame": 577,
-		"frame_delta_ms": 8.33,
-		"listener_method": "_showCount",
-		"listener_obj": "Count",
-		"listener_path": "/root/MainLevel/HUD/Count",
-		"sender_method": "_on_timer_timeout",
-		"sender_obj": "GameInstance",
-		"sender_path": "/root/GameInstance",
-		"ticks_msec": 10794,
-		"time": "09:24:46"
-	},
-	{
-		"args": [
-			"Runing",
-			""
-		],
-		"date": "2026-07-29",
-		"event": "Movement_Changed",
-		"fps": 120.0,
-		"frame": 631,
-		"frame_delta_ms": 8.33,
-		"listener_method": "onWeaponPositionAdjusting",
-		"listener_obj": "AssaultRifle1",
-		"listener_path": "/root/MainLevel/manequin2/Armature/Skeleton3D/Bone/AssaultRifle1",
-		"sender_method": "_on_character_movement_component_movementStateChanged",
-		"sender_obj": "AnimationTree",
-		"sender_path": "/root/MainLevel/manequin2/AnimationTree",
-		"ticks_msec": 11248,
-		"time": "09:24:46"
-	},
-	{
-		"args": [
-			"Runing",
-			""
-		],
-		"date": "2026-07-29",
-		"event": "Movement_Changed",
-		"fps": 120.0,
-		"frame": 631,
-		"frame_delta_ms": 8.33,
-		"listener_method": "on_MovementChanged",
-		"listener_obj": "MovementMode",
-		"listener_path": "/root/MainLevel/HUD/MovementMode",
-		"sender_method": "_on_character_movement_component_movementStateChanged",
-		"sender_obj": "AnimationTree",
-		"sender_path": "/root/MainLevel/manequin2/AnimationTree",
-		"ticks_msec": 11248,
-		"time": "09:24:46"
-	},
-	{
-		"args": [
-			"Runing",
-			""
-		],
-		"date": "2026-07-29",
-		"event": "Movement_Changed",
-		"fps": 120.0,
-		"frame": 631,
-		"frame_delta_ms": 8.33,
-		"listener_method": "on_MovementChanged",
-		"listener_obj": "DirectionMode",
-		"listener_path": "/root/MainLevel/HUD/DirectionMode",
-		"sender_method": "_on_character_movement_component_movementStateChanged",
-		"sender_obj": "AnimationTree",
-		"sender_path": "/root/MainLevel/manequin2/AnimationTree",
-		"ticks_msec": 11248,
-		"time": "09:24:46"
-	},
-	{
-		"args": [
-			"Runing",
-			""
-		],
-		"date": "2026-07-29",
-		"event": "Movement_Changed",
-		"fps": 120.0,
-		"frame": 631,
-		"frame_delta_ms": 8.33,
-		"listener_method": "onWeaponPositionAdjusting",
-		"listener_obj": "AssaultRifle1",
-		"listener_path": "/root/MainLevel/manequin2/Armature/Skeleton3D/Bone/AssaultRifle1",
-		"sender_method": "_on_body_entered",
-		"sender_obj": "WeaponArea",
-		"sender_path": "/root/MainLevel/World/WeaponArea",
-		"ticks_msec": 11249,
-		"time": "09:24:46"
-	},
-	{
-		"args": [
-			"Runing",
-			""
-		],
-		"date": "2026-07-29",
-		"event": "Movement_Changed",
-		"fps": 120.0,
-		"frame": 631,
-		"frame_delta_ms": 8.33,
-		"listener_method": "on_MovementChanged",
-		"listener_obj": "MovementMode",
-		"listener_path": "/root/MainLevel/HUD/MovementMode",
-		"sender_method": "_on_body_entered",
-		"sender_obj": "WeaponArea",
-		"sender_path": "/root/MainLevel/World/WeaponArea",
-		"ticks_msec": 11249,
-		"time": "09:24:46"
-	},
-	{
-		"args": [
-			"Runing",
-			""
-		],
-		"date": "2026-07-29",
-		"event": "Movement_Changed",
-		"fps": 120.0,
-		"frame": 631,
-		"frame_delta_ms": 8.33,
-		"listener_method": "on_MovementChanged",
-		"listener_obj": "DirectionMode",
-		"listener_path": "/root/MainLevel/HUD/DirectionMode",
-		"sender_method": "_on_body_entered",
-		"sender_obj": "WeaponArea",
-		"sender_path": "/root/MainLevel/World/WeaponArea",
-		"ticks_msec": 11249,
-		"time": "09:24:46"
-	},
-	{
-		"args": [
-			"",
-			"Straif Left"
-		],
-		"date": "2026-07-29",
-		"event": "Movement_Changed",
-		"fps": 120.0,
-		"frame": 685,
-		"frame_delta_ms": 8.33,
-		"listener_method": "onWeaponPositionAdjusting",
-		"listener_obj": "AssaultRifle1",
-		"listener_path": "/root/MainLevel/manequin2/Armature/Skeleton3D/Bone/AssaultRifle1",
-		"sender_method": "_on_character_movement_component_movementStateChanged",
-		"sender_obj": "AnimationTree",
-		"sender_path": "/root/MainLevel/manequin2/AnimationTree",
-		"ticks_msec": 11704,
-		"time": "09:24:47"
-	},
-	{
-		"args": [
-			"",
-			"Straif Left"
-		],
-		"date": "2026-07-29",
-		"event": "Movement_Changed",
-		"fps": 120.0,
-		"frame": 685,
-		"frame_delta_ms": 8.33,
-		"listener_method": "on_MovementChanged",
-		"listener_obj": "MovementMode",
-		"listener_path": "/root/MainLevel/HUD/MovementMode",
-		"sender_method": "_on_character_movement_component_movementStateChanged",
-		"sender_obj": "AnimationTree",
-		"sender_path": "/root/MainLevel/manequin2/AnimationTree",
-		"ticks_msec": 11704,
-		"time": "09:24:47"
-	},
-	{
-		"args": [
-			"",
-			"Straif Left"
-		],
-		"date": "2026-07-29",
-		"event": "Movement_Changed",
-		"fps": 120.0,
-		"frame": 685,
-		"frame_delta_ms": 8.33,
-		"listener_method": "on_MovementChanged",
-		"listener_obj": "DirectionMode",
-		"listener_path": "/root/MainLevel/HUD/DirectionMode",
-		"sender_method": "_on_character_movement_component_movementStateChanged",
-		"sender_obj": "AnimationTree",
-		"sender_path": "/root/MainLevel/manequin2/AnimationTree",
-		"ticks_msec": 11704,
-		"time": "09:24:47"
-	},
-	{
-		"args": 6,
-		"date": "2026-07-29",
-		"event": "Time_TicToc",
-		"fps": 120.0,
-		"frame": 697,
-		"frame_delta_ms": 8.33,
-		"listener_method": "_showHour",
-		"listener_obj": "Hour",
-		"listener_path": "/root/MainLevel/HUD/Hour",
-		"sender_method": "_on_timer_timeout",
-		"sender_obj": "GameInstance",
-		"sender_path": "/root/GameInstance",
-		"ticks_msec": 11802,
-		"time": "09:24:47"
-	},
-	{
-		"args": 6,
-		"date": "2026-07-29",
-		"event": "Time_TicToc",
-		"fps": 120.0,
-		"frame": 697,
-		"frame_delta_ms": 8.33,
-		"listener_method": "_showCount",
-		"listener_obj": "Count",
-		"listener_path": "/root/MainLevel/HUD/Count",
-		"sender_method": "_on_timer_timeout",
-		"sender_obj": "GameInstance",
-		"sender_path": "/root/GameInstance",
-		"ticks_msec": 11802,
-		"time": "09:24:47"
-	},
-	{
-		"args": 7,
-		"date": "2026-07-29",
-		"event": "Time_TicToc",
-		"fps": 120.0,
-		"frame": 813,
-		"frame_delta_ms": 8.33,
-		"listener_method": "_showHour",
-		"listener_obj": "Hour",
-		"listener_path": "/root/MainLevel/HUD/Hour",
-		"sender_method": "_on_timer_timeout",
-		"sender_obj": "GameInstance",
-		"sender_path": "/root/GameInstance",
-		"ticks_msec": 12790,
-		"time": "09:24:48"
-	},
-	{
-		"args": 7,
-		"date": "2026-07-29",
-		"event": "Time_TicToc",
-		"fps": 120.0,
-		"frame": 813,
-		"frame_delta_ms": 8.33,
-		"listener_method": "_showCount",
-		"listener_obj": "Count",
-		"listener_path": "/root/MainLevel/HUD/Count",
-		"sender_method": "_on_timer_timeout",
-		"sender_obj": "GameInstance",
-		"sender_path": "/root/GameInstance",
-		"ticks_msec": 12790,
-		"time": "09:24:48"
-	},
-	{
-		"args": [
-			"",
-			"None"
-		],
-		"date": "2026-07-29",
-		"event": "Movement_Changed",
-		"fps": 120.0,
-		"frame": 899,
-		"frame_delta_ms": 8.33,
-		"listener_method": "onWeaponPositionAdjusting",
-		"listener_obj": "AssaultRifle1",
-		"listener_path": "/root/MainLevel/manequin2/Armature/Skeleton3D/Bone/AssaultRifle1",
-		"sender_method": "_on_character_movement_component_movementStateChanged",
-		"sender_obj": "AnimationTree",
-		"sender_path": "/root/MainLevel/manequin2/AnimationTree",
-		"ticks_msec": 13527,
-		"time": "09:24:49"
-	},
-	{
-		"args": [
-			"",
-			"None"
-		],
-		"date": "2026-07-29",
-		"event": "Movement_Changed",
-		"fps": 120.0,
-		"frame": 899,
-		"frame_delta_ms": 8.33,
-		"listener_method": "on_MovementChanged",
-		"listener_obj": "MovementMode",
-		"listener_path": "/root/MainLevel/HUD/MovementMode",
-		"sender_method": "_on_character_movement_component_movementStateChanged",
-		"sender_obj": "AnimationTree",
-		"sender_path": "/root/MainLevel/manequin2/AnimationTree",
-		"ticks_msec": 13527,
-		"time": "09:24:49"
-	},
-	{
-		"args": [
-			"",
-			"None"
-		],
-		"date": "2026-07-29",
-		"event": "Movement_Changed",
-		"fps": 120.0,
-		"frame": 899,
-		"frame_delta_ms": 8.33,
-		"listener_method": "on_MovementChanged",
-		"listener_obj": "DirectionMode",
-		"listener_path": "/root/MainLevel/HUD/DirectionMode",
-		"sender_method": "_on_character_movement_component_movementStateChanged",
-		"sender_obj": "AnimationTree",
-		"sender_path": "/root/MainLevel/manequin2/AnimationTree",
-		"ticks_msec": 13527,
-		"time": "09:24:49"
-	},
-	{
-		"args": [
-			"Idle",
-			""
-		],
-		"date": "2026-07-29",
-		"event": "Movement_Changed",
-		"fps": 120.0,
-		"frame": 899,
-		"frame_delta_ms": 8.33,
-		"listener_method": "onWeaponPositionAdjusting",
-		"listener_obj": "AssaultRifle1",
-		"listener_path": "/root/MainLevel/manequin2/Armature/Skeleton3D/Bone/AssaultRifle1",
-		"sender_method": "_on_character_movement_component_movementStateChanged",
-		"sender_obj": "AnimationTree",
-		"sender_path": "/root/MainLevel/manequin2/AnimationTree",
-		"ticks_msec": 13527,
-		"time": "09:24:49"
-	},
-	{
-		"args": [
-			"Idle",
-			""
-		],
-		"date": "2026-07-29",
-		"event": "Movement_Changed",
-		"fps": 120.0,
-		"frame": 899,
-		"frame_delta_ms": 8.33,
-		"listener_method": "on_MovementChanged",
-		"listener_obj": "MovementMode",
-		"listener_path": "/root/MainLevel/HUD/MovementMode",
-		"sender_method": "_on_character_movement_component_movementStateChanged",
-		"sender_obj": "AnimationTree",
-		"sender_path": "/root/MainLevel/manequin2/AnimationTree",
-		"ticks_msec": 13527,
-		"time": "09:24:49"
-	},
-	{
-		"args": [
-			"Idle",
-			""
-		],
-		"date": "2026-07-29",
-		"event": "Movement_Changed",
-		"fps": 120.0,
-		"frame": 899,
-		"frame_delta_ms": 8.33,
-		"listener_method": "on_MovementChanged",
-		"listener_obj": "DirectionMode",
-		"listener_path": "/root/MainLevel/HUD/DirectionMode",
-		"sender_method": "_on_character_movement_component_movementStateChanged",
-		"sender_obj": "AnimationTree",
-		"sender_path": "/root/MainLevel/manequin2/AnimationTree",
-		"ticks_msec": 13527,
-		"time": "09:24:49"
-	},
-	{
-		"args": 8,
-		"date": "2026-07-29",
-		"event": "Time_TicToc",
-		"fps": 120.0,
-		"frame": 930,
-		"frame_delta_ms": 8.33,
-		"listener_method": "_showHour",
-		"listener_obj": "Hour",
-		"listener_path": "/root/MainLevel/HUD/Hour",
-		"sender_method": "_on_timer_timeout",
-		"sender_obj": "GameInstance",
-		"sender_path": "/root/GameInstance",
-		"ticks_msec": 13788,
-		"time": "09:24:49"
-	},
-	{
-		"args": 8,
-		"date": "2026-07-29",
-		"event": "Time_TicToc",
-		"fps": 120.0,
-		"frame": 930,
-		"frame_delta_ms": 8.33,
-		"listener_method": "_showCount",
-		"listener_obj": "Count",
-		"listener_path": "/root/MainLevel/HUD/Count",
-		"sender_method": "_on_timer_timeout",
-		"sender_obj": "GameInstance",
-		"sender_path": "/root/GameInstance",
-		"ticks_msec": 13788,
-		"time": "09:24:49"
-	},
-	{
-		"args": [
-			"",
-			"Straif Right"
-		],
-		"date": "2026-07-29",
-		"event": "Movement_Changed",
-		"fps": 120.0,
-		"frame": 988,
-		"frame_delta_ms": 8.33,
-		"listener_method": "onWeaponPositionAdjusting",
-		"listener_obj": "AssaultRifle1",
-		"listener_path": "/root/MainLevel/manequin2/Armature/Skeleton3D/Bone/AssaultRifle1",
-		"sender_method": "_on_character_movement_component_movementStateChanged",
-		"sender_obj": "AnimationTree",
-		"sender_path": "/root/MainLevel/manequin2/AnimationTree",
-		"ticks_msec": 14275,
-		"time": "09:24:50"
-	},
-	{
-		"args": [
-			"",
-			"Straif Right"
-		],
-		"date": "2026-07-29",
-		"event": "Movement_Changed",
-		"fps": 120.0,
-		"frame": 988,
-		"frame_delta_ms": 8.33,
-		"listener_method": "on_MovementChanged",
-		"listener_obj": "MovementMode",
-		"listener_path": "/root/MainLevel/HUD/MovementMode",
-		"sender_method": "_on_character_movement_component_movementStateChanged",
-		"sender_obj": "AnimationTree",
-		"sender_path": "/root/MainLevel/manequin2/AnimationTree",
-		"ticks_msec": 14276,
-		"time": "09:24:50"
-	},
-	{
-		"args": [
-			"",
-			"Straif Right"
-		],
-		"date": "2026-07-29",
-		"event": "Movement_Changed",
-		"fps": 120.0,
-		"frame": 988,
-		"frame_delta_ms": 8.33,
-		"listener_method": "on_MovementChanged",
-		"listener_obj": "DirectionMode",
-		"listener_path": "/root/MainLevel/HUD/DirectionMode",
-		"sender_method": "_on_character_movement_component_movementStateChanged",
-		"sender_obj": "AnimationTree",
-		"sender_path": "/root/MainLevel/manequin2/AnimationTree",
-		"ticks_msec": 14276,
-		"time": "09:24:50"
-	},
-	{
-		"args": [
-			"Runing",
-			""
-		],
-		"date": "2026-07-29",
-		"event": "Movement_Changed",
-		"fps": 120.0,
-		"frame": 988,
-		"frame_delta_ms": 8.33,
-		"listener_method": "onWeaponPositionAdjusting",
-		"listener_obj": "AssaultRifle1",
-		"listener_path": "/root/MainLevel/manequin2/Armature/Skeleton3D/Bone/AssaultRifle1",
-		"sender_method": "_on_character_movement_component_movementStateChanged",
-		"sender_obj": "AnimationTree",
-		"sender_path": "/root/MainLevel/manequin2/AnimationTree",
-		"ticks_msec": 14276,
-		"time": "09:24:50"
-	},
-	{
-		"args": [
-			"Runing",
-			""
-		],
-		"date": "2026-07-29",
-		"event": "Movement_Changed",
-		"fps": 120.0,
-		"frame": 988,
-		"frame_delta_ms": 8.33,
-		"listener_method": "on_MovementChanged",
-		"listener_obj": "MovementMode",
-		"listener_path": "/root/MainLevel/HUD/MovementMode",
-		"sender_method": "_on_character_movement_component_movementStateChanged",
-		"sender_obj": "AnimationTree",
-		"sender_path": "/root/MainLevel/manequin2/AnimationTree",
-		"ticks_msec": 14276,
-		"time": "09:24:50"
-	},
-	{
-		"args": [
-			"Runing",
-			""
-		],
-		"date": "2026-07-29",
-		"event": "Movement_Changed",
-		"fps": 120.0,
-		"frame": 988,
-		"frame_delta_ms": 8.33,
-		"listener_method": "on_MovementChanged",
-		"listener_obj": "DirectionMode",
-		"listener_path": "/root/MainLevel/HUD/DirectionMode",
-		"sender_method": "_on_character_movement_component_movementStateChanged",
-		"sender_obj": "AnimationTree",
-		"sender_path": "/root/MainLevel/manequin2/AnimationTree",
-		"ticks_msec": 14276,
-		"time": "09:24:50"
-	},
-	{
-		"args": 9,
-		"date": "2026-07-29",
-		"event": "Time_TicToc",
-		"fps": 120.0,
-		"frame": 1050,
-		"frame_delta_ms": 8.33,
-		"listener_method": "_showHour",
-		"listener_obj": "Hour",
-		"listener_path": "/root/MainLevel/HUD/Hour",
-		"sender_method": "_on_timer_timeout",
-		"sender_obj": "GameInstance",
-		"sender_path": "/root/GameInstance",
-		"ticks_msec": 14794,
-		"time": "09:24:50"
-	},
-	{
-		"args": 9,
-		"date": "2026-07-29",
-		"event": "Time_TicToc",
-		"fps": 120.0,
-		"frame": 1050,
-		"frame_delta_ms": 8.33,
-		"listener_method": "_showCount",
-		"listener_obj": "Count",
-		"listener_path": "/root/MainLevel/HUD/Count",
-		"sender_method": "_on_timer_timeout",
-		"sender_obj": "GameInstance",
-		"sender_path": "/root/GameInstance",
-		"ticks_msec": 14794,
-		"time": "09:24:50"
-	},
-	{
-		"args": 10,
-		"date": "2026-07-29",
-		"event": "Time_TicToc",
-		"fps": 110.0,
-		"frame": 1168,
-		"frame_delta_ms": 9.09,
-		"listener_method": "_showHour",
-		"listener_obj": "Hour",
-		"listener_path": "/root/MainLevel/HUD/Hour",
-		"sender_method": "_on_timer_timeout",
-		"sender_obj": "GameInstance",
-		"sender_path": "/root/GameInstance",
-		"ticks_msec": 15793,
-		"time": "09:24:51"
-	},
-	{
-		"args": 10,
-		"date": "2026-07-29",
-		"event": "Time_TicToc",
-		"fps": 110.0,
-		"frame": 1168,
-		"frame_delta_ms": 9.09,
-		"listener_method": "_showCount",
-		"listener_obj": "Count",
-		"listener_path": "/root/MainLevel/HUD/Count",
-		"sender_method": "_on_timer_timeout",
-		"sender_obj": "GameInstance",
-		"sender_path": "/root/GameInstance",
-		"ticks_msec": 15794,
-		"time": "09:24:51"
-	},
-	{
-		"args": 11,
-		"date": "2026-07-29",
-		"event": "Time_TicToc",
-		"fps": 120.0,
-		"frame": 1287,
-		"frame_delta_ms": 8.33,
-		"listener_method": "_showHour",
-		"listener_obj": "Hour",
-		"listener_path": "/root/MainLevel/HUD/Hour",
-		"sender_method": "_on_timer_timeout",
-		"sender_obj": "GameInstance",
-		"sender_path": "/root/GameInstance",
-		"ticks_msec": 16792,
-		"time": "09:24:52"
-	},
-	{
-		"args": 11,
-		"date": "2026-07-29",
-		"event": "Time_TicToc",
-		"fps": 120.0,
-		"frame": 1287,
-		"frame_delta_ms": 8.33,
-		"listener_method": "_showCount",
-		"listener_obj": "Count",
-		"listener_path": "/root/MainLevel/HUD/Count",
-		"sender_method": "_on_timer_timeout",
-		"sender_obj": "GameInstance",
-		"sender_path": "/root/GameInstance",
-		"ticks_msec": 16792,
-		"time": "09:24:52"
-	},
-	{
-		"args": [
-			"",
-			"None"
-		],
-		"date": "2026-07-29",
-		"event": "Movement_Changed",
-		"fps": 110.0,
-		"frame": 1382,
-		"frame_delta_ms": 9.09,
-		"listener_method": "onWeaponPositionAdjusting",
-		"listener_obj": "AssaultRifle1",
-		"listener_path": "/root/MainLevel/manequin2/Armature/Skeleton3D/Bone/AssaultRifle1",
-		"sender_method": "_on_character_movement_component_movementStateChanged",
-		"sender_obj": "AnimationTree",
-		"sender_path": "/root/MainLevel/manequin2/AnimationTree",
-		"ticks_msec": 17593,
-		"time": "09:24:53"
-	},
-	{
-		"args": [
-			"",
-			"None"
-		],
-		"date": "2026-07-29",
-		"event": "Movement_Changed",
-		"fps": 110.0,
-		"frame": 1382,
-		"frame_delta_ms": 9.09,
-		"listener_method": "on_MovementChanged",
-		"listener_obj": "MovementMode",
-		"listener_path": "/root/MainLevel/HUD/MovementMode",
-		"sender_method": "_on_character_movement_component_movementStateChanged",
-		"sender_obj": "AnimationTree",
-		"sender_path": "/root/MainLevel/manequin2/AnimationTree",
-		"ticks_msec": 17593,
-		"time": "09:24:53"
-	},
-	{
-		"args": [
-			"",
-			"None"
-		],
-		"date": "2026-07-29",
-		"event": "Movement_Changed",
-		"fps": 110.0,
-		"frame": 1382,
-		"frame_delta_ms": 9.09,
-		"listener_method": "on_MovementChanged",
-		"listener_obj": "DirectionMode",
-		"listener_path": "/root/MainLevel/HUD/DirectionMode",
-		"sender_method": "_on_character_movement_component_movementStateChanged",
-		"sender_obj": "AnimationTree",
-		"sender_path": "/root/MainLevel/manequin2/AnimationTree",
-		"ticks_msec": 17593,
-		"time": "09:24:53"
-	},
-	{
-		"args": [
-			"Idle",
-			""
-		],
-		"date": "2026-07-29",
-		"event": "Movement_Changed",
-		"fps": 110.0,
-		"frame": 1382,
-		"frame_delta_ms": 9.09,
-		"listener_method": "onWeaponPositionAdjusting",
-		"listener_obj": "AssaultRifle1",
-		"listener_path": "/root/MainLevel/manequin2/Armature/Skeleton3D/Bone/AssaultRifle1",
-		"sender_method": "_on_character_movement_component_movementStateChanged",
-		"sender_obj": "AnimationTree",
-		"sender_path": "/root/MainLevel/manequin2/AnimationTree",
-		"ticks_msec": 17593,
-		"time": "09:24:53"
-	},
-	{
-		"args": [
-			"Idle",
-			""
-		],
-		"date": "2026-07-29",
-		"event": "Movement_Changed",
-		"fps": 110.0,
-		"frame": 1382,
-		"frame_delta_ms": 9.09,
-		"listener_method": "on_MovementChanged",
-		"listener_obj": "MovementMode",
-		"listener_path": "/root/MainLevel/HUD/MovementMode",
-		"sender_method": "_on_character_movement_component_movementStateChanged",
-		"sender_obj": "AnimationTree",
-		"sender_path": "/root/MainLevel/manequin2/AnimationTree",
-		"ticks_msec": 17593,
-		"time": "09:24:53"
-	},
-	{
-		"args": [
-			"Idle",
-			""
-		],
-		"date": "2026-07-29",
-		"event": "Movement_Changed",
-		"fps": 110.0,
-		"frame": 1382,
-		"frame_delta_ms": 9.09,
-		"listener_method": "on_MovementChanged",
-		"listener_obj": "DirectionMode",
-		"listener_path": "/root/MainLevel/HUD/DirectionMode",
-		"sender_method": "_on_character_movement_component_movementStateChanged",
-		"sender_obj": "AnimationTree",
-		"sender_path": "/root/MainLevel/manequin2/AnimationTree",
-		"ticks_msec": 17593,
-		"time": "09:24:53"
-	},
-	{
-		"args": 12,
-		"date": "2026-07-29",
-		"event": "Time_TicToc",
-		"fps": 120.0,
-		"frame": 1406,
-		"frame_delta_ms": 8.33,
-		"listener_method": "_showHour",
-		"listener_obj": "Hour",
-		"listener_path": "/root/MainLevel/HUD/Hour",
-		"sender_method": "_on_timer_timeout",
-		"sender_obj": "GameInstance",
-		"sender_path": "/root/GameInstance",
-		"ticks_msec": 17795,
-		"time": "09:24:53"
-	},
-	{
-		"args": 12,
-		"date": "2026-07-29",
-		"event": "Time_TicToc",
-		"fps": 120.0,
-		"frame": 1406,
-		"frame_delta_ms": 8.33,
-		"listener_method": "_showCount",
-		"listener_obj": "Count",
-		"listener_path": "/root/MainLevel/HUD/Count",
-		"sender_method": "_on_timer_timeout",
-		"sender_obj": "GameInstance",
-		"sender_path": "/root/GameInstance",
-		"ticks_msec": 17796,
-		"time": "09:24:53"
-	},
-	{
-		"args": 13,
-		"date": "2026-07-29",
-		"event": "Time_TicToc",
-		"fps": 120.0,
-		"frame": 1524,
-		"frame_delta_ms": 8.33,
-		"listener_method": "_showHour",
-		"listener_obj": "Hour",
-		"listener_path": "/root/MainLevel/HUD/Hour",
-		"sender_method": "_on_timer_timeout",
-		"sender_obj": "GameInstance",
-		"sender_path": "/root/GameInstance",
-		"ticks_msec": 18791,
-		"time": "09:24:54"
-	},
-	{
-		"args": 13,
-		"date": "2026-07-29",
-		"event": "Time_TicToc",
-		"fps": 120.0,
-		"frame": 1524,
-		"frame_delta_ms": 8.33,
-		"listener_method": "_showCount",
-		"listener_obj": "Count",
-		"listener_path": "/root/MainLevel/HUD/Count",
-		"sender_method": "_on_timer_timeout",
-		"sender_obj": "GameInstance",
-		"sender_path": "/root/GameInstance",
-		"ticks_msec": 18791,
-		"time": "09:24:54"
+		"ticks_msec": 11189,
+		"time": "08:57:21"
 	}
 ]
-[11:24:54.743] [INFO] [EventBus:<Node#81134618090>:213] FRAME : 1550 :  Cleared the historical list of events 
-[11:24:54.743] [INFO] [EventBus:<Node#81134618090>:23] FRAME : 1550 :  Exited ... 
-[11:24:54.743] [INFO] [GameInstance:<Node#81822484340>:85] FRAME : 1550 : Notification sent to :LevelManager
-[11:24:54.743] [INFO] [LevelManager:<Node#81906370424>:18] FRAME : 1550 : Exited ...
-[11:24:54.743] [INFO] [GameInstance:<Node#81822484340>:85] FRAME : 1550 : Notification sent to :DebugMenu
-[11:24:54.743] [INFO] [GameInstance:<Node#81822484340>:85] FRAME : 1550 : Notification sent to :MainLevel
-[11:24:54.743] [INFO] [GameMode.gd:11] FRAME : 1550 :  GameMode Exiting : MainLevel ... 
-[11:24:54.744] [INFO] [GameMode.gd:15] FRAME : 1550 : Sending CLOSE_REQUEST NOTIFICATION TO ALL NODES : [PlayerStart:<Node3D#103314098183>, World:<Node3D#103330875400>, StaticBodies:<Node3D#103347652618>, Floor:<StaticBody3D#103364429835>, FloorMesh:<MeshInstance3D#103381207052>, FloorColisionShape:<CollisionShape3D#103565756430>, Walls:<Node3D#103582533648>, Wall1:<StaticBody3D#103599310900>, Wall1Mesh:<MeshInstance3D#103616088118>, Wall1CollisionShape:<CollisionShape3D#103800637512>, Wall2:<StaticBody3D#103817414735>, Wall2Mesh:<MeshInstance3D#103834191991>, Wall2CollisionShape:<CollisionShape3D#103850969208>, Wall3:<StaticBody3D#103867746425>, Wall3Mesh:<MeshInstance3D#103884523642>, Wall3CollisionShape:<CollisionShape3D#103901300859>, Wall4:<StaticBody3D#103918078076>, Wall4Mesh:<MeshInstance3D#103934855293>, Wall4CollisionShape:<CollisionShape3D#103951632510>, Platform:<Node3D#103968409727>, CentralCube:<StaticBody3D#103985186944>, CentralCubeMesh:<MeshInstance3D#104001964161>, CentralCubeCollisionShape:<CollisionShape3D#104018741378>, LateralCube:<StaticBody3D#104035518595>, LateralCubeMesh:<MeshInstance3D#104052295812>, LateralCubeCollisionShape:<CollisionShape3D#104069073029>, LastCube:<StaticBody3D#104085850246>, LastCubeMesh:<MeshInstance3D#104102627463>, LastCubeCollisionShape:<CollisionShape3D#104119404680>, Ramp1:<StaticBody3D#104136181897>, Ramp1Mesh:<MeshInstance3D#104152959114>, Ramp1CollisionShape:<CollisionShape3D#104169736331>, Ramp2:<StaticBody3D#104186513548>, Ramp2Mesh:<MeshInstance3D#104203290765>, Ramp2CollisionShape:<CollisionShape3D#104220067982>, SmallCubes:<Node3D#104236845199>, SmallCube1:<Node3D#104253622416>, SmallCube1Mesh:<MeshInstance3D#104270399633>, FollowingBodyMovementComponent:<FollowingBodyMovementComponent#104287176850>, RotatingMovementComponent:<RotatingMovementComponent#104303954067>, SmallCube2:<Node3D#104320731284>, SmallCube2Mesh:<MeshInstance3D#104337508501>, FollowingBodyMovementComponent:<FollowingBodyMovementComponent#104354285718>, SmallCube3:<Node3D#104371062935>, SmallCube3Mesh:<MeshInstance3D#104387840152>, FollowingBodyMovementComponent:<FollowingBodyMovementComponent#104404617369>, RandomMovementComponent:<RandomMovementComponent#104421394586>, RotatingPlatform1:<StaticBody3D#104454949020>, RotatingPlatform1Mesh:<MeshInstance3D#104471726237>, RotatingPlatform1CollisionShape:<CollisionShape3D#104488503454>, RotatingMovementComponent:<RotatingMovementComponent#104505280671>, RotatingPlatform2:<AnimatableBody3D#104522057888>, RotatingPlatform2Mesh:<MeshInstance3D#104538835105>, RotatingPlatform2CollisionShape:<CollisionShape3D#104555612322>, RotatingMovementComponent:<RotatingMovementComponent#104572389539>, RigidBodies:<Node3D#104589166756>, Ball1:<RigidBody3D#104605943973>, Ball1Mesh:<MeshInstance3D#104622721190>, Ball2CollisionShape:<CollisionShape3D#104639498407>, Ball2:<RigidBody3D#104656275624>, Ball2Mesh:<MeshInstance3D#104673052841>, Ball2CollisionShape:<CollisionShape3D#104689830058>, Ball3:<RigidBody3D#104706607275>, Ball3Mesh:<MeshInstance3D#104723384492>, Ball3CollisionShape:<CollisionShape3D#104740161709>, Cube 1:<RigidBody3D#104756938926>, Cube1Mesh:<MeshInstance3D#104773716143>, Cube1CollisionShape:<CollisionShape3D#104790493360>, Cube 2:<RigidBody3D#104807270577>, Cube2Mesh:<MeshInstance3D#104824047794>, Cube2CollisionShape:<CollisionShape3D#104840825011>, Cube 3:<RigidBody3D#104857602228>, Cube3Mesh:<MeshInstance3D#104874379445>, Cube3CollisionShape:<CollisionShape3D#104891156662>, Cube 4:<RigidBody3D#104907933879>, Cube4Mesh:<MeshInstance3D#104924711096>, Cube4CollisionShape:<CollisionShape3D#104941488313>, Cube 5:<RigidBody3D#104958265530>, Cube5Mesh:<MeshInstance3D#104975042747>, Cube5CollisionShape:<CollisionShape3D#104991819964>, BigBall1:<RigidBody3D#105008597181>, BigBall1Mesh:<MeshInstance3D#105025374398>, BigBall1CubeMesh:<MeshInstance3D#105042151615>, BigBall1RemoteTransform3D:<RemoteTransform3D#105058928832>, BigBall1CollisionShape:<CollisionShape3D#105075706049>, BigBall2:<RigidBody3D#105092483266>, BigBall2Mesh:<MeshInstance3D#105109260483>, BigBall2CubeMesh:<MeshInstance3D#105126037700>, BigBall2RemoteTransform3D:<RemoteTransform3D#105142814917>, BigBall2CollisionShape:<CollisionShape3D#105159592134>, NextLevelArea:<Area3D#105428027596>, NextLevelAreaMesh:<MeshInstance3D#105444804813>, NextLevelAreaCollisionShape:<CollisionShape3D#105461582030>, NextLevelAreaLabel:<Label3D#105478359247>, HUD:<Control#105495136464>, MovementMode:<Label#105528690898>, DirectionMode:<Label#105562245332>, CameraMode:<Label#105595799766>, GraphicProfile:<Label#105629354200>, FinalText:<Label#105662908634>, Hour:<Label#105696463068>, HourPrevText:<Label#105730017502>, Count:<Label#105763571936>, CountPrevText:<Label#105797126370>, DirectionalLight3D:<DirectionalLight3D#105830680804>, WorldEnvironment:<WorldEnvironment#105847458021>, manequin2:<CharacterBody3D#107239967006>, Armature:<Node3D#107256744223>, Skeleton3D:<Skeleton3D#107340630308>, Bone:<BoneAttachment3D#107407739176>, AssaultRifle1:<Area3D#105209923785>, Body:<MeshInstance3D#105226701002>, CollisionShape:<CollisionShape3D#105411250379>, Alpha_Joints:<MeshInstance3D#107357407525>, Alpha_Surface:<MeshInstance3D#107374184742>, WeaponHull:<CollisionShape3D#107424516393>, CollisionHull:<CollisionShape3D#107290298657>, AnimationPlayer:<AnimationPlayer#107390961959>, AnimationTree:<AnimationTree#107323853091>, CameraController:<Node3D#107474848044>, SpringArm3D:<SpringArm3D#107491625261>, Camera3D:<Camera3D#107508402478>, CharacterMovementComponent:<CharacterMovementComponent#107541956912>, @Timer@4:<Timer#109437782361>, @Timer@5:<Timer#109454559578>]
-[11:24:54.744] [INFO] [next_level.gd:5] FRAME : 1550 :  Exiting... NextLevelArea
-[11:24:54.744] [INFO] [hud.gd:6] FRAME : 1550 :  Exiting... HUD
-[11:24:54.744] [INFO] [movement_mode_label3d.gd:11] FRAME : 1550 :  Exiting... MovementMode
-[11:24:54.744] [INFO] [direction_mode_label3d.gd:11] FRAME : 1550 :  Exiting... DirectionMode FRAME : 1550
-[11:24:54.744] [INFO] [camera_mode_label3d.gd:11] FRAME : 1550 :  Exiting... CameraMode
-[11:24:54.744] [INFO] [camera_mode_label3d.gd:11] FRAME : 1550 :  Exiting... GraphicProfile
-[11:24:54.744] [INFO] [hour.gd:11] FRAME : 1550 :  Exiting... Hour
-[11:24:54.744] [INFO] [count.gd:9] FRAME : 1550 :  Exiting... Count
-[11:24:54.744] [INFO] [characters_controller.gd:27] Exiting manequin2 ...
-[11:24:54.744] [INFO] [weapon.gd:17] FRAME : 1550 :  Exiting the weapon ... AssaultRifle1:<Area3D#105209923785>
-[11:24:54.744] [INFO] [animations_controller.gd:17] Saliendo del animation controller
-[11:24:54.744] [INFO] [GameInstance:<Node#81822484340>:292] FRAME : 1550 : Last log: Freeing C++ Singleton memory
-[16:47:19.918] [INFO] [characters_controller.gd:36]  CharacterController instantiated manequin2 ...
-[16:47:19.919] [INFO] [characters_controller.gd:36]  CharacterController Ready manequin2 ...
-[16:49:08.000] [INFO] [characters_controller.gd:27] Exiting manequin2 ...
-[16:49:47.983] [INFO] [characters_controller.gd:36]  CharacterController instantiated manequin2 ...
-[16:49:47.984] [INFO] [characters_controller.gd:36]  CharacterController Ready manequin2 ...
-[16:49:57.235] [INFO] [characters_controller.gd:27] Exiting manequin2 ...
-[16:50:54.145] [INFO] [characters_controller.gd:36]  CharacterController instantiated manequin2 ...
-[16:50:54.147] [INFO] [characters_controller.gd:36]  CharacterController Ready manequin2 ...
-[16:51:40.132] [INFO] [characters_controller.gd:27] Exiting manequin2 ...
-[16:59:37.858] [INFO] [characters_controller.gd:36]  CharacterController instantiated manequin2 ...
-[16:59:37.859] [INFO] [characters_controller.gd:36]  CharacterController Ready manequin2 ...
-[16:59:44.670] [INFO] [characters_controller.gd:27] Exiting manequin2 ...
-[17:03:53.702] [INFO] [characters_controller.gd:36]  CharacterController instantiated manequin2 ...
-[17:03:53.703] [INFO] [characters_controller.gd:36]  CharacterController Ready manequin2 ...
-[18:08:35.115] [INFO] [characters_controller.gd:36]  CharacterController instantiated manequin2 ...
-[18:08:35.118] [INFO] [characters_controller.gd:36]  CharacterController Ready manequin2 ...
-[18:35:00.223] [INFO] [characters_controller.gd:36]  CharacterController instantiated manequin2 ...
-[18:35:00.226] [INFO] [characters_controller.gd:36]  CharacterController Ready manequin2 ...
-[18:35:25.865] [INFO] [characters_controller.gd:27] Exiting manequin2 ...
-[18:37:14.738] [INFO] [characters_controller.gd:36]  CharacterController instantiated manequin2 ...
-[18:37:14.739] [INFO] [characters_controller.gd:36]  CharacterController Ready manequin2 ...
-[18:37:35.173] [INFO] [characters_controller.gd:27] Exiting manequin2 ...
-[18:39:23.429] [INFO] [characters_controller.gd:36]  CharacterController instantiated manequin2 ...
-[18:39:23.431] [INFO] [characters_controller.gd:36]  CharacterController Ready manequin2 ...
+[10:57:22.377] [INFO] [EventBus:<Node#88650810858>:213] FRAME : 498 :  Cleared the historical list of events 
+[10:57:22.377] [INFO] [EventBus:<Node#88650810858>:23] FRAME : 498 :  Exited ... 
+[10:57:22.377] [INFO] [GameInstance:<Node#89338677109>:85] FRAME : 498 : Notification sent to :LevelManager
+[10:57:22.377] [INFO] [LevelManager:<Node#89422563193>:18] FRAME : 498 : Exited ...
+[10:57:22.377] [INFO] [GameInstance:<Node#89338677109>:85] FRAME : 498 : Notification sent to :DebugMenu
+[10:57:22.377] [INFO] [GameInstance:<Node#89338677109>:85] FRAME : 498 : Notification sent to :MyLogger
+[10:57:22.377] [INFO] [GameInstance:<Node#89338677109>:85] FRAME : 498 : Notification sent to :MainLevel
+[10:57:22.377] [INFO] [GameMode.gd:11] FRAME : 498 :  GameMode Exiting : MainLevel ... 
+[10:57:22.378] [INFO] [GameMode.gd:15] FRAME : 498 : Sending CLOSE_REQUEST NOTIFICATION TO ALL NODES : [PlayerStart:<Node3D#115578243081>, World:<Node3D#115595020298>, StaticBodies:<Node3D#115611797516>, Floor:<StaticBody3D#115628574733>, FloorMesh:<MeshInstance3D#115645351950>, FloorColisionShape:<CollisionShape3D#115829901327>, Walls:<Node3D#115846678546>, Wall1:<StaticBody3D#115863455798>, Wall1Mesh:<MeshInstance3D#115880233016>, Wall1CollisionShape:<CollisionShape3D#116064782410>, Wall2:<StaticBody3D#116081559633>, Wall2Mesh:<MeshInstance3D#116098336889>, Wall2CollisionShape:<CollisionShape3D#116115114106>, Wall3:<StaticBody3D#116131891323>, Wall3Mesh:<MeshInstance3D#116148668540>, Wall3CollisionShape:<CollisionShape3D#116165445757>, Wall4:<StaticBody3D#116182222974>, Wall4Mesh:<MeshInstance3D#116199000191>, Wall4CollisionShape:<CollisionShape3D#116215777408>, Platform:<Node3D#116232554625>, CentralCube:<StaticBody3D#116249331842>, CentralCubeMesh:<MeshInstance3D#116266109059>, CentralCubeCollisionShape:<CollisionShape3D#116282886276>, LateralCube:<StaticBody3D#116299663493>, LateralCubeMesh:<MeshInstance3D#116316440710>, LateralCubeCollisionShape:<CollisionShape3D#116333217927>, LastCube:<StaticBody3D#116349995144>, LastCubeMesh:<MeshInstance3D#116366772361>, LastCubeCollisionShape:<CollisionShape3D#116383549578>, Ramp1:<StaticBody3D#116400326795>, Ramp1Mesh:<MeshInstance3D#116417104012>, Ramp1CollisionShape:<CollisionShape3D#116433881229>, Ramp2:<StaticBody3D#116450658446>, Ramp2Mesh:<MeshInstance3D#116467435663>, Ramp2CollisionShape:<CollisionShape3D#116484212880>, SmallCubes:<Node3D#116500990097>, SmallCube1:<Node3D#116517767314>, SmallCube1Mesh:<MeshInstance3D#116534544531>, FollowingBodyMovementComponent:<FollowingBodyMovementComponent#116551321748>, RotatingMovementComponent:<RotatingMovementComponent#116568098965>, SmallCube2:<Node3D#116584876182>, SmallCube2Mesh:<MeshInstance3D#116601653399>, FollowingBodyMovementComponent:<FollowingBodyMovementComponent#116618430616>, SmallCube3:<Node3D#116635207833>, SmallCube3Mesh:<MeshInstance3D#116651985050>, FollowingBodyMovementComponent:<FollowingBodyMovementComponent#116668762267>, RandomMovementComponent:<RandomMovementComponent#116685539484>, RotatingPlatform1:<StaticBody3D#116719093918>, RotatingPlatform1Mesh:<MeshInstance3D#116735871135>, RotatingPlatform1CollisionShape:<CollisionShape3D#116752648352>, RotatingMovementComponent:<RotatingMovementComponent#116769425569>, RotatingPlatform2:<AnimatableBody3D#116786202786>, RotatingPlatform2Mesh:<MeshInstance3D#116802980003>, RotatingPlatform2CollisionShape:<CollisionShape3D#116819757220>, RotatingMovementComponent:<RotatingMovementComponent#116836534437>, RigidBodies:<Node3D#116853311654>, Ball1:<RigidBody3D#116870088871>, Ball1Mesh:<MeshInstance3D#116886866088>, Ball2CollisionShape:<CollisionShape3D#116903643305>, Ball2:<RigidBody3D#116920420522>, Ball2Mesh:<MeshInstance3D#116937197739>, Ball2CollisionShape:<CollisionShape3D#116953974956>, Ball3:<RigidBody3D#116970752173>, Ball3Mesh:<MeshInstance3D#116987529390>, Ball3CollisionShape:<CollisionShape3D#117004306607>, Cube 1:<RigidBody3D#117021083824>, Cube1Mesh:<MeshInstance3D#117037861041>, Cube1CollisionShape:<CollisionShape3D#117054638258>, Cube 2:<RigidBody3D#117071415475>, Cube2Mesh:<MeshInstance3D#117088192692>, Cube2CollisionShape:<CollisionShape3D#117104969909>, Cube 3:<RigidBody3D#117121747126>, Cube3Mesh:<MeshInstance3D#117138524343>, Cube3CollisionShape:<CollisionShape3D#117155301560>, Cube 4:<RigidBody3D#117172078777>, Cube4Mesh:<MeshInstance3D#117188855994>, Cube4CollisionShape:<CollisionShape3D#117205633211>, Cube 5:<RigidBody3D#117222410428>, Cube5Mesh:<MeshInstance3D#117239187645>, Cube5CollisionShape:<CollisionShape3D#117255964862>, BigBall1:<RigidBody3D#117272742079>, BigBall1Mesh:<MeshInstance3D#117289519296>, BigBall1CubeMesh:<MeshInstance3D#117306296513>, BigBall1RemoteTransform3D:<RemoteTransform3D#117323073730>, BigBall1CollisionShape:<CollisionShape3D#117339850947>, BigBall2:<RigidBody3D#117356628164>, BigBall2Mesh:<MeshInstance3D#117373405381>, BigBall2CubeMesh:<MeshInstance3D#117390182598>, BigBall2RemoteTransform3D:<RemoteTransform3D#117406959815>, BigBall2CollisionShape:<CollisionShape3D#117423737032>, WeaponArea:<Area3D#117440514249>, WeaponAreaCollisionShape:<CollisionShape3D#117457291466>, AssaultRifle1:<Area3D#117474068683>, Body:<MeshInstance3D#117490845900>, CollisionShape:<CollisionShape3D#117675395277>, NextLevelArea:<Area3D#117692172494>, NextLevelAreaMesh:<MeshInstance3D#117708949711>, NextLevelAreaCollisionShape:<CollisionShape3D#117725726928>, NextLevelAreaLabel:<Label3D#117742504145>, HUD:<Control#117759281362>, MovementMode:<Label#117792835796>, DirectionMode:<Label#117826390230>, CameraMode:<Label#117859944664>, GraphicProfile:<Label#117893499098>, FinalText:<Label#117927053532>, Hour:<Label#117960607966>, HourPrevText:<Label#117994162400>, Count:<Label#118027716834>, CountPrevText:<Label#118061271268>, DirectionalLight3D:<DirectionalLight3D#118094825702>, WorldEnvironment:<WorldEnvironment#118111602919>, man:<CharacterBody3D#118614919413>, Armature:<Node3D#118631696630>, Skeleton3D:<Skeleton3D#118715582715>, Bone:<BoneAttachment3D#119017572612>, Ch31_Body:<MeshInstance3D#118732359932>, Ch31_Collar:<MeshInstance3D#118749137149>, Ch31_Eyelashes:<MeshInstance3D#118765914366>, Ch31_Hair:<MeshInstance3D#118933686527>, Ch31_Pants:<MeshInstance3D#118950463744>, Ch31_Shoes:<MeshInstance3D#118967240961>, Ch31_Sweater:<MeshInstance3D#118984018178>, WeaponHull:<CollisionShape3D#119034349829>, CollisionHull:<CollisionShape3D#118665251064>, AnimationPlayer:<AnimationPlayer#119000795395>, AnimationTree:<AnimationTree#118698805498>, CameraController:<Node3D#119084681480>, SpringArm3D:<SpringArm3D#119101458697>, Camera3D:<Camera3D#119118235914>, CharacterMovementComponent:<CharacterMovementComponent#119151790348>, @Timer@11:<Timer#188777236835>, @Timer@12:<Timer#188794014053>]
+[10:57:22.378] [INFO] [area_3d.gd:5] FRAME : 498 :  Exiting ... WeaponArea
+[10:57:22.378] [INFO] [weapon.gd:17] FRAME : 498 :  Exiting the weapon ... AssaultRifle1:<Area3D#117474068683>
+[10:57:22.378] [INFO] [next_level.gd:5] FRAME : 498 :  Exiting... NextLevelArea
+[10:57:22.378] [INFO] [hud.gd:6] FRAME : 498 :  Exiting... HUD
+[10:57:22.378] [INFO] [movement_mode_label3d.gd:11] FRAME : 498 :  Exiting... MovementMode
+[10:57:22.378] [INFO] [direction_mode_label3d.gd:11] FRAME : 498 :  Exiting... DirectionMode FRAME : 498
+[10:57:22.378] [INFO] [camera_mode_label3d.gd:11] FRAME : 498 :  Exiting... CameraMode
+[10:57:22.378] [INFO] [camera_mode_label3d.gd:11] FRAME : 498 :  Exiting... GraphicProfile
+[10:57:22.378] [INFO] [hour.gd:11] FRAME : 498 :  Exiting... Hour
+[10:57:22.378] [INFO] [count.gd:9] FRAME : 498 :  Exiting... Count
+[10:57:22.378] [INFO] [characters_controller.gd:27] Exiting man ...
+[10:57:22.378] [INFO] [animations_controller.gd:17] Saliendo del animation controller
+[10:57:22.378] [INFO] [GameInstance:<Node#89338677109>:292] FRAME : 498 : Last log: Freeing C++ Singleton memory

@@ -38,14 +38,14 @@ func _enter_tree() -> void :
 			print("FRAME : " + str(Engine.get_process_frames()) + " : " + str(self) + " Error: The C++ class MyLogger does not have the appropriate methods")
 
 			# Close the game completely and make sure the script stops running immediately at that point.
-			if is_instance_valid(GameInstance) and GameInstance.has("_quit_gracefully") : GameInstance._quit_gracefully(false)
+			if is_instance_valid(GameInstance) and GameInstance.has_method("_quit_gracefully") : GameInstance._quit_gracefully(false)
 			else : get_tree().quit()
 	else :
 
 		print("FRAME : " + str(Engine.get_process_frames()) + " : " + str(self) + " Error: The C++ class MyLogger is not registered")
 
 		# Close the game completely and make sure the script stops running immediately at that point.
-		if is_instance_valid(GameInstance) and GameInstance.has("_quit_gracefully") : GameInstance._quit_gracefully(false)
+		if is_instance_valid(GameInstance) and GameInstance.has_method("_quit_gracefully") : GameInstance._quit_gracefully(false)
 		else : get_tree().quit()
 
 	MyLogger.info("FRAME : " + str(Engine.get_process_frames()) + " : " + " Instantiated ... ",str(self),_get_current_line(51), true)
