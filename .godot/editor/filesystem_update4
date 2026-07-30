@@ -1,0 +1,12 @@
+res://main/levels/mainlevel.tscn
+res://main/characters/brian/animationtree/brian_animationtree1.tres
+res://main/characters/man/animationtree/man_animationtree.tres
+res://main/characters/manequin1/mesh/Manequin1_Joints.tres
+res://main/characters/manequin1/mesh/Manequin1_Surface.tres
+res://main/characters/manequin1/animationtree/manequin1_animationtree.tres
+res://main/characters/manequin2/mesh/Manequin2_Joints.tres
+res://main/characters/manequin2/mesh/Manequin2_Surface.tres
+res://main/characters/manequin2/animationtree/manequin2_animationtree.tres
+res://main/characters/remi/animationtree/remi_animationtree.tres
+res://main/prefabs/weapons/assault_rifle_1/mesh/assault_rifle.tres
+res://main/levels/mainlevel/mainenvironment/mainenvironment.tres
