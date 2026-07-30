@@ -1,1 +1,2 @@
-
+# Ignorar carpetas temporales de Godot
+.godot/
