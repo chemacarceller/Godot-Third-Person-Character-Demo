@@ -11,6 +11,8 @@ https://jocarpe.itch.io/third-person-character-demo
 
 This itch.io repository also contains instructions for using the demo.
 
+A first-person character demo is also available on itch.io, but it is essentially an adaptation of this code at the configuration level of components; feel free to make your own adaptation
+
 Returning to the executable, when providing an executable in Godot we have several options:
 
 - Without encryption, not recommended since with tools like Godot RE all the project's assets and code would be available
@@ -27,29 +29,15 @@ This demo was developed for Godot version 4.6 and is based on gdscript code usin
 
 The bindings for GDExtension are not included in this repository in the godot-cpp folder; the folder is empty.
 
-The compiled files are not provided due to space limitations; they must be generated manually. The goal is to generate compiled versions for Windows and Linux, specifically template_debug and template_release, in the future, development for Android could be considered.
+The compiled files are not provided due to space limitations; they must be generated manually. The goal is to generate compiled versions for Windows and Linux, specifically template_debug and template_release.
 
 In other words, the `built` directory is empty, which is where the demo executables would be stored. Additionally, the `godot-cpp/` and `godot-cpp/bin/` directories are also empty. `godot-cpp/` is the directory where the GDExtension (godot-cpp) bindings should be decompiled for the version of Godot being developed; the `godot-cpp/bin/` directory should contain the result of compiling the GDExtension bindings.
 
-IMPORTANT: The C++ component code is not distributed within the project itself, as having the source files physically present is unnecessary; only the corresponding Windows/Linux libraries—which are included in the `/bin` directory—are required. If you wish to access the component source code, you can visit the respective repositories on my channel and recompile them yourself if you choose to do so.
+IMPORTANT: The C++ component code is not distributed in this project, as it is not required; only the corresponding Windows/Linux libraries are included. To access the component source code, please refer to the respective repositories.
 
-As previously mentioned, the dynamic libraries resulting from compiling the demo's C++ classes are provided; this makes the demo fully functional within the Godot editor, allowing you to easily generate executables or modify the GDScript code. However, if you need to modify and recompile the C++ code, you must build the bindings yourself by copying the `godot-cpp` source code and compiling the components.
+However, the dynamic libraries resulting from compiling the C++ classes included in the demo are provided, making the demo fully functional within the Godot editor. This allows you to easily generate the demo's executables or modify the gdscript code. If you need to modify the C++ code and then compile it, you must create the compiled bindings. To do this, copy the godot-cpp source code and perform the compilation.
 
 
-For further clarification, the project structure would be as follows:
-
--- bin/ => This is where the dynamic libraries for both Windows and Linux—for all C++ components used in the project—would go (available in the downloadable project).
-
--- build/ => This is where the demo executables for both Windows and Linux would go (they are not included in the downloadable project because the build configuration must be customized). Feel free to perform your own build; if you simply wish to try out the demo, visit https://jocarpe.itch.io/third-person-character-demo
-
--- godot-cpp
-        -- bin => godot-cpp/ is the directory where the GDExtension bindings (godot-cpp) should be compiled for the version of Godot being developed; the godot-cpp/bin/ directory must contain the result of compiling the GDExtension bindings (not available in the downloadable project)
-
--- main => This is where all the project's GDScript code goes; there is one exception: the static class `MyLogger.gd` is located in `/bin` because it acts as a bypass for the C++ `LogFileWriter` class, which is exported as the singleton object `MyLogger` (as explained in the repository for this component).
-
--- src => This is where the source code for each C++ component would go, with each component in a separate folder named after its corresponding C++ class; examine the SConstruct file located in the project's root directory, which SCons uses to compile the C++ components.
-
-        
 ==================================================================================
 
 
@@ -65,6 +53,8 @@ Volviendo a esta demo, el codigo binario no se incluye en el repositorio por tem
 https://jocarpe.itch.io/third-person-character-demo  
 
 Este repositorio de itch.io también contiene las instrucciones de uso de dicha demo
+
+En itch.io también hay disponible una demo para personaje de primera persona, pero no deja de ser en general una adaptación de este código a nivel de configuración de componentes; sientete libre de realizar tu propia adaptación
 
 Volviendo al ejecutable, a la hora de proporcionar un ejecutable en Godot tenemos varias opciones :
 
@@ -82,23 +72,10 @@ El desarrollo de esta demo está realizado para la version 4.6 de Godot y se bas
 
 No se incorporan los bindings para GDExtension dentro de este repositorio en la carpeta godot-cpp, la carpeta está vacía
 
-Los ficheros compilados no se proporcionan por tema de espacio disponible, se deben generar de forma manual, la idea es generar los compilados para windows y linux en sus versiones template_debug y template_release, en un futuro se podría plantear el desarrollo para Android
+Los ficheros compilados no se proporcionan por tema de espacio disponible, se deben generar de forma manual, la idea es generar los compilados para windows y linux en sus versiones template_debug y template_release
 
 Es decir el directorio build está vacía que es donde se guardarían los ejecutables de la demo, además el directorio godot-cpp/ y godot-cpp/bin/ están también vacíos, godot-cpp/ es el directorio donde se debe descompilar los bindings de GDExtension (godot-cpp) para la versión de Godot que se esté desarrollando; el directorio godot-cpp/bin/ debe contener el resultado de la compilación de los bindings de GDExtension
 
-IMPORTANTE : El código de los componentes en C++ no se ditribuyen en el proyecto, ya que no es necesario tenerlos físicamente en el proyecto, simplemente se incluyen las librerias windows / linux de los mismos que es lo único necesario, éstos están incluidos en el directorio /bin. Si desea acceder al codigo fuente de los componentes puede dirigirse a los repositorios de los mismos en mi propio canal y usted sería el encargado de recompilarlos si lo desease
+IMPORTANTE : El código de los componentes en C++ no se ditribuyen en el proyecto, ya que no son necesarios, simplemente se incluyen las librerias windows / linux de los mismos. Si desea acceder al codigo fuente de los componentes puede dirigirse a los repositorios de los mismos
 
-Como se ha comentado, sí se proporciona las librerias dinámicas resultantes de compilar las clases C++ que incluye la demo lo que hace que la demo sea completamente operativa dentro del editor de Godot pudiendo generar facilmente los ejecutables de la demo o modificar el codigo gdscript; si se necesita modificar el código C++ y posteriormente compilarlo, entonces sí se debe crear los compilados de los bindings para ello se debe copiar el codigo fuente godot-cpp y llevar a cabo la compilación de los componentes
-
-Para mayor aclaración la estructura del proyecto sería la siguiente :
-
--- bin/ => Aqui irían las librerias dinámicas tanto para Windows como para Linux de todos los componentes C++ utilizados en el proyecto (disponibles en el proyecto descargable)
-
--- build/ => Aquí irían los ejecutables de la demo tanto para Windows como para Linux (no disponibles en el proyecto descargable debido a que el tipo de compilación debe ser personal). Sea libre de llevar a cabo su propia compilación, si simplemente desea probar la demo vaya a https://jocarpe.itch.io/third-person-character-demo  
-
--- godot-cpp
-        -- bin => godot-cpp/ es el directorio donde se debe descompilar los bindings de GDExtension (godot-cpp) para la versión de Godot que se esté desarrollando; el directorio godot-cpp/bin/ debe contener el resultado de la compilación de los bindings de GDExtension (no disponible en el proyecto descargable)
-
--- main => Aqui iria todo el código gdscript del proyecto , hay una excepción la clase estática MyLogger.gd está en /bin porque es una clase que hace de bypass a la clase LogFileWriter de C++ exportada como objeto singleton MyLogger ( explicado en el repositorio de este componente )
-
--- src => Aquí iría el código fuente de cada uno de los componentes C++ cada componente en una carpeta distinta con el mismo nombre de la clase C++ del componente, estudie el fichero SConstruct que está en el directorio raiz del proyecto a través del cual SCons se lleva a cabo la compilación de los componentes C++
+Sin embargo, sí se proporciona las librerias dinámicas resultantes de compilar las clases C++ que incluye la demo lo que hace la demo completamente operativa dentro del editor de Godot pudiendo generar facilmente los ejecutables de la demo o modificar el codigo gdscript; si se necesita modificar el código C++ y posteriormente compilarlo, entonces sí se debe crear los compilados de los bindings para ello se debe copiar el codigo fuente godot-cpp y llevar a cabo la compilación
