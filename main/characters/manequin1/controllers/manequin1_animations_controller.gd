@@ -1,1 +1,2 @@
+@tool
 class_name Manequin1AnimationsController extends CharactersAnimationsController

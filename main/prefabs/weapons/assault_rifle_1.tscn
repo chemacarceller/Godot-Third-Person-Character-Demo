@@ -9,13 +9,14 @@
 [ext_resource type="Material" uid="uid://ctdrrpwrcej4g" path="res://main/prefabs/weapons/assault_rifle_1/materials/DarkWood.tres" id="7_jmeyb"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_flbwa"]
-size = Vector3(0.05, 0.3, 0.85)
+size = Vector3(0.044902343, 0.24, 0.68)
 
 [node name="AssaultRifle1" type="Area3D" unique_id=1573816698]
 script = ExtResource("1_rsg41")
 bullet = ExtResource("2_flbwa")
 
-[node name="Body" type="MeshInstance3D" parent="." unique_id=128828408]
+[node name="Mesh" type="MeshInstance3D" parent="." unique_id=128828408]
+transform = Transform3D(0.8, 0, 0, 0, 0.8, 0, 0, 0, 0.8, 0, 0, 0)
 mesh = ExtResource("3_flbwa")
 surface_material_override/0 = ExtResource("4_yw60b")
 surface_material_override/1 = ExtResource("5_lykim")
@@ -23,6 +24,9 @@ surface_material_override/2 = ExtResource("6_2adj4")
 surface_material_override/3 = ExtResource("7_jmeyb")
 
 [node name="CollisionShape" type="CollisionShape3D" parent="." unique_id=979031996]
-transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0.3830447, 0.06664109, -4.300702e-10)
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0.3058152, 0.06664109, 0.0024511716)
 shape = SubResource("BoxShape3D_flbwa")
 debug_color = Color(0, 1, 0, 1)
+
+[node name="RemoteTransform" type="RemoteTransform3D" parent="CollisionShape" unique_id=1942643605]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 1.6313345e-08, -0.06664109, -0.3830447)

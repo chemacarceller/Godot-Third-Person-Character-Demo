@@ -6,6 +6,8 @@ func _ready() -> void : get_tree().create_timer(2.5).timeout.connect( func(): if
 # Getting the projectile components : MovementComponent and CountinuousCollisionDetector
 func get_movementComponent() -> ProjectileMovementComponent : return get_node("ProjectileMovementComponent")
 func get_collisionDetector() -> ProjectileContinuousCollisionDetectorRayCast3D : return get_node("ProjectileContinuousCollisionDetectorRayCast3D")
+func get_mesh() -> MeshInstance3D : return get_node("Mesh")
+func get_collisionShape() -> CollisionShape3D : return get_node("CollisionShape")
 
 # Function that resolves when a collision is detected, also called by the Projectile Continuous Collision Detector RayCast3D node
 func _on_body_entered(body: Node3D) -> void :

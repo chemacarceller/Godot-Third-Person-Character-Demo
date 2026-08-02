@@ -9,6 +9,7 @@ func _notification(what) :
 func _enter_tree() -> void : MyLogger.info("FRAME : " + str(Engine.get_process_frames()) + " : " + str(get_path()) + " Instantiated ... ","area3d.gd",7, true)
 
 func _ready() -> void :
+
 	MyLogger.info("FRAME : " + str(Engine.get_process_frames()) + " : " + str(get_path()) + " Ready ... " + str(self),"area3d.gd",10, true)
 
 	# Remove the weapon's Area3D from the scene, inside there is no weapon
@@ -17,11 +18,6 @@ func _ready() -> void :
 			MyLogger.info("FRAME : " + str(Engine.get_process_frames()) + " : " + str(get_path()) + " Destroyed ... " + str(self),"area3d.gd",15, true)
 			for child in get_children() :
 				MyLogger.info("FRAME : " + str(Engine.get_process_frames()) + " : " + str(child.get_path()) + " Destroyed ... " + str(child),"area3d.gd",17, true)
-
-			# Before removing the weapon, I unsubscribe it from the event system; it subscribed automatically upon creation.
-			if EventBus.is_subscribed(EventBus.EVENT.Movement_Changed, weapon.onWeaponPositionAdjusting) :
-				EventBus.unsubscribe(EventBus.EVENT.Movement_Changed, weapon.onWeaponPositionAdjusting)
-
 			queue_free()
 
 var is_doing : bool = false
@@ -33,31 +29,12 @@ func _on_body_entered(body: Node3D) -> void :
 	# If the character enters the area
 	if body is CharactersController :
 
-		# Getting the bone we want attach the weapon
-		var bone : BoneAttachment3D = body.get_bone()
-
-		# Attaching the weapon
-		weapon.reparent(bone)
-
-		# Indicating that the owner of the weapon is the character
-		weapon.owner = body
-
-		# Indicating the character is armed
-		body.set_isArmed(true)
-
-		# Adjusting position and rotation of the weapon depending on walking or runing
-		weapon.position = Vector3(0,0,0)
-		weapon.rotation = Vector3(0,90,90)
-		
 		if body.get_movementComponent().get_isRuning():
 			EventBus.emit(_on_body_entered, EventBus.EVENT.Movement_Changed,["Runing",""])
 		elif body.get_movementComponent().get_isWalking():
 			EventBus.emit(_on_body_entered, EventBus.EVENT.Movement_Changed,["Walking",""])
 
-		# Enabling the Hull designed for the weapon in the character
-		body.get_weaponHull().call_deferred("set", "disabled", false)
-		body.get_weaponHull().global_position = weapon.get_collisionShape().global_position
-		body.get_weaponHull().global_rotation = weapon.get_collisionShape().global_rotation
+		body.attach_weapon(weapon)
 
 		is_doing = false
 

@@ -7,7 +7,7 @@ func _notification(what):
 var back_level_entered : bool = false
 
 func _on_body_entered(body: Node3D) -> void:
-	if body is CharacterBody3D  and not back_level_entered :
+	if body is CharacterBody3D and not back_level_entered :
 		MyLogger.info("FRAME : " + str(Engine.get_process_frames()) + " : " + " Entered ... " + name, 'back_level.gd',11,true)
 		back_level_entered = true
 		await LevelManager.load_new_level("res://main/levels/mainlevel.tscn")

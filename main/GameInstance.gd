@@ -201,7 +201,6 @@ func _replaceCharacter(new_char_key: String) -> void:
 		MyLogger.info("FRAME : " + str(Engine.get_process_frames()) + " : " + "Added the new character to the scene",str(self), 201, true) 
 		if context and _character.has_method("set_context") : 
 			_character.set_context(context)
-			_character._positioning_weaponHull()
 			MyLogger.info("FRAME : " + str(Engine.get_process_frames()) + " : " + "Set the context of the old character to the new one",str(self), 204, true) 
 
 	MyLogger.info("FRAME : " + str(Engine.get_process_frames()) + " : " + "Changed Character to: " + new_char_key,str(self), 196, true)

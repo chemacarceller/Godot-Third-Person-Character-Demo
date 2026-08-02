@@ -1,4 +1,2 @@
-class_name RemyAnimationsController extends CharactersAnimationsController
-
-func _ready() -> void:
-	super()
+@tool
+class_name RemiAnimationsController extends CharactersAnimationsController
