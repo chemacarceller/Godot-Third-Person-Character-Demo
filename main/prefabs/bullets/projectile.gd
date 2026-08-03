@@ -1,7 +1,15 @@
 class_name Projectile extends Bullet
 
+# Flag to prevent double collisions in the same frame
+var _has_collided : bool = false
+
+@onready var collision_detector: ProjectileContinuousCollisionDetectorRayCast3D = get_collisionDetector()
+@onready var movement_component: ProjectileMovementComponent = get_movementComponent()
+
 # The projectile is configured to have a maximum lifespan of 2.5 seconds.
-func _ready() -> void : get_tree().create_timer(2.5).timeout.connect( func(): if is_instance_valid(self): _destroy())
+func _ready() -> void : 
+	super()
+	get_tree().create_timer(2.5).timeout.connect( func(): if is_instance_valid(self): _destroy())
 
 # Getting the projectile components : MovementComponent and CountinuousCollisionDetector
 func get_movementComponent() -> ProjectileMovementComponent : return get_node("ProjectileMovementComponent")
@@ -9,32 +17,43 @@ func get_collisionDetector() -> ProjectileContinuousCollisionDetectorRayCast3D :
 func get_mesh() -> MeshInstance3D : return get_node("Mesh")
 func get_collisionShape() -> CollisionShape3D : return get_node("CollisionShape")
 
-# Function that resolves when a collision is detected, also called by the Projectile Continuous Collision Detector RayCast3D node
+
 func _on_body_entered(body: Node3D) -> void :
+	
+	if _has_collided or not is_inside_tree() : return  
 
-	# We deactivated RayCast so that it no longer detects anything
-	get_collisionDetector().enabled = false 
-
-	# If it's already being destroyed, we're out
-	if not is_inside_tree(): return 
-
-	# Not shooting ourselves, we use the metadata of the person who took the shot
+	# Ignore collision with the shooter
 	if body == get_meta("shooter", null) :
-		# To allow the bullet to continue, since it was deactivated upon detecting a collision to save CPU
 		set_physics_process(true)
 		return
 
-	# Place the bullet exactly on the impact surface before calling _destroy()
-	if get_collisionDetector().is_colliding() : 
-		# We obtain the impact position to position the bullet before it destroys and the normal to the collision point for a future particle system using that normal to orient them would be coded here
-		var impact_pos = get_collisionDetector().get_collision_point()
-		var _impact_normal = get_collisionDetector().get_collision_normal()
-		global_position = impact_pos
+	# If the Area3D detects something, we check if the RayCast has more precise information about the exact point.
+	var impact_pos = global_position
+	var impact_normal = Vector3.ZERO
+	if collision_detector :
+		collision_detector.force_raycast_update()
+		if collision_detector.is_colliding():
+			impact_pos = collision_detector.get_collision_point()
+			impact_normal = collision_detector.get_collision_normal()
 
-	# Stop movement through the component
-	get_movementComponent().set_enabled(false)
+	_resolve_collision(body, impact_pos, impact_normal)
 
-	# Message informing
-	MyLogger.info("FRAME : " + str(Engine.get_process_frames()) + " : " + str(self) + " Collision detected with: " + str(body), 'projectile.gd', 36, true)
+# Centralized function to handle the impact only once
+# For the time being, we will not use the _impact_normal argument.
+func _resolve_collision(body: Node3D, impact_pos: Vector3, _impact_normal : Vector3) -> void:
+
+	if _has_collided : return
+	else : _has_collided = true
+
+	# Position at the exact point of impact
+	global_position = impact_pos
+
+	# Disable detectors and motion
+	if collision_detector : collision_detector.set_enabled(false)        
+	if movement_component and movement_component.has_method("set_enabled") : movement_component.set_enabled(false)
+
+	MyLogger.info("FRAME : " + str(Engine.get_process_frames()) + " : " + str(self) + " Collision detected with: " + str(body), 'projectile.gd', 54, true)
 
 	_destroy()
+
+func _destroy() -> void : queue_free()

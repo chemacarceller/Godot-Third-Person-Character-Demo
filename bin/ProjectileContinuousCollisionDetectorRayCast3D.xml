@@ -8,7 +8,7 @@
 	</tutorials>
 	<members>
 		<member name="_isEnabled" type="bool" setter="set_enabled" getter="is_enabled" default="true">
-		Property to activate or deactivate the movement
+		Property to activate or deactivate the collision detector via RayCast
 		</member>
 		<member name="_movementComponent" type="Node" setter="set_movementComponent" getter="get_movementComponent">
 		Movement component from which the speed is retrieved via the `get_speed()` method, which it must implement.
